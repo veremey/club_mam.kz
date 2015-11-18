@@ -1,6 +1,13 @@
 
-@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f
+@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f,icon-menu
 	.#{$s}
 		display: inline-block
 		+s(#{$s})
 
+.footer-f
+	+r(750)
+		margin-right: 5px
+		+s(footer-f-750)
+.footer-vk
+	+r(750)
+		+s(footer-vk-750)

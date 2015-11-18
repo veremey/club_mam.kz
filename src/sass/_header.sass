@@ -1,5 +1,6 @@
 .header
 	position: relative
+	background-color: #FFF
 	+clr
 .header__top
 	position: relative
@@ -14,6 +15,8 @@
 		text-transform: lowercase
 		color: $blue
 		line-height: 100px
+		+r(450)
+			font-size: 20px
 		span
 			font-family: Arial, sans-serif
 			color: $purpur
@@ -33,6 +36,11 @@
 		&:hover
 			opacity: 0.7
 			color: $purpur
+		+r(1260)
+			margin-right: 30px
+			padding-left: 45px
+		+r(1150)
+			margin-right: 10px
 		i
 			position: absolute
 			top: -10px
@@ -46,12 +54,18 @@
 		vertical-align: top
 		&:hover
 			opacity: 0.7
+		+r(1150)
+			margin-right: 20px
 .user__massege
 	margin-top: 15px
 	+s(message)
+	+r(450)
+		display: none!important
 .user__bell
 	margin-top: 15px
 	+s(bell)
+	+r(450)
+		display: none!important
 .user__menu
 	position: relative
 	&:after
@@ -60,11 +74,40 @@
 		top: 25px
 		right: -15px
 		+arr(10, 6, #000, b)
+		+r(450)
+			display: none
+	+r(450)
+		margin-top: 7px
+	span
+		display: none
+		+r(450)
+			position: absolute
+			display: inline-block
+			top: 0
+			right: 2px
+			padding: 0 7px
+			color: #FFF
+			text-align: center
+			background-color: $purpur
+			-webkit-border-radius: 100%
+			border-radius: 100%
+			+os
+			z-index: 5
+.icon-menu
+	background-color: $n
+	float: right
+	vertical-align: middle
+	margin-top: 20px
+	&:hover
+		opacity: 0.6
 .user__img
 	-webkit-border-radius: 100%
 	border-radius: 100%
 	overflow: hidden
 	margin-right: 15px
+	img
+		max-width: 100%
+		vertical-align: top
 
 
 // #######################
@@ -72,12 +115,15 @@
 .header__bottom
 	background-color: #FAFBFC
 	+clr
+	+r(750)
+		display: none
 .header__menu
 	float: left
 	font-size: 0
 	+clr
 	li
 		display: inline-block
+		border-bottom: 3px solid $n
 		&:hover
 			border-bottom: 3px solid $purpur
 		&:first-child a
@@ -89,6 +135,8 @@
 		line-height: 65px
 		padding: 0 15px
 		+os
+		+r(900)
+			padding: 0 7px
 
 .search__top
 	position: relative
@@ -100,9 +148,10 @@
 		color: $black
 		line-height: 65px
 		margin-right: 30px
-		padding-top: 5px
 		vertical-align: top
 		+os
+		+r(900)
+			margin-right: 15px
 	input
 		padding: 0 15px
 		vertical-align: top
@@ -116,8 +165,12 @@
 		+tr(.5s)
 		&:hover
 			width: 200px
+			+r(800)
+				width: 150px
 		&:focus
 			width: 200px
+			+r(800)
+				width: 150px
 	.btn
 		position: absolute
 		top: 25px
@@ -125,6 +178,6 @@
 		+s(lupa)
 		background-color: $n
 		&:hover
-			~ input
+			+ input
 				width: 200px
 
