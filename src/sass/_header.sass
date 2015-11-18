@@ -1,0 +1,130 @@
+.header
+	position: relative
+	+clr
+.header__top
+	position: relative
+	height: 100px
+.logo
+	display: inline-block
+	h1
+		+avant
+		color: #f35
+		font-size: 27px
+		text-transform: lowercase
+		color: $blue
+		line-height: 100px
+		span
+			font-family: Arial, sans-serif
+			color: $purpur
+
+.header__top_nav
+	display: inline-block
+	+vcenter
+	a
+		position: relative
+		font-size: 22px
+		line-height: 100px
+		margin-right: 50px
+		padding-left: 60px
+		color: #23252A
+		+osl
+		+tr(.3s)
+		&:hover
+			opacity: 0.7
+			color: $purpur
+		i
+			position: absolute
+			top: -10px
+			left: 0px
+.header__user
+	float: right
+	margin-top: 15px
+	a
+		margin-right: 45px
+		display: inline-block
+		vertical-align: top
+		&:hover
+			opacity: 0.7
+.user__massege
+	margin-top: 15px
+	+s(message)
+.user__bell
+	margin-top: 15px
+	+s(bell)
+.user__menu
+	position: relative
+	&:after
+		content: ""
+		position: absolute
+		top: 25px
+		right: -15px
+		+arr(10, 6, #000, b)
+.user__img
+	-webkit-border-radius: 100%
+	border-radius: 100%
+	overflow: hidden
+	margin-right: 15px
+
+
+// #######################
+
+.header__bottom
+	background-color: #FAFBFC
+	+clr
+.header__menu
+	float: left
+	font-size: 0
+	+clr
+	li
+		display: inline-block
+		&:hover
+			border-bottom: 3px solid $purpur
+		&:first-child a
+			padding-left: 0
+	a
+		display: block
+		font-size: 16px
+		color: $black
+		line-height: 65px
+		padding: 0 15px
+		+os
+
+.search__top
+	position: relative
+	float: right
+	height: 65px
+	p
+		display: inline-block
+		font-size: 18px
+		color: $black
+		line-height: 65px
+		margin-right: 30px
+		padding-top: 5px
+		vertical-align: top
+		&.is_hidden
+			display: none
+	input
+		padding: 0 15px
+		vertical-align: top
+		margin-top: 18px
+		width: 50px
+		height: 34px
+		background-color: $blue
+		-webkit-border-radius: 34px
+		border-radius: 34px
+		color: #fff
+		+tr(.5s)
+		&:hover
+			width: 200px
+		&:focus
+			width: 200px
+	.btn
+		position: absolute
+		top: 25px
+		right: 15px
+		+s(lupa)
+		background-color: $n
+		&:hover
+			~ input
+				width: 200px
+
