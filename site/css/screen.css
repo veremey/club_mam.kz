@@ -83,8 +83,8 @@ html {
   width: 16px;
   height: 9px;
   background-image: url("../img/icons.png");
-  background-position: -30px -43px;
-  background-size: 68px 57px;
+  background-position: -45px -42px;
+  background-size: 83px 56px;
 }
 
 .i-bell {
@@ -92,8 +92,26 @@ html {
   width: 13px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -55px 0px;
-  background-size: 68px 57px;
+  background-position: -55px -16px;
+  background-size: 83px 56px;
+}
+
+.i-footer-f {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/icons.png");
+  background-position: -16px -27px;
+  background-size: 83px 56px;
+}
+
+.i-footer-vk {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/icons.png");
+  background-position: 0px -27px;
+  background-size: 83px 56px;
 }
 
 .i-icon-chield {
@@ -102,7 +120,7 @@ html {
   height: 25px;
   background-image: url("../img/icons.png");
   background-position: 0px 0px;
-  background-size: 68px 57px;
+  background-size: 83px 56px;
 }
 
 .i-icon-ledy {
@@ -111,7 +129,7 @@ html {
   height: 25px;
   background-image: url("../img/icons.png");
   background-position: -22px 0px;
-  background-size: 68px 57px;
+  background-size: 83px 56px;
 }
 
 .i-icon-mom {
@@ -120,7 +138,7 @@ html {
   height: 25px;
   background-image: url("../img/icons.png");
   background-position: -40px 0px;
-  background-size: 68px 57px;
+  background-size: 83px 56px;
 }
 
 .i-lupa {
@@ -128,8 +146,8 @@ html {
   width: 10px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -55px -31px;
-  background-size: 68px 57px;
+  background-position: -70px -15px;
+  background-size: 83px 56px;
 }
 
 .i-mes {
@@ -137,8 +155,8 @@ html {
   width: 13px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: 0px -27px;
-  background-size: 68px 57px;
+  background-position: -55px 0px;
+  background-size: 83px 56px;
 }
 
 .i-message {
@@ -146,8 +164,8 @@ html {
   width: 12px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -55px -16px;
-  background-size: 68px 57px;
+  background-position: -70px 0px;
+  background-size: 83px 56px;
 }
 
 .i-next {
@@ -155,8 +173,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -30px -27px;
-  background-size: 68px 57px;
+  background-position: 0px -42px;
+  background-size: 83px 56px;
 }
 
 .i-nextw {
@@ -164,8 +182,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: 0px -43px;
-  background-size: 68px 57px;
+  background-position: -15px -42px;
+  background-size: 83px 56px;
 }
 
 .i-prev {
@@ -173,8 +191,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -15px -43px;
-  background-size: 68px 57px;
+  background-position: -30px -42px;
+  background-size: 83px 56px;
 }
 
 .i-star {
@@ -182,8 +200,8 @@ html {
   width: 14px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -15px -27px;
-  background-size: 68px 57px;
+  background-position: -32px -27px;
+  background-size: 83px 56px;
 }
 
 @font-face {
@@ -252,6 +270,91 @@ a {
   padding-top: 0;
 }
 
+.footer {
+  *zoom: 1;
+}
+.footer:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.footer .logo {
+  margin-bottom: 35px;
+}
+.footer .logo h2 {
+  line-height: 1;
+  font-size: 22px;
+}
+.footer .title__14 {
+  vertical-align: top;
+  margin-bottom: 35px;
+}
+
+.footer__top {
+  background-color: #FAFBFC;
+  padding: 70px 0;
+  *zoom: 1;
+}
+.footer__top:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.footer__list {
+  font-size: 0;
+}
+.footer__list li {
+  height: 35px;
+}
+.footer__list a {
+  vertical-align: middle;
+  color: #7E828A;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  transition: 0.3s;
+}
+.footer__list a:hover {
+  color: #eb6c96;
+}
+
+.footer__botom {
+  background-color: #EEF1F4;
+  padding: 100px 0 55px;
+  *zoom: 1;
+}
+.footer__botom:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.footer__botom p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #7F878F;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.footer__botom_link {
+  font-size: 14px;
+  color: #23252a;
+  margin-right: 35px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+.footer__botom_link:last-child {
+  margin-right: 0;
+}
+
+.footer__socio {
+  margin-top: 35px;
+}
+.footer__socio a:hover {
+  opacity: 0.7;
+}
+
 .header {
   position: relative;
   *zoom: 1;
@@ -270,7 +373,8 @@ a {
 .logo {
   display: inline-block;
 }
-.logo h1 {
+.logo h1,
+.logo h2 {
   font-family: "avantgardegothiccbold", Arial, sans-serif;
   color: #f35;
   font-size: 27px;
@@ -278,7 +382,8 @@ a {
   color: #52abf0;
   line-height: 100px;
 }
-.logo h1 span {
+.logo h1 span,
+.logo h2 span {
   font-family: Arial, sans-serif;
   color: #eb6c96;
 }
@@ -331,7 +436,7 @@ a {
   background-image: url("../img/icons.png");
   width: 24px;
   height: 27px;
-  background-position: -111px -32px;
+  background-position: -141px 0px;
 }
 
 .user__bell {
@@ -339,7 +444,7 @@ a {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 28px;
-  background-position: -111px 0px;
+  background-position: -111px -33px;
 }
 
 .user__menu {
@@ -415,9 +520,8 @@ a {
   margin-right: 30px;
   padding-top: 5px;
   vertical-align: top;
-}
-.search__top p.is_hidden {
-  display: none;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
 }
 .search__top input {
   padding: 0 15px;
@@ -443,7 +547,7 @@ a {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 19px;
-  background-position: -111px -63px;
+  background-position: -141px -31px;
   background-color: transparent;
 }
 .search__top .btn:hover ~ input {
@@ -472,6 +576,38 @@ a {
   width: 40px;
   height: 50px;
   background-position: 0px 0px;
+}
+
+.footer-vk {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 28px;
+  height: 27px;
+  background-position: 0px -54px;
+}
+
+.footer-f {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 28px;
+  height: 27px;
+  background-position: -32px -54px;
+}
+
+.title__14 {
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.col-1-4 {
+  width: 25%;
+  float: left;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
 }
 
 
