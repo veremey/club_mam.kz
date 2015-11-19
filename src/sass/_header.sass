@@ -181,3 +181,24 @@
 			+ input
 				width: 200px
 
+// ##################
+
+.breadcrumbs
+	padding-top: 1px
+	border-bottom: 1px solid #e8ecf0
+	a
+		display: inline-block
+		vertical-align: top
+		position: relative
+		color: #23252A
+		font-size: 14px
+		line-height: 65px
+		margin-right: 15px
+		+osl
+		&.is_active
+			color: #B1B8BC
+		&:hover
+			color: $purpur
+	.icon-right
+		vertical-align: middle
+		margin-left: 15px

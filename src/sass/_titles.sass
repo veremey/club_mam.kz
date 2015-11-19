@@ -2,3 +2,26 @@
 .title__14
 	font-size: 14px
 	+osb
+
+.title__side
+	font-size: 30px
+	color: $black
+	margin-bottom: 25px
+	+osl
+
+.tab__title
+	display: block
+	font-size: 18px
+	color: $black
+	margin-bottom: 15px
+	letter-spacing: -.25px
+	+osl
+	+tr(.2s)
+	i
+		margin-right: 15px
+		+rotate(90)
+		+tr(.2s)
+	&.is-open
+		+ossb
+		i
+			+rotate(0)

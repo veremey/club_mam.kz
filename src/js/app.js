@@ -1,2 +1,2 @@
-//= marina.js
+
 //= common.js

@@ -1,9 +1,12 @@
 
-@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f,icon-menu
+@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f,icon-menu,icon-right,icon-top
 	.#{$s}
 		display: inline-block
 		+s(#{$s})
 
+
+.icon-top
+	vertical-align: top
 .footer-f
 	+r(750)
 		margin-right: 5px
