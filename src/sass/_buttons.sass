@@ -1,0 +1,46 @@
+.btn
+	height: 40px
+	padding: 0 30px
+	background-color: $n
+	-webkit-border-radius: 40px
+	border-radius: 40px
+	font-size: 14px
+	+osl
+	+tr(.2s)
+.btn-red
+	color: $purpur
+	border: 1px solid $purpur
+	&:hover
+		background-color: $purpur
+		color: #FFF
+	&:active
+		background-color: $purpur
+		color: #FFF
+		-webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+		box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+.btn-blue
+	color: $blue
+	border: 1px solid $blue
+	&:hover
+		background-color: $blue
+		color: #FFF
+	&:active
+		background-color: $blue
+		color: #FFF
+		-webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+		box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+
+.btn-close
+	position: absolute
+	top: 12px
+	right: 12px
+	+s(btn-close)
+	background-color: $n
+
+.btn-transparent
+	background-color: $n
+	color: #98A4A8
+	font-size: 12px
+	+osl
+	&:hover
+		color: $purpur

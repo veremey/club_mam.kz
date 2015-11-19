@@ -1,5 +1,70 @@
 $(document).ready(function() {
 
+
+	// accordeon
+
+	$('.js-accordeon-link').on('click', function() {
+			var post = $(this).closest('.js-accordeon-item').find('.js-accordeon-post');
+
+		if($(this).hasClass('is-open')){
+			post.slideUp();
+			$(this).removeClass('is-open');
+		}
+		else {
+			$(this).removeClass('is-open');
+			post.slideDown();
+			$(this).addClass('is-open');
+		};
+		return false;
+	});
+
+	//close-block
+	$('.js-close').on('click', function(){
+		$(this).closest('.js-close-block').slideUp();
+	});
+
+	// check select
+
+		function select() {
+			$(".js-select").each(function(){
+				var select_list = $(this).parent().find(".js-select-list");
+				var text = select_list.find("li").first().text();
+				$(this).find(".js-select-text").text(text);
+				$(this).click(function(event){
+					if ($(this).hasClass("is-active")) {
+					    $(this).removeClass("is-active");
+					    select_list.slideUp("fast");
+					}
+					else {
+					    $(".js-select").removeClass("is-active");
+					    $(".js-select-list").hide();
+					    select_list.slideDown("fast");
+					    $(this).addClass("is-active");
+					}
+					event.stopPropagation();
+				});
+				select_list.find("li").click(function(event) {
+					var id = $(this).attr("data-id");
+					var text = $(this).text();
+					$(this).parent().parent().find(".js-select-text").text(text);
+					$(this).parent().parent().find(".js-select-input").val(id);
+					$(this).parent().hide();
+					$(this).parents(".js-select").removeClass("is-active");
+					event.stopPropagation();
+				});
+			});
+		}
+		select();
+
+		$('.js-select').click(function(event){
+		    event.stopPropagation();
+		});
+
+
+
+
+
+
 	$('.js-poll').click(function(event) {
 		$('.js-togglepoll').toggle();
 		return false;
@@ -174,23 +239,6 @@ $(document).ready(function() {
 
 
 
-	// accordeon
-
-	$('.js-accordeon-link').on('click', function() {
-			var post = $(this).closest('.js-accordeon-item').find('.js-accordeon-post');
-
-		if($(this).hasClass('is-open')){
-			post.slideUp();
-			$(this).removeClass('is-open');
-		}
-		else {
-			$(this).removeClass('is-open');
-			post.slideDown();
-			$(this).addClass('is-open');
-		};
-		return false;
-	});
-
 	// inner navigation
 
 	 $('.js-innner-nav').on('click', function (){
@@ -202,10 +250,10 @@ $(document).ready(function() {
         return false;
     });
 
-	$(window).resize(function() {
-		stickyFooter();
-		bannerArea();
-	});
+	// $(window).resize(function() {
+	// 	stickyFooter();
+	// 	bannerArea();
+	// });
 
 
 
