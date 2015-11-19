@@ -1,3 +1,7 @@
+.clear
+	height: 0
+	display: table
+	clear: both
 .col-xl-0
 	display: none
 .col-xl-4
@@ -140,3 +144,76 @@
 			z-index: 10
 
 
+.pager
+	margin: 120px 0 90px
+	+osl
+	+clr
+.pages__top
+	position: relative
+	+clr
+.page
+	display: inline-block
+	font-size: 0
+	+vcenter
+	+clr
+	li
+		float: left
+		margin-right: -1px
+		line-height: 45px
+		height: 45px
+		border: 1px solid #d8dde2
+		-webkit-border-radius: 5px
+		border-radius: 5px
+	a
+		font-size: 18px
+		color: $black
+		display: block
+		padding: 0 15px
+		+tr(.3s)
+		&:hover,
+		&.is_active
+			color: $purpur
+.page__prev,
+.page__next
+	display: inline-block
+	vertical-align: top
+	width: 160px
+	line-height: 45px
+	height: 45px
+	padding: 1px 20px 0
+	border: 1px solid #d8dde2
+	-webkit-border-radius: 5px
+	border-radius: 5px
+	+box
+	span
+		float: right
+	i
+		float: left
+		margin-top: 10px
+.page__prev
+	float: left
+.page__next
+	float: right
+.pager__input
+	margin: 25px auto 0
+	text-align: center
+	vertical-align: top
+	&_wrap
+		display: inline-block
+		line-height: 45px
+		height: 45px
+		padding: 0 20px
+		border: 1px solid #d8dde2
+		-webkit-border-radius: 5px
+		border-radius: 5px
+		+box
+		i
+			float: right
+			margin-top: 10px
+.page__number
+	background-color: $n
+	font-size: 16px
+	+placeholder
+		font-size: 14px
+		color: $black
+		+osl
