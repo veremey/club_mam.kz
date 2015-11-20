@@ -2013,6 +2013,40 @@ aside:after {
   font-weight: 300;
 }
 
+.categories {
+  width: 100%;
+  margin: 90px 0;
+  *zoom: 1;
+}
+.categories:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.category {
+  width: 25%;
+  float: left;
+  padding-right: 15px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 900px) {
+  .category {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .category {
+    width: 100%;
+  }
+}
+.category a:hover {
+  color: #52abf0;
+}
+.category a.is_active {
+  color: #52abf0;
+}
+
 
 
 /*# sourceMappingURL=screen.css.map */
