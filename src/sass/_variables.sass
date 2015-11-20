@@ -38,6 +38,46 @@
 	width: 75%
 	float: left
 	+clr
+	+r(1485)
+		width: 72%
+	+r(1350)
+		width: 70%
+	+r(1015)
+		width: 100%
+	// +r(1240)
+	// 	width: 68%
+	// +r(1160)
+	// 	width: 67%
+	// +r(1125)
+	// 	width: 65%
+	// .search__blue_wrap
+	// 	+r(1485)
+	// 		margin-right: 10px
+	// 		width: 200px
+	// 		label
+	// 			font-size: 15px
+	// 		&:hover
+	// 			.search__field
+	// 				width: 200px
+	// 		+ .btn
+	// 			padding: 0 15px
+	.search__blue
+		+r(1355)
+			float: left
+			margin-left: 30px
+			width: 100%
+			margin-top: 10px
+		+r(700)
+			width: 100%
+			margin: 10px 0 0
+	.title__main
+		+r(1355)
+			width: 95%
+		+r(700)
+			width: 100%
+			margin: 0 0 15px
+
+
 
 .search__blue_wrap
 	position: relative
@@ -108,6 +148,9 @@
 	color: #8a93a3
 	position: relative
 	cursor: pointer
+	margin-right: 40px
+	&:last-child
+		margin-right: 10px
 	input
 		position: absolute
 		left: 0
@@ -129,7 +172,7 @@
 		position: relative
 		display: inline-block
 		padding-left: 0px
-		margin: 0 40px 5px 40px
+		margin: 0 0 5px 40px
 		font-size: 16px
 		color: $black
 		+osl
@@ -185,8 +228,14 @@
 	-webkit-border-radius: 5px
 	border-radius: 5px
 	+box
+	&:hover
+		-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .5) inset
+		box-shadow: 0 0 10px rgba(0, 0, 0, .5) inset
 	span
 		float: right
+		color: $black
+		font-size: 18px
+		+osl
 	i
 		float: left
 		margin-top: 10px

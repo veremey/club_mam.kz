@@ -66,6 +66,7 @@ $(document).ready(function() {
 
 
 
+
 	$('.js-poll').click(function(event) {
 		$('.js-togglepoll').toggle();
 		return false;

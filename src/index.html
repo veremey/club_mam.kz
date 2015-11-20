@@ -60,12 +60,14 @@
 			<div class="main__header">
 				<h2 class="title__main">Детская одежда и обувь</h2>
 				<form action="/" class="search__blue">
+					<button class="btn btn-red col-xl-0">Фильтр</button>
 					<div class="search__blue_wrap">
 						<label for="searchField">Поиск в категории</label>
 						<input type="text" class="search__field" name="searchField" placeholder="Поиск в категории">
 						<button class="btn-search"></button>
 					</div>
 					<button class="btn btn-red">Разместить обьявление</button>
+					<button class="btn btn-plus col-xl-0">+</button>
 				</form>
 			</div>
 			<div class="closed__block js-close-block">
@@ -129,17 +131,32 @@
 					</div>
 				</div>
 			</div>
-			<ul class="sort">
-				<li>Сортировка:</li>
-				<li class="is_active"><a href="#">От дешевых к дорогим</a></li>
-				<li><a href="#">от дорогих к дешевым</a></li>
-				<li><a href="#">популярные</a></li>
-				<li><a href="#">новинки</a></li>
-				<li><a href="#">акционные</a></li>
-			</ul>
+			<div class="sort">
+				<p>Сортировка:</p>
+				<ul class="sort__item ">
+					<li class="is_active"><a href="#">От дешевых к дорогим</a></li>
+					<li><a href="#">от дорогих к дешевым</a></li>
+					<li><a href="#">популярные</a></li>
+					<li><a href="#">новинки</a></li>
+					<li><a href="#">акционные</a></li>
+				</ul>
+				<div class="input-row__field col-xl-0">
+					<div class="select js-select">
+						<span class="select__text js-select-text"></span>
+						<input type="hidden" class="js-select-input" value="">
+						<ul class="select__list js-select-list">
+							<li data-id="0">от дорогих к дешевым</li>
+							<li data-id="1">популярные</li>
+							<li data-id="2">новинки</li>
+							<li data-id="3">акционные</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 		</div>  <!-- END main -->
 		<!-- begin main  -->
 		<div class="main">
+
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -191,6 +208,8 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="main__row"></div>
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -242,6 +261,8 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="main__row"></div>
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -293,6 +314,7 @@
 					</div>
 				</div>
 			</div>
+			<div class="main__row"></div>
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -312,8 +334,7 @@
 			</div>
 
 			<div class="clear"></div>
-			//= includes/pager.html
-
+			<!-- //= includes/pager.html -->
 		</div>
 		<!-- end main -->
 
@@ -327,9 +348,9 @@
 <!-- load scripts -->
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/jquery-ui.min.js"></script>
-<script src="js/lib/bootstrap.min.js"></script>
-<script src="js/lib/slick.min.js"></script>
-<script src="js/lib/jquery.fancybox.js"></script>
+<!-- <script src="js/lib/bootstrap.min.js"></script> -->
+<!-- <script src="js/lib/slick.min.js"></script> -->
+<!-- <script src="js/lib/jquery.fancybox.js"></script> -->
 <script src="js/app.js"></script>
 </body>
 </html>

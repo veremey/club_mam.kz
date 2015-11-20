@@ -15,8 +15,8 @@
 		text-transform: lowercase
 		color: $blue
 		line-height: 100px
-		+r(450)
-			font-size: 20px
+		+r(360)
+			font-size: 24px
 		span
 			font-family: Arial, sans-serif
 			color: $purpur
@@ -47,40 +47,54 @@
 			left: 0px
 .header__user
 	float: right
-	margin-top: 15px
-	a
-		margin-right: 45px
-		display: inline-block
-		vertical-align: top
-		&:hover
-			opacity: 0.7
-		+r(1150)
-			margin-right: 20px
+	margin-top: 20px
 .user__massege
-	margin-top: 15px
+	margin-top: 20px
 	+s(message)
-	+r(450)
+	margin-right: 45px
+	display: inline-block
+	vertical-align: top
+	&:hover
+		opacity: 0.7
+	+r(1150)
+		margin-right: 20px
+	+r(478)
 		display: none!important
 .user__bell
-	margin-top: 15px
+	margin-top: 20px
 	+s(bell)
-	+r(450)
+	margin-right: 45px
+	display: inline-block
+	vertical-align: top
+	&:hover
+		opacity: 0.7
+	+r(1150)
+		margin-right: 20px
+	+r(478)
 		display: none!important
 .user__menu
 	position: relative
+	margin-right: 45px
+	display: inline-block
+	vertical-align: top
+	&:hover
+		opacity: 0.7
+	+r(1150)
+		margin-right: 20px
 	&:after
 		content: ""
 		position: absolute
 		top: 25px
 		right: -15px
 		+arr(10, 6, #000, b)
-		+r(450)
+		+r(700)
 			display: none
-	+r(450)
+	+r(700)
 		margin-top: 7px
+		margin-right: 5px
 	span
 		display: none
-		+r(450)
+		+r(478)
 			position: absolute
 			display: inline-block
 			top: 0
@@ -97,8 +111,13 @@
 .user__img
 	-webkit-border-radius: 100%
 	border-radius: 100%
+	width: 60px
+	height: 60px
 	overflow: hidden
 	margin-right: 15px
+	+r(350)
+		width: 50px
+		height: 50px
 	img
 		max-width: 100%
 		vertical-align: top

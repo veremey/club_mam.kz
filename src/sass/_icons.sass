@@ -1,14 +1,19 @@
 
-@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f,icon-menu,icon-right,icon-top,btn-close,bird1,icon-star,icon-post,icon-next,icon-prev
+@each $s in icon-ledy,icon-mom,icon-chield,footer-vk,footer-f,icon-menu,icon-right,icon-top,btn-close,bird1,icon-star,icon-post,icon-next,icon-prev,icon-bottom
 	.#{$s}
 		display: inline-block
 		+s(#{$s})
+
+
 
 .icon-menu
 	background-color: $n
 	float: right
 	vertical-align: middle
 	margin-top: 20px
+	display: none
+	+r(700)
+		display: block
 	&:hover
 		opacity: 0.6
 .icon-top
