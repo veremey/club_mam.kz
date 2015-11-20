@@ -7,6 +7,9 @@
 	font-size: 14px
 	+osl
 	+tr(.2s)
+	&:active
+		-webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+		box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
 .btn-red
 	color: $purpur
 	border: 1px solid $purpur
@@ -29,6 +32,16 @@
 		color: #FFF
 		-webkit-box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
 		box-shadow: 0 0 10px rgba(255, 255, 255, .6) inset
+.btn__blue_bg
+	background-color: $blue
+	font-size: 20px
+	color: #FFF
+	+osl
+	&:hover
+		color: $purpur
+	+r(1520)
+		font-size: 16px
+
 
 .btn-close
 	position: absolute

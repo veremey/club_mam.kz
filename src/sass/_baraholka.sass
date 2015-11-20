@@ -200,10 +200,12 @@
 				&:hover
 					color: $purpur
 	.input-row__field
-		display: inline-block
+		display: none
 		margin-top: 20px
 		width: calc(100% - 102px)
 		float: right
+		+r(1150)
+			display: inline-block
 		+r(340)
 			width: calc(100% - 90px)
 		li,
