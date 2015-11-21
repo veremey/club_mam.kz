@@ -1,0 +1,108 @@
+.thing
+	width: 93%
+	margin: 0 auto
+	padding-bottom: 45px
+	+clr
+.action
+	height: 85px
+	background-color: #FFF
+	border-bottom: 1px solid #F3F5F7
+	+clr
+	&__text
+		position: relative
+		float: left
+		width: 46%
+		border-right: 1px solid #F3F5F7
+		padding: 0 10px 0 44px
+		p
+			line-height: 88px
+			font-size: 14px
+			color: #A7B1B9
+			+osl
+	&__star,
+	&__print,
+	&__smile
+		position: relative
+		float: left
+		height: 88px
+		width: 10.6%
+		border-right: 1px solid #F3F5F7
+		i
+			+vcenter
+		&:hover
+			-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .4) inset
+			box-shadow: 0 0 10px rgba(0, 0, 0, .4) inset
+	&__price
+		position: relative
+		float: left
+		width: 20%
+		height: 88px
+		p
+			+vcenter
+			font-size: 27px
+			color: $black
+			white-space: nowrap
+			+osb
+			span
+				font-size: 21px
+				+osl
+
+
+.carousel
+	position: relative
+	float: left
+	width: 60%
+	margin-right: 3%
+	+clr
+	&__main
+		margin-bottom: 10px
+		-webkit-border-radius: 10px
+		&_img
+			border-radius: 10px
+			overflow: hidden
+		img
+			max-width: 100%
+			vertical-align: top
+			width: 100%
+			max-height: 385px
+.carousel__preview_img
+	img
+		-webkit-border-radius: 5px
+		border-radius: 5px
+		max-width: 100%
+		border-bottom: 3px solid $n
+	&.is-active
+		img
+			opacity: 0.5
+			border-bottom: 3px solid $purpur
+
+.thing__text
+	float: right
+	width: 37%
+.thing__info
+	p
+		display: block
+	span
+		// display: block
+		float: left
+		width: 30%
+		font-size: 14px
+		color: #A0AAB3
+		+osl
+	strong
+		// display: block
+		float: left
+		white-space: nowrap
+		width: 70%
+		font-size: 14px
+		color: $black
+		margin-bottom: 20px
+		+osl
+.thing__text_punkt
+	margin-top: 35px
+	p
+		font-size: 18px
+		color: $black
+		+osl
+
+
