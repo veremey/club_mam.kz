@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>index</title>
+	<title>catalog_mag</title>
 	<meta charset="utf-8">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,7 +75,7 @@
 		</a>
 		<a href="#" class="is_active">Семейное здоровье</a>
 	</section>
-	<div class="container">
+	<div class="container" style="margin-bottom: 140px;">
 		<aside>
 			<div class="sidebox">
 				<h3 class="title__side">Каталог</h3>
@@ -83,44 +83,81 @@
 					<a href="#" class="tab__title js-accordeon-link is-open"><i class="icon-top"></i>Для детей</a>
 					<div class="tab__box js-accordeon-post" style="display: block;">
 						<a href="#" class="is_active">Детская одежда и обувь  </a>
-						<a href="#">Товары для детей и игрушки </a>
-						<a href="#">Услуги</a>
-					</div>
-				</div>
-				<div class="js-accordeon-item">
-					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Для взрослых</a>
-					<div class="tab__box js-accordeon-post">
-						<a href="#" class="is_active">Детская одежда и обувь  </a>
-						<a href="#">Товары для детей и игрушки </a>
-						<a href="#">Услуги</a>
-					</div>
-				</div>
-				<div class="js-accordeon-item">
-					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Хобби и отдых</a>
-					<div class="tab__box js-accordeon-post">
-						<a href="#" class="is_active">Детская одежда и обувь  </a>
-						<a href="#">Товары для детей и игрушки </a>
-						<a href="#">Услуги</a>
-					</div>
-				</div>
-				<div class="js-accordeon-item">
-					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Услуги</a>
-					<div class="tab__box js-accordeon-post">
-						<a href="#" class="is_active">Детская одежда и обувь  </a>
-						<a href="#">Товары для детей и игрушки </a>
-						<a href="#">Услуги</a>
-					</div>
-				</div>
-				<div class="js-accordeon-item">
-					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Для дома и дачи</a>
-					<div class="tab__box js-accordeon-post">
-						<a href="#" class="is_active">Детская одежда и обувь  </a>
-						<a href="#">Товары для детей и игрушки </a>
-						<a href="#">Услуги</a>
 					</div>
 				</div>
 			</div>
+
+			<div class="sidebox">
+				<h5 class="title__gray">Тип</h5>
+				<div class="side__check">
+						<label class="radio"  >
+							<input type="radio" name="bye">
+							<span>Классические <sup>(4356)</sup></span>
+						</label>
+						<label class="radio"  >
+							<input type="radio" name="bye" checked>
+							<span>Коляски для двойни <sup>(45)</sup></span>
+						</label>
+				</div>
+			</div>
+
+			<div class="sidebox">
+				<h5 class="title__gray">Цена</h5>
+
+				<div class="ui-slider js-ui-slider">
+					<div class="ui-slider__top">
+						<span>от</span>
+						<input type="text" class="input js-ui-slider-from">
+						<span>до</span>
+						<input type="text" class="input js-ui-slider-to">
+					</div>
+					<div class="js-ui-slider-main"></div>
+				</div>
+
+			</div>
+
+			<div class="sidebox">
+				<h5 class="title__gray">Производитель</h5>
+				<div class="side__check">
+					<label class="radio"  >
+						<input type="radio" name="produce">
+						<span>Классические <sup>(4356)</sup></span>
+					</label>
+					<label class="radio"  >
+						<input type="radio" name="produce" checked>
+						<span>Коляски для двойни <sup>(45)</sup></span>
+					</label>
+					<label class="radio"  >
+						<input type="radio" name="produce" checked>
+						<span>Коляски для двойни <sup>(45)</sup></span>
+					</label>
+					<label class="radio"  >
+						<input type="radio" name="produce" checked>
+						<span>Коляски для двойни <sup>(45)</sup></span>
+					</label>
+					<label class="radio"  >
+						<input type="radio" name="produce" checked>
+						<span>Коляски для двойни <sup>(45)</sup></span>
+					</label>
+				</div>
+			</div>
+
+			<div class="sidebox">
+
+					<div class="select js-select">
+						<span class="select__text js-select-text"></span>
+						<input type="hidden" class="js-select-input" value="">
+						<ul class="select__list js-select-list">
+							<li data-id="0">Все размеры</li>
+							<li data-id="1">Детям</li>
+							<li data-id="2">Дядям</li>
+						</ul>
+
+				</div>
+			</div>
+
 		</aside>
+
 		<!-- START main -->
 		<div class="main">
 			<div class="main__header">
@@ -132,72 +169,10 @@
 						<input type="text" class="search__field" name="searchField" placeholder="Поиск в категории">
 						<button class="btn-search"></button>
 					</div>
-					<button class="btn btn-red">Разместить обьявление</button>
-					<button class="btn btn-plus col-xl-0">+</button>
 				</form>
 			</div>
-			<div class="closed__block js-close-block">
-				<button class="btn-close js-close"></button>
-				<div class="closed__filter">
-					<div class="closed__filter_row">
-						<div class="filter__check">
-							<label class="radio"  >
-								<input type="radio" name="bye">
-								<span>Для девочек</span>
-							</label>
-							<label class="radio"  >
-								<input type="radio" name="bye" checked>
-								<span>Для мальчиков</span>
-							</label>
-						</div>
-						<div class="filter__choose">
-							<div class="input-row__field">
-								<div class="select js-select">
-									<span class="select__text js-select-text"></span>
-									<input type="hidden" class="js-select-input" value="">
-									<ul class="select__list js-select-list">
-										<li data-id="0">Все размеры</li>
-										<li data-id="1">Детям</li>
-										<li data-id="2">Дядям</li>
-									</ul>
-								</div>
-							</div>
-							<div class="input-row__field">
-								<div class="select js-select">
-									<span class="select__text js-select-text"></span>
-									<input type="hidden" class="js-select-input" value="">
-									<ul class="select__list js-select-list">
-										<li data-id="0">Все рубрики</li>
-										<li data-id="1">Детям</li>
-										<li data-id="2">Дядям</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="closed__filter_row">
-						<div class="filder__input_wrap">
-							<input type="text" name="ot" placeholder="Цена от">
-							<input type="text" name="do" placeholder="Цена до">
-						</div>
-						<div class="filter__check" style="margin-top: 15px;">
-							<label class="radio"  >
-								<input type="radio" name="goods">
-								<span>Для девочек</span>
-							</label>
-							<label class="radio"  >
-								<input type="radio" name="goods" checked>
-								<span>Для мальчиков</span>
-							</label>
-						</div>
-						<div class="filter__btn_wrap">
-							<button class="btn btn-blue" type="submit">Найти</button>
-							<button class="btn-transparent" type="reset">Сбросить фильтр</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="sort">
+
+			<div class="sort" style="margin-left: 40px;">
 				<p>Сортировка:</p>
 				<ul class="sort__item ">
 					<li class="is_active"><a href="#">От дешевых к дорогим</a></li>
@@ -206,28 +181,16 @@
 					<li><a href="#">новинки</a></li>
 					<li><a href="#">акционные</a></li>
 				</ul>
-				<div class="input-row__field col-xl-0">
-					<div class="select js-select">
-						<span class="select__text js-select-text"></span>
-						<input type="hidden" class="js-select-input" value="">
-						<ul class="select__list js-select-list">
-							<li data-id="0">от дорогих к дешевым</li>
-							<li data-id="1">популярные</li>
-							<li data-id="2">новинки</li>
-							<li data-id="3">акционные</li>
-						</ul>
-					</div>
-				</div>
 			</div>
-		</div>  <!-- END main -->
-		<!-- begin main  -->
-		<div class="main">
 
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
 					<div class="clothes__icons">
 						<i class="icon-star"></i>
+						<i class="icon-libra"></i>
+						<i class="color1" style="background-color: #2f708a"><span class="color2" style="background-color: #000"></span></i>
+						<i class="color1" style="background-color: #f9a6b0"><span class="color2" style="background-color: #000"></span></i>
 					</div>
 				</div>
 				<div class="clothes__name">
@@ -280,8 +243,8 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="main__row"></div>
+			<div class="clear"></div>
+			<h3 class="title__side" style="margin: 40px 0 35px 40px;">Похожие объявления</h3>
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -320,85 +283,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="clothes">
-				<div class="clothes__img">
-					<img src="img/pic_1.jpg" alt="Иллюстрация">
-					<div class="clothes__icons">
-						<i class="icon-star"></i>
-					</div>
-				</div>
-				<div class="clothes__name">
-					<p>Джинсы на флисе OshKosh размер 4т. Новые</p>
-				</div>
-				<div class="clothes__footer">
-					<div class="clothes__price">
-						<p><strong>110 100</strong><span>тг.</span></p>
-					</div>
-					<div class="clothes__from">
-						<p><span>Алматы</span><i class="icon-post"></i></p>
-					</div>
-				</div>
-			</div>
-
-			<div class="main__row"></div>
-			<div class="clothes">
-				<div class="clothes__img">
-					<img src="img/pic_1.jpg" alt="Иллюстрация">
-					<div class="clothes__icons">
-						<i class="icon-star"></i>
-					</div>
-				</div>
-				<div class="clothes__name">
-					<p>Джинсы на флисе OshKosh размер 4т. Новые</p>
-				</div>
-				<div class="clothes__footer">
-					<div class="clothes__price">
-						<p><strong>110 100</strong><span>тг.</span></p>
-					</div>
-					<div class="clothes__from">
-						<p><span>Алматы</span><i class="icon-post"></i></p>
-					</div>
-				</div>
-			</div>
-			<div class="clothes">
-				<div class="clothes__img">
-					<img src="img/pic_1.jpg" alt="Иллюстрация">
-					<div class="clothes__icons">
-						<i class="icon-star"></i>
-					</div>
-				</div>
-				<div class="clothes__name">
-					<p>Джинсы на флисе OshKosh размер 4т. Новые</p>
-				</div>
-				<div class="clothes__footer">
-					<div class="clothes__price">
-						<p><strong>110 100</strong><span>тг.</span></p>
-					</div>
-					<div class="clothes__from">
-						<p><span>Алматы</span><i class="icon-post"></i></p>
-					</div>
-				</div>
-			</div>
-			<div class="clothes">
-				<div class="clothes__img">
-					<img src="img/pic_1.jpg" alt="Иллюстрация">
-					<div class="clothes__icons">
-						<i class="icon-star"></i>
-					</div>
-				</div>
-				<div class="clothes__name">
-					<p>Джинсы на флисе OshKosh размер 4т. Новые</p>
-				</div>
-				<div class="clothes__footer">
-					<div class="clothes__price">
-						<p><strong>110 100</strong><span>тг.</span></p>
-					</div>
-					<div class="clothes__from">
-						<p><span>Алматы</span><i class="icon-post"></i></p>
-					</div>
-				</div>
-			</div>
-			<div class="main__row"></div>
 			<div class="clothes">
 				<div class="clothes__img">
 					<img src="img/pic_1.jpg" alt="Иллюстрация">
@@ -421,8 +305,8 @@
 
 			<div class="clear"></div>
 			<!-- //= includes/pager.html -->
-		</div>
-		<!-- end main -->
+		</div><!-- end main -->
+
 
 	</div><!-- end container -->
 
@@ -511,7 +395,7 @@
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/jquery-ui.min.js"></script>
 <!-- <script src="js/lib/bootstrap.min.js"></script> -->
-<!-- <script src="js/lib/slick.min.js"></script> -->
+<script src="js/lib/slick.min.js"></script>
 <!-- <script src="js/lib/jquery.fancybox.js"></script> -->
 <script src="js/app.js"></script>
 </body>
