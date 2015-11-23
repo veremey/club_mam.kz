@@ -70,9 +70,9 @@ $(document).ready(function() {
 	        slider.slider({
 	            range: true,
 	            min: 0,
-	            max: 75000,
-	            step: 200,
-	            values: [ 7600, 50000 ],
+	            max: 99000,
+	            step: 1,
+	            values: [ 5641, 26268 ],
 	            slide: function( event, ui ) {
 	                $(this).find(".ui-slider-handle").html("<span></span>");
 	                var handle_0 = $(this).find(".ui-slider-range").next().find("span")
@@ -95,6 +95,36 @@ $(document).ready(function() {
 	    });
 	}
 	ui_slider();
+
+
+	/* Скрипт для рейтинга */
+
+	$('.stars').each(function(){
+
+		var rating = $(this);
+		var rating_input = rating.parents('form').find('input[name="rating"]');
+		var stars = $('.star > span', rating);
+
+		rating.find('.descr').hover(function(){
+			stars.removeClass('active');
+			rating_input.val(0);
+		});
+
+		stars.each(function(index){
+			var current = index + 1;
+
+			$(this).hover (
+				function(){
+					stars.removeClass('active').slice(0, current).addClass('active');
+				},
+				function(){
+					rating_input.val(parseFloat($('.active', rating).length/2));
+				}
+			);
+
+		});
+
+	});
 
 
 	// slick carousel
@@ -124,6 +154,45 @@ $(document).ready(function() {
 	});
 
 
+
+	// // slick carousel
+
+	// $('.js-swing').slick({
+	// 	slidesToShow: 1,
+	// 	slidesToScroll: 1,
+	// 	arrows: false,
+	// 	fade: true,
+	// 	asNavFor: '.js-swing-preview',
+	// });
+	// $('.js-swing-preview').slick({
+	// 	slidesToShow: 5,
+	// 	slidesToScroll: 1,
+	// 	asNavFor: '.js-swing',
+	// 	dots: false,
+	// 	arrows: true,
+	// 	vertical: true,
+	// 	infinite: false,
+	// 	centerMode: false,
+	// 	focusOnSelect: true,
+	// });
+
+	// $(".js-swing-preview .slick-slide").on("click",function (){
+	//   $(this).parent().find(".slick-slide").removeClass("is-active");
+	//   $(this).addClass("is-active")
+	//   return false;
+	// });
+
+
+	// подмена картинки
+
+	$('.js-take-img').click( function() {
+		var src = $('.is_active').attr('src');
+		var carousel = $(this).parents('.swing');
+
+		$(this).siblings().removeClass('is_active');
+		$(this).addClass('is_active');
+		carousel.find('.js-swing__img img').attr('src', carousel.find('.is_active img').attr('src'));
+	});
 
 
 
