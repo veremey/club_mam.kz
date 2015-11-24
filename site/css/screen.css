@@ -83,8 +83,8 @@ html {
   width: 16px;
   height: 9px;
   background-image: url("../img/icons.png");
-  background-position: -74px -74px;
-  background-size: 107px 97px;
+  background-position: -85px -63px;
+  background-size: 117px 97px;
 }
 
 .i-bell {
@@ -92,8 +92,8 @@ html {
   width: 13px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -15px -74px;
-  background-size: 107px 97px;
+  background-position: 0px -75px;
+  background-size: 117px 97px;
 }
 
 .i-bird1 {
@@ -101,8 +101,8 @@ html {
   width: 6px;
   height: 4px;
   background-image: url("../img/icons.png");
-  background-position: -94px -67px;
-  background-size: 107px 97px;
+  background-position: -104px -76px;
+  background-size: 117px 97px;
 }
 
 .i-btn-close {
@@ -110,8 +110,8 @@ html {
   width: 7px;
   height: 7px;
   background-image: url("../img/icons.png");
-  background-position: -94px -51px;
-  background-size: 107px 97px;
+  background-position: -104px -51px;
+  background-size: 117px 97px;
 }
 
 .i-check {
@@ -119,8 +119,8 @@ html {
   width: 6px;
   height: 5px;
   background-image: url("../img/icons.png");
-  background-position: -94px -60px;
-  background-size: 107px 97px;
+  background-position: -104px -69px;
+  background-size: 117px 97px;
 }
 
 .i-footer-f-750 {
@@ -128,8 +128,8 @@ html {
   width: 32px;
   height: 30px;
   background-image: url("../img/icons.png");
-  background-position: 0px 0px;
-  background-size: 107px 97px;
+  background-position: -33px 0px;
+  background-size: 117px 97px;
 }
 
 .i-footer-f {
@@ -137,8 +137,8 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: 0px -59px;
-  background-size: 107px 97px;
+  background-position: -67px -42px;
+  background-size: 117px 97px;
 }
 
 .i-footer-vk-750 {
@@ -146,8 +146,8 @@ html {
   width: 32px;
   height: 30px;
   background-image: url("../img/icons.png");
-  background-position: -33px 0px;
-  background-size: 107px 97px;
+  background-position: 0px 0px;
+  background-size: 117px 97px;
 }
 
 .i-footer-vk {
@@ -155,8 +155,17 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -16px -59px;
-  background-size: 107px 97px;
+  background-position: -67px -27px;
+  background-size: 117px 97px;
+}
+
+.i-icon-bot {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url("../img/icons.png");
+  background-position: -29px -75px;
+  background-size: 117px 97px;
 }
 
 .i-icon-bottom {
@@ -164,8 +173,8 @@ html {
   width: 20px;
   height: 20px;
   background-image: url("../img/icons.png");
-  background-position: -40px -32px;
-  background-size: 107px 97px;
+  background-position: -42px -32px;
+  background-size: 117px 97px;
 }
 
 .i-icon-chield {
@@ -174,7 +183,25 @@ html {
   height: 25px;
   background-image: url("../img/icons.png");
   background-position: 0px -32px;
-  background-size: 107px 97px;
+  background-size: 117px 97px;
+}
+
+.i-icon-close {
+  display: inline-block;
+  width: 6px;
+  height: 7px;
+  background-image: url("../img/icons.png");
+  background-position: -104px -60px;
+  background-size: 117px 97px;
+}
+
+.i-icon-face {
+  display: inline-block;
+  width: 18px;
+  height: 23px;
+  background-image: url("../img/icons.png");
+  background-position: -22px -32px;
+  background-size: 117px 97px;
 }
 
 .i-icon-ledy {
@@ -182,8 +209,8 @@ html {
   width: 16px;
   height: 25px;
   background-image: url("../img/icons.png");
-  background-position: -22px -32px;
-  background-size: 107px 97px;
+  background-position: -67px 0px;
+  background-size: 117px 97px;
 }
 
 .i-icon-libra {
@@ -191,8 +218,8 @@ html {
   width: 16px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -67px -43px;
-  background-size: 107px 97px;
+  background-position: -85px -48px;
+  background-size: 117px 97px;
 }
 
 .i-icon-locate {
@@ -200,8 +227,8 @@ html {
   width: 8px;
   height: 11px;
   background-image: url("../img/icons.png");
-  background-position: -94px -39px;
-  background-size: 107px 97px;
+  background-position: -104px -39px;
+  background-size: 117px 97px;
 }
 
 .i-icon-menu {
@@ -209,8 +236,8 @@ html {
   width: 26px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -67px 0px;
-  background-size: 107px 97px;
+  background-position: 0px -59px;
+  background-size: 117px 97px;
 }
 
 .i-icon-mom {
@@ -218,8 +245,8 @@ html {
   width: 14px;
   height: 25px;
   background-image: url("../img/icons.png");
-  background-position: -67px -16px;
-  background-size: 107px 97px;
+  background-position: -85px -22px;
+  background-size: 117px 97px;
 }
 
 .i-icon-next {
@@ -227,8 +254,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -78px -59px;
-  background-size: 107px 97px;
+  background-position: -44px -75px;
+  background-size: 117px 97px;
 }
 
 .i-icon-post {
@@ -237,7 +264,7 @@ html {
   height: 6px;
   background-image: url("../img/icons.png");
   background-position: 0px -91px;
-  background-size: 107px 97px;
+  background-size: 117px 97px;
 }
 
 .i-icon-prev {
@@ -245,8 +272,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -44px -74px;
-  background-size: 107px 97px;
+  background-position: -74px -75px;
+  background-size: 117px 97px;
 }
 
 .i-icon-print {
@@ -254,8 +281,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -59px -74px;
-  background-size: 107px 97px;
+  background-position: -89px -75px;
+  background-size: 117px 97px;
 }
 
 .i-icon-right {
@@ -263,8 +290,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -29px -74px;
-  background-size: 107px 97px;
+  background-position: -14px -75px;
+  background-size: 117px 97px;
 }
 
 .i-icon-smile {
@@ -272,8 +299,8 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -32px -59px;
-  background-size: 107px 97px;
+  background-position: -42px -59px;
+  background-size: 117px 97px;
 }
 
 .i-icon-star {
@@ -281,8 +308,8 @@ html {
   width: 14px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -47px -59px;
-  background-size: 107px 97px;
+  background-position: -58px -59px;
+  background-size: 117px 97px;
 }
 
 .i-icon-tel {
@@ -290,8 +317,17 @@ html {
   width: 11px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -94px -15px;
-  background-size: 107px 97px;
+  background-position: -104px -15px;
+  background-size: 117px 97px;
+}
+
+.i-icon-thame {
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  background-image: url("../img/icons.png");
+  background-position: -85px 0px;
+  background-size: 117px 97px;
 }
 
 .i-icon-top {
@@ -299,8 +335,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -63px -59px;
-  background-size: 107px 97px;
+  background-position: -59px -75px;
+  background-size: 117px 97px;
 }
 
 .i-lupa {
@@ -308,8 +344,8 @@ html {
   width: 10px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -94px -27px;
-  background-size: 107px 97px;
+  background-position: -104px -27px;
+  background-size: 117px 97px;
 }
 
 .i-mes {
@@ -317,8 +353,8 @@ html {
   width: 13px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: 0px -74px;
-  background-size: 107px 97px;
+  background-position: -27px -59px;
+  background-size: 117px 97px;
 }
 
 .i-message {
@@ -326,8 +362,8 @@ html {
   width: 12px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -94px 0px;
-  background-size: 107px 97px;
+  background-position: -104px 0px;
+  background-size: 117px 97px;
 }
 
 @font-face {
@@ -1091,7 +1127,7 @@ a {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -189px -134px;
+  background-position: -209px -152px;
 }
 
 .select__list {
@@ -1412,20 +1448,27 @@ a {
   padding: 0 20px 0 30px;
 }
 
-.clothes__from_wrap {
+.clothes__from_wrap,
+.centermode {
   margin-top: 37px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .clothes__from_wrap span,
-.clothes__from_wrap p {
+.clothes__from_wrap p,
+.centermode span,
+.centermode p {
   font-size: 14px;
   color: #84868D;
   margin-right: 5px;
   line-height: 1;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
+}
+
+.centermode {
+  margin-top: 50%;
 }
 
 .clothes__icons .color1 {
@@ -1464,9 +1507,18 @@ aside:after {
     display: none;
   }
 }
+aside .search__blue {
+  float: left;
+  margin: 40px 0;
+  width: 200px;
+  margin-left: 45px;
+}
+aside .search__blue label {
+  color: #323337;
+}
 
 .sidebox {
-  float: left;
+  position: relative;
   width: 100%;
   border-radius: 5px;
   padding: 40px 40px 50px;
@@ -1486,6 +1538,135 @@ aside:after {
   .sidebox {
     padding: 40px 25px 50px;
   }
+}
+.sidebox .title__main {
+  margin: 0;
+}
+
+.side__user {
+  margin-top: 85px;
+  padding-bottom: 0;
+}
+
+.sidebox__user {
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  margin-left: -75px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+}
+.sidebox__user img {
+  max-width: 100%;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.sidebox__user + .title__main {
+  margin-top: 50px;
+}
+
+.sideclear {
+  position: relative;
+  width: 100%;
+  background-color: #FFF;
+  *zoom: 1;
+}
+.sideclear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.sideclear .sidehalf {
+  margin-bottom: 35px;
+}
+.sideclear .title__side {
+  padding: 45px 0 0 45px;
+}
+
+.side__text {
+  margin-bottom: 15px;
+}
+.side__text p {
+  font-size: 16px;
+  color: #7E8489;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+
+.side__link {
+  background-color: #FFF;
+  display: block;
+  border-bottom: 1px solid #F3F5F7;
+  padding: 20px 45px;
+  font-size: 18px;
+  color: #23252a;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+.side__link:hover {
+  color: #eb6c96;
+  background-color: #fbfbfb;
+}
+.side__link:hover img {
+  opacity: 0.7;
+}
+
+.side__link_img {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin-right: 12px;
+  vertical-align: top;
+}
+.side__link_img img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.side__link_text {
+  display: inline-block;
+  vertical-align: top;
+  height: 55px;
+}
+.side__link_text p {
+  font-size: 18px;
+  color: #23252a;
+  margin-top: 27px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  line-height: 1;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.side__pictures {
+  text-align: center;
+  *zoom: 1;
+}
+.side__pictures:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.side__pictures + .read__more {
+  text-align: center;
+}
+
+.side__pictures_img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}
+.side__pictures_img:nth-child(4n) {
+  margin-right: 0;
+}
+.side__pictures_img img {
+  max-width: 100%;
+  vertical-align: top;
 }
 
 .sidebox__short {
@@ -1509,6 +1690,32 @@ aside:after {
 }
 .sidebox__short p span {
   color: #52abf0;
+}
+
+.sidehalf {
+  float: left;
+  width: 50%;
+  border-right: 1px solid #eaeff3;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.sidehalf:nth-child(even) {
+  border: 0;
+}
+.sidehalf i {
+  margin-bottom: 25px;
+}
+.sidehalf p {
+  font-size: 24px;
+  color: #23252a;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+.sidehalf span {
+  font-size: 16px;
+  color: #ACB1B7;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
 }
 
 .tab__box a {
@@ -1593,7 +1800,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 20px;
-  background-position: -189px -31px;
+  background-position: -209px -31px;
 }
 .telephone a {
   display: block;
@@ -1662,6 +1869,20 @@ aside:after {
 .side__check sup {
   color: #B6BBC0;
   font-size: 16px;
+}
+
+.community {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.community p {
+  font-size: 16px;
+  color: #ACB1B7;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+.community p i {
+  margin-right: 10px;
 }
 
 .footer {
@@ -1891,7 +2112,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 24px;
   height: 27px;
-  background-position: -189px 0px;
+  background-position: -209px 0px;
   margin-right: 45px;
   display: inline-block;
   vertical-align: top;
@@ -1915,7 +2136,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 28px;
-  background-position: -30px -149px;
+  background-position: 0px -151px;
   margin-right: 45px;
   display: inline-block;
   vertical-align: top;
@@ -2090,7 +2311,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 32px;
   height: 50px;
-  background-position: -44px -64px;
+  background-position: -134px 0px;
 }
 
 .icon-mom {
@@ -2098,7 +2319,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 49px;
-  background-position: -134px -33px;
+  background-position: -170px -44px;
 }
 
 .icon-chield {
@@ -2114,7 +2335,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 28px;
   height: 27px;
-  background-position: -32px -118px;
+  background-position: -134px -54px;
 }
 
 .footer-f {
@@ -2122,7 +2343,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 28px;
   height: 27px;
-  background-position: 0px -118px;
+  background-position: -134px -85px;
 }
 
 .icon-menu {
@@ -2130,7 +2351,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 51px;
   height: 29px;
-  background-position: -134px 0px;
+  background-position: 0px -118px;
 }
 
 .icon-right {
@@ -2138,7 +2359,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -59px -149px;
+  background-position: -29px -151px;
 }
 
 .icon-top {
@@ -2146,7 +2367,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -126px -118px;
+  background-position: -119px -151px;
 }
 
 .btn-close {
@@ -2154,7 +2375,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -189px -103px;
+  background-position: -209px -103px;
 }
 
 .bird1 {
@@ -2162,7 +2383,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -189px -134px;
+  background-position: -209px -152px;
 }
 
 .icon-star {
@@ -2170,7 +2391,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -95px -118px;
+  background-position: -116px -118px;
 }
 
 .icon-post {
@@ -2178,7 +2399,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 11px;
-  background-position: 0px -182px;
+  background-position: 0px -183px;
 }
 
 .icon-next {
@@ -2186,7 +2407,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -156px -118px;
+  background-position: -89px -151px;
 }
 
 .icon-prev {
@@ -2194,7 +2415,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -89px -149px;
+  background-position: -149px -151px;
 }
 
 .icon-bottom {
@@ -2202,7 +2423,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 39px;
   height: 39px;
-  background-position: -80px -64px;
+  background-position: -84px -64px;
 }
 
 .icon-tel {
@@ -2210,7 +2431,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 20px;
-  background-position: -189px -31px;
+  background-position: -209px -31px;
 }
 
 .icon-locate {
@@ -2218,7 +2439,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 15px;
   height: 21px;
-  background-position: -189px -78px;
+  background-position: -209px -78px;
 }
 
 .icon-print {
@@ -2226,7 +2447,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 25px;
-  background-position: -119px -149px;
+  background-position: -179px -151px;
 }
 
 .icon-smile {
@@ -2234,7 +2455,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 27px;
-  background-position: -64px -118px;
+  background-position: -85px -118px;
 }
 
 .icon-libra {
@@ -2242,7 +2463,39 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 31px;
   height: 26px;
-  background-position: -134px -86px;
+  background-position: -170px -97px;
+}
+
+.icon-close {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 12px;
+  height: 14px;
+  background-position: -209px -121px;
+}
+
+.icon-face {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 36px;
+  height: 46px;
+  background-position: -44px -64px;
+}
+
+.icon-thame {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 35px;
+  height: 40px;
+  background-position: -170px 0px;
+}
+
+.icon-bot {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 26px;
+  height: 26px;
+  background-position: -59px -151px;
 }
 
 .icon-menu {
@@ -2271,7 +2524,7 @@ aside:after {
     background-image: url("../img/icons.png");
     width: 63px;
     height: 60px;
-    background-position: 0px 0px;
+    background-position: -67px 0px;
   }
 }
 
@@ -2280,7 +2533,7 @@ aside:after {
     background-image: url("../img/icons.png");
     width: 63px;
     height: 60px;
-    background-position: -67px 0px;
+    background-position: 0px 0px;
   }
 }
 
@@ -2406,7 +2659,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -189px -103px;
+  background-position: -209px -103px;
   background-color: transparent;
 }
 
@@ -2655,7 +2908,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 19px;
-  background-position: -189px -55px;
+  background-position: -209px -55px;
   background-color: transparent;
   z-index: 10;
 }
@@ -2692,7 +2945,7 @@ aside:after {
   background-image: url("../img/icons.png");
   width: 11px;
   height: 9px;
-  background-position: -189px -121px;
+  background-position: -209px -139px;
 }
 .radio span {
   position: relative;
@@ -2945,6 +3198,20 @@ aside:after {
 }
 .stars .star_r.active {
   background: url(../img/star_a.png) 100% 0 no-repeat;
+}
+
+.read__more {
+  vertical-align: top;
+}
+.read__more span {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 12px;
+  vertical-align: top;
+  line-height: 28px;
+  color: #52abf0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
 }
 
 

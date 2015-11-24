@@ -8,9 +8,15 @@ aside
 		min-width: 260px
 	+r(1015)
 		display: none
-
+	.search__blue
+		float: left
+		margin: 40px 0
+		width: 200px
+		margin-left: 45px
+		label
+			color: #323337
 .sidebox
-	float: left
+	position: relative
 	width: 100%
 	-webkit-border-radius: 5px
 	border-radius: 5px
@@ -22,6 +28,96 @@ aside
 	+clr
 	+r(1580)
 		padding: 40px 25px 50px
+	.title__main
+		margin: 0
+		// line-height: 1
+.side__user
+	margin-top: 85px
+	padding-bottom: 0
+.sidebox__user
+	position: absolute
+	top: -80px
+	left: 50%
+	margin-left: -75px
+	text-align: center
+	width: 150px
+	height: 150px
+	img
+		max-width: 100%
+		vertical-align: top
+		-webkit-border-radius: 100%
+		border-radius: 100%
+	+ .title__main
+		margin-top: 50px
+.sideclear
+	position: relative
+	width: 100%
+	background-color: #FFF
+	+clr
+	.sidehalf
+		margin-bottom: 35px
+	.title__side
+		padding: 45px 0 0 45px
+
+
+.side__text
+	margin-bottom: 15px
+	p
+		font-size: 16px
+		color: #7E8489
+		+os
+
+
+.side__link
+	background-color: #FFF
+	display: block
+	border-bottom: 1px solid #F3F5F7
+	padding: 20px 45px
+	font-size: 18px
+	color: $black
+	+osl
+	&:hover
+		color: $purpur
+		background-color: lighten(#F3F3F3, 3%)
+		img
+			opacity: 0.7
+.side__link_img
+	display: inline-block
+	width: 55px
+	height: 55px
+	margin-right: 12px
+	vertical-align: top
+	img
+		max-width: 100%
+		vertical-align: top
+.side__link_text
+	display: inline-block
+	vertical-align: top
+	height: 55px
+	p
+		font-size: 18px
+		color: $black
+		margin-top: 27px
+		transform: translateY(-50%)
+		line-height: 1
+		+osl
+
+.side__pictures
+	text-align: center
+	+clr
+	+ .read__more
+		text-align: center
+.side__pictures_img
+	width: 50px
+	height: 50px
+	display: inline-block
+	margin-right: 7px
+	margin-bottom: 10px
+	&:nth-child(4n)
+		margin-right: 0
+	img
+		max-width: 100%
+		vertical-align: top
 .sidebox__short
 	background-color: #fff
 	float: left
@@ -35,6 +131,24 @@ aside
 		+osl
 		span
 			color: $blue
+.sidehalf
+	float: left
+	width: 50%
+	border-right: 1px solid #eaeff3
+	padding: 5px
+	+box
+	&:nth-child(even)
+		border: 0
+	i
+		margin-bottom: 25px
+	p
+		font-size: 24px
+		color: $black
+		+osl
+	span
+		font-size: 16px
+		color: #ACB1B7
+		+os
 
 .tab__box
 	a
@@ -142,3 +256,12 @@ aside
 	sup
 		color: #B6BBC0
 		font-size: 16px
+.community
+	text-align: center
+	margin-bottom: 20px
+	p
+		font-size: 16px
+		color: #ACB1B7
+		+os
+		i
+			margin-right: 10px

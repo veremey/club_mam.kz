@@ -206,7 +206,22 @@ $(document).ready(function() {
 		carousel.find('.js-carousel__img img').attr('src', carousel.find('.is_active img').attr('src'));
 	});
 
-
+	//read more
+	$('.side__text').readmore({
+		speed: 75,
+		collapsedHeight: 125,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"><span>Читать полностью </span><i class="icon-bot"></i></a',
+		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-top"></i></a>'
+	});
+	//read more
+	$('.side__pictures').readmore({
+		speed: 75,
+		collapsedHeight: 238,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"><span>Все участники </span><i class="icon-next"></i></a',
+		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-prev"></i></a>'
+	});
 
 
 
