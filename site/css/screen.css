@@ -1025,6 +1025,9 @@ a {
   display: table;
   clear: both;
 }
+.article .title__main {
+  margin: 5px 0 15px;
+}
 
 .article__container {
   padding: 35px 44px;
@@ -1063,6 +1066,13 @@ a {
 
 .article__footer {
   border-top: 1px solid #ecf0f4;
+  background-color: #FFF;
+  *zoom: 1;
+}
+.article__footer:after {
+  content: " ";
+  display: table;
+  clear: both;
 }
 .article__footer .seller {
   display: inline-block;
@@ -1143,6 +1153,26 @@ a {
   font-weight: 400;
   vertical-align: top;
   margin-left: 8px;
+}
+
+.article__button {
+  float: left;
+  height: 100px;
+  width: 25%;
+  white-space: nowrap;
+}
+.article__button p {
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  color: #9fa0a1;
+}
+.article__button a {
+  font-size: 14px;
+  display: block;
+  color: #52abf0;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1982,6 +2012,7 @@ aside .search__blue label {
 .seller__img img {
   max-width: 100%;
   vertical-align: top;
+  border-radius: 100%;
 }
 .seller__text strong {
   vertical-align: top;
@@ -2943,12 +2974,6 @@ aside .search__blue label {
   font-size: 48px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 600;
-}
-
-.article__button {
-  float: left;
-  height: 100px;
-  width: 25%;
 }
 
 .clear {
