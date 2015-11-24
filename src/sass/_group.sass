@@ -1,0 +1,93 @@
+.info
+	margin-top: 20px
+	+clr
+.info__link
+	display: block
+	margin-bottom: 5px
+	span
+		font-size: 18px
+		color: $blue
+		+os
+	&:hover
+		span
+			text-decoration: underline
+	&:active
+		span
+			color: #2693BF
+
+.article
+	background-color: #fff
+	margin-bottom: 13px
+	+clr
+.article__container
+	padding: 35px 44px
+	+box
+	+clr
+.article__text
+	+clr
+	p
+		font-size: 18px
+		color: $black
+		+osl
+.article__img
+	float: left
+	max-width: 100%
+	margin: 30px 15px 30px 0
+	img
+		max-width: 100%
+.article__footer
+	border-top: 1px solid #ecf0f4
+	.seller
+		display: inline-block
+		margin-bottom: 0
+		transform: translate(0, -50%)
+		padding-left: 45px
+		margin-left: 0
+	.seller__text
+		white-space: nowrap
+	.seller__img:after
+		content: none
+.article__centering
+	margin-top: 50px
+	transform: translate(-50%, -50%)
+	margin-left: 50%
+	// transform: translate(-50%)
+.article__name
+	float: left
+	border-right: 1px solid #ecf0f4
+	width: 23%
+	height: 100px
+	// padding-left: 45px
+	+box
+.article__tag
+	float: left
+	height: 100px
+	width: 16.5%
+	white-space: nowrap
+	border-right: 1px solid #ecf0f4
+	p
+		font-size: 14px
+		color: #727376
+		+osl
+
+.article__rating
+	float: left
+	width: 11%
+	height: 100px
+	white-space: nowrap
+	border-right: 1px solid #ecf0f4
+	&:hover,
+	&.is_active
+		.icon-star
+			+s(icon-star-active)
+		.icon-cool
+			+s(icon-cool-active)
+		.icon-mes
+			+s(icon-mes-active)
+	span
+		display: inline-block
+		font-size: 18px
+		color: $black
+		+os
+		vertical-align: top
+		margin-left: 8px

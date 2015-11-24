@@ -221,6 +221,11 @@ $(document).ready(function() {
 		moreLink: '<a class="read__more" href="#"><span>Все участники </span><i class="icon-next"></i></a',
 		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-prev"></i></a>'
 	});
+	// активауия значков рейтинга в статьях
+	$('.article__rating').on('click', function() {
+		$(this).toggleClass('is_active');
+		return false;
+	});
 
 
 
