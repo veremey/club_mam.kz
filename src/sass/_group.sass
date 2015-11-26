@@ -1,4 +1,4 @@
-// group .. groups.. stati .. post ..
+// group .. groups.. stati .. post ..group_category ..
 .info
 	margin-top: 20px
 	+clr
@@ -32,12 +32,40 @@
 		font-size: 18px
 		color: $black
 		+osl
+	.article__text_smaller
+		font-size: 18px
+
 .article__img
 	float: left
 	max-width: 100%
 	margin: 30px 15px 30px 0
 	img
 		max-width: 100%
+.article__img_text
+	margin: 50px 0
+	+clr
+	img
+		float: left
+		max-width: 66%
+	p
+		float: right
+		width: 22%
+		margin-right: 10%
+		font-size: 14px
+		color: #9195A1
+		margin-top: 15px
+.article__list
+	margin: 70px 30px 55px 65px
+	li
+		color: $black
+		font-size: 18px
+		margin-bottom: 7px
+		vertical-align: middle
+		+osl
+		i
+			margin-right: 15px
+			vertical-align: top
+
 .article__picture
 	float: left
 	width: 105px
@@ -52,23 +80,23 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
-	.seller
-		display: inline-block
-		margin-bottom: 0
-		transform: translate(0, -50%)
-		padding-left: 45px
-		margin-left: 0
+	// .seller//++++++++
+	// 	display: inline-block//++++++++
+	// 	margin-bottom: 0//++++++++
+	// 	transform: translate(0, -50%)//++++++++
+	// 	padding-left: 45px//++++++++
+	// 	margin-left: 0//++++++++
 	.seller__text
 		white-space: nowrap
 	.seller__img:after
 		content: none
-	.say
-		padding-left: 45px
-		transform: translate(0, -50%)
-.article__centering
-	margin-top: 50px
-	transform: translate(-50%, -50%)
-	margin-left: 50%
+	// .say//++++++++
+	// 	padding-left: 45px//++++++++
+	// 	transform: translate(0, -50%)//++++++++
+// .article__centering//+++++
+// 	margin-top: 50px//+++++
+// 	transform: translate(-50%, -50%)//+++++
+// 	margin-left: 50%//+++++
 	// transform: translate(-50%)
 .article__name
 	float: left
@@ -78,6 +106,7 @@
 	// padding-left: 45px
 	+box
 .article__tag
+	position: relative
 	float: left
 	height: 100px
 	width: 16.5%
@@ -129,8 +158,9 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
-	.article__centering
-		display: inline-block
+	// .article__centering//++++++++
+	// 	display: inline-block//++++++++
+
 
 .say
 	float: left
@@ -141,6 +171,10 @@
 	color: $black
 	white-space: nowrap
 	+os
+	p
+		font-size: 14px
+		color: #727376
+		+osl
 .article__soc
 	width: 10%
 	height: 100px
@@ -361,7 +395,7 @@
 	.article__rating
 		width: 17%
 	.article__button
-		width: 11%
+		width: 21%
 
 
 
@@ -462,3 +496,58 @@
 	color: $blue
 	&:hover
 		color: $blued
+
+.gad
+	transform: translate(-50%, 0)
+
+
+
+.gang
+	width: 24%
+	float: left
+	margin-right: 1%
+	position: relative
+	background-color: #FFF
+	padding: 30px 0 40px
+	+clr
+	&:nth-child(4n)
+		margin-right: 0
+	.read__more
+		margin-left: 40px
+		color: $blue
+		font-size: 16px
+		+os
+		&:hover
+			color: $blued
+		span
+			vertical-align: top
+.gang__header
+	position: relative
+	border-bottom: 1px solid #eef1f3
+	padding-bottom: 20px
+	padding: 0 40px 30px
+	min-height: 111px
+
+.gang__img
+	position: absolute
+	top: 0
+	left: 35px
+	width: 65px
+	height: 65px
+	img
+		max-width: 100%
+		vertical-align: top
+		-webkit-border-radius: 100%
+		border-radius: 100%
+.gang__list
+	font-size: 0
+	padding: 40px 40px 0
+	li
+		margin-bottom: 25px
+	a
+		display: inline-block
+		color: $black
+		font-size: 16px
+		+os
+		&:hover
+			color: $blue

@@ -222,6 +222,17 @@ $(document).ready(function() {
 		moreLink: '<a class="read__more" href="#"><span>Все участники </span><i class="icon-next"></i></a',
 		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-prev"></i></a>'
 	});
+	//read more
+	$('.js_gang_more').readmore({
+		speed: 75,
+		collapsedHeight: 380,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"> Показать еще <span> (12) </span></a',
+		lessLink: '<a class="read__more" href="#">Скрыть </a>'
+	});
+
+
+
 	// активауия значков рейтинга в статьях
 	$('.article__rating').on('click', function() {
 		$(this).toggleClass('is_active');

@@ -14,8 +14,21 @@
 		+os
 
 .slider__footer
+	position: relative
 	padding: 25px 35px
 	+clr
+.slider__footer_wrap
+	+vcenter
+	width: 75%
+	a
+		display: inline-block
+		margin-top: 5px
+		font-size: 14px
+		color: $blue
+		+os
+		+ .slider__footer_mesage
+			a
+				margin-top: 0
 .slider__footer_user
 	float: left
 	a
