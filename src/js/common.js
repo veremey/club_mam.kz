@@ -238,6 +238,31 @@ $(document).ready(function() {
 		return false;
 	});
 
+	// переключатель показа цветов изделия
+	$('.js_color').click(function() {
+		// alert('asdasdsd');
+		$(this).siblings().removeClass('is_active');
+		$(this).addClass('is_active');
+		return false;
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -439,3 +464,5 @@ $(document).ready(function() {
 
 
 });
+
+// if(document.querySelector('.selector') == null) return;
