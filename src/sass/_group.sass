@@ -683,11 +683,11 @@
 	float: left
 	position: relative
 	border-right: 1px solid #f3f5f7
-	padding-bottom: 35px
+	padding-bottom: 28px
 	+clr
 .view__color
 	text-align: left
-	margin: 25px
+	margin: 25px 25px 10px
 	+clr
 .view__color_info
 	float: left
@@ -727,7 +727,8 @@
 		+vcenter
 
 .view__preview
-	padding: 10px 25px
+	padding: 10px 25px 0
+	+clr
 .view__preview-img
 	float: left
 	margin-right: 5px
@@ -871,7 +872,7 @@
 
 .configure__type
 	text-align: left
-	padding: 54px 30px
+	padding: 46px 30px 40px
 	p
 		color: #979FA6
 		font-size: 16px
@@ -880,3 +881,85 @@
 		span
 			color: $black
 			margin-left: 5px
+
+
+
+.js_half_more
+	+ .read__more
+		position: relative
+		z-index: 10
+		padding-top: 5px
+		-webkit-box-shadow: 0 -10px 20px 0 #fff
+		box-shadow: 0 -10px 20px 0 #fff
+		span
+			color: $blue
+			font-size: 16px
+			margin-left: 10px
+			+osl
+
+
+.show__comment
+	padding: 30px
+	background-color: #F7F8F9
+	margin-bottom: 5px
+	.stars
+		float: left
+		margin-right: 10px
+	p
+		font-size: 18px
+		color: $black
+		+osl
+
+.more__comments_get
+	display: block
+	margin: 30px 0 0px
+	text-align: center
+	white-space: nowrap
+	height: 30px
+	span
+		display: inline-block
+		color: $blue
+		font-size: 16px
+		vertical-align: top
+		+osl
+	i
+		margin-right: 10px
+.function__heder
+	width: 50%
+	float: right
+	position: absolute
+	top: 33px
+	right: 50px
+	border-bottom: 1px solid #f3f5f7
+	height: 50px
+	a
+		display: inline-block
+		line-height: 50px
+		position: relative
+		font-size: 16px
+		margin-right: 15px
+		color: $black
+		+osl
+		&:hover
+			color: $blue
+		&.is_active::after
+			content: ""
+			position: absolute
+			left: 0
+			height: 5px
+			width: 100%
+			background-color: $purpur
+			bottom: -2px
+
+.function__name
+	width: 100%
+	p
+		width: 50%
+		float: left
+		font-size: 16px
+		color: #979FA6
+		+osl
+		margin-bottom: 10px
+	.function__get
+		float: right
+		color: $black

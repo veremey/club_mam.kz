@@ -231,6 +231,16 @@ $(document).ready(function() {
 		lessLink: '<a class="read__more" href="#">Скрыть </a>'
 	});
 
+	//conntainer half
+
+	$('.js_half_more').readmore({
+		speed: 75,
+		collapsedHeight: 180,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"> <i class="icon-bot"></i> <span>Еще</span> </a',
+		lessLink: '<a class="read__more" href="#"> <i class="icon-top"></i> <span>Скрыть</span> </a>'
+	});
+
 
 
 	// активауия значков рейтинга в статьях
