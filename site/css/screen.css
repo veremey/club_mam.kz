@@ -2004,11 +2004,13 @@ a {
 .gang {
   width: 24%;
   float: left;
+  text-align: left;
   margin-right: 1%;
   margin-bottom: 10px;
   position: relative;
   background-color: #FFF;
   padding: 30px 0 20px;
+  border-radius: 5px;
   *zoom: 1;
 }
 .gang:after {
@@ -4155,6 +4157,154 @@ aside .search__blue label {
   margin-left: 15px;
 }
 
+.baner {
+  *zoom: 1;
+}
+.baner:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.baner__club {
+  position: relative;
+  width: 36%;
+  float: left;
+  padding: 5% 4% 7%;
+  background-color: #38b7ea;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.baner__club p {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+.baner__club .mammy {
+  position: absolute;
+  bottom: 100px;
+  right: 60px;
+}
+.baner__comment {
+  position: relative;
+  width: 36%;
+  float: left;
+  margin: 0 1%;
+  padding: 5% 4% 7%;
+  background-color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+}
+.baner__comment .snake {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+.baner__comment .baner__user {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.baner__comment .baner__user img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.baner__comment p,
+.baner__comment strong {
+  font-size: 16px;
+  color: #23252a;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+.baner__comment strong {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+.baner__statistic {
+  position: relative;
+  width: 26%;
+  float: left;
+  padding: 5% 4% 7%;
+  background-color: #eb6c96;
+  border-radius: 5px;
+  text-align: center;
+}
+.baner__statistic p {
+  color: #FFF;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+.baner__statistic strong {
+  font-size: 48px;
+  color: #FFF;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+.baner__statistic .chika {
+  position: relative;
+  overflow: hidden;
+  height: 12px;
+  background-image: url("../img/wave.png");
+  background-position: center;
+  background-repeat: repeat-x;
+}
+.baner__statistic .chika span {
+  padding: 0 10px;
+  font-size: 16px;
+  text-transform: lowercase;
+  text-align: center;
+  background-color: #eb6c96;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.baner__commiting {
+  width: 80%;
+  margin: 30px auto 6px;
+}
+.baner__commiting p {
+  line-height: 26px;
+}
+.baner__commiting a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #52abf0;
+  text-decoration: underline;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+.baner__commiting a:hover {
+  text-decoration: none;
+}
+
+.represent {
+  text-align: center;
+  *zoom: 1;
+}
+.represent:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.represent .btn {
+  margin: 55px auto 20px;
+}
+
 .icon-ledy {
   display: inline-block;
   background-image: url("../img/icons.png");
@@ -4713,13 +4863,18 @@ aside .search__blue label {
   min-height: 65px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
-}
-.title__gang span {
   display: inline-block;
-  margin-top: 33px;
+  margin-top: 43px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+.title__gang sup {
+  font-size: 11px;
+  color: #eb6c96;
+  vertical-align: top;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
 }
 
 .title__small {
@@ -4824,6 +4979,24 @@ aside .search__blue label {
   border: 1px solid #8c919b;
 }
 
+.btn__white {
+  background-color: #FFF;
+  height: 50px;
+  padding: 0 30px;
+  color: #52abf0;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 35px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+.btn__white:hover {
+  color: #23252a;
+}
+.btn__white:active {
+  box-shadow: 0 0 12px 0px #fff;
+}
+
 .clear {
   height: 0;
   display: table;
@@ -4885,6 +5058,15 @@ aside .search__blue label {
 
 .get__right {
   float: right;
+}
+
+.thematic {
+  text-align: center;
+  font-size: 18px;
+  color: #575C65;
+  margin-bottom: 45px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
 }
 
 .js-accordeon-post {
@@ -5426,6 +5608,14 @@ aside .search__blue label {
   color: #23252a;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
+}
+
+.reduce {
+  width: 24%;
+  margin-right: 1% !important;
+}
+.reduce:last-child {
+  margin-right: 0 !important;
 }
 
 
