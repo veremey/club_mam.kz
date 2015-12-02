@@ -105,3 +105,76 @@
 	+clr
 	.btn
 		margin: 55px auto 20px
+
+.iscra
+	padding: 4% 3%
+	text-align: center
+	+clr
+	a
+		font-size: 14px
+		color: $blue
+		+osl
+		&:hover
+			text-decoration: underline
+	.title__small
+		margin: 10px 0 15px
+.represent__icons
+	margin: 0 auto 15px
+	display: inline-block
+	a
+		vertical-align: top
+	span
+		display: inline-block
+		font-size: 14px
+		+os
+		color: $black
+		vertical-align: top
+		margin: 5px 20px 0 5px
+
+.represent__text
+	position: relative
+	text-align: center
+	width: 80%
+	margin: 0 auto 30px
+	padding-bottom: 30px
+	border-bottom: 1px solid #f3f5f7
+	&:after
+		content: ""
+		position: absolute
+		bottom: -6px
+		left: 50%
+		+s(arr)
+
+	p
+		font-size: 18px
+		line-height: 26px
+		color: $black
+		+osl
+
+
+
+.represent__author
+	display: inline-block
+	white-space: nowrap
+	width: 155px
+	+clr
+
+.trans
+	background-color: $n
+	padding: 0 !important
+	.slider__post_item
+		width: 49%
+		float: left
+		text-align: left
+		margin: 0 2% 0 0
+		background-color: #FFF
+		margin-bottom: 10px
+		&:nth-child(2n)
+			margin-right: 0
+	.slider__post_header
+		max-height: 115px
+		height: 115px
+		-webkit-box-shadow: inset 0 -15px 18px -3px #fff
+		box-shadow: inset 0 -15px 18px -3px #fff
+	.slider__footer
+		height: 73px
