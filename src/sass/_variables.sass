@@ -31,6 +31,48 @@
 	display: none
 	+r(650)
 		display: inline-block
+.show650
+	+r(650)
+		display: block
+.show960
+	+r(960)
+		display: block
+.show1250
+	+r(1250)
+		display: block
+.hide650
+	+r(650)
+		display: none
+.hide1250
+	+r(1250)
+		display: none
+
+.hide750
+	display: block
+	+r(750)
+		display: none
+.hide960
+	display: block
+	+r(960)
+		display: none
+.quatanava1250
+	+r(1250)
+		background-color: #FFF
+		display: block
+		width: 100% !important
+		.sidebox,
+		.sidebox__short
+			width: auto
+			float: left
+			+r(650)
+				width: 100%
+.top200
+	clear: both
+	background-color: $n
+	height: 200px
+	+r(651)
+		height: 80px
+
 .center
 	margin: 0 auto
 	text-align: center
@@ -135,10 +177,15 @@
 		+tr(.5s)
 		+placeholder
 			color: $n
+		+r(650)
+			height: 40px
+			margin-top: 14px
 		&:focus
 			width: 240px
 			+r(800)
 				width: 190px
+			+r(650)
+				width: 50px
 	.btn-search
 		position: absolute
 		top: 25px
@@ -198,6 +245,9 @@
 	margin: 120px 0 90px
 	+osl
 	+clr
+	+r(750)
+		width: 260px
+		margin: 40px auto 25px
 .pages__top
 	position: relative
 	+clr
@@ -206,6 +256,11 @@
 	font-size: 0
 	+vcenter
 	+clr
+	+r(750)
+		position: relative
+		left: 0
+		transform: translate(0, 0)
+		float: left
 	li
 		float: left
 		margin-right: -1px
@@ -220,6 +275,8 @@
 		display: block
 		padding: 0 15px
 		+tr(.3s)
+		+r(750)
+			padding: 0 13px
 		&:hover,
 		&.is_active
 			color: $purpur
@@ -235,9 +292,20 @@
 	-webkit-border-radius: 5px
 	border-radius: 5px
 	+box
+	+r(750)
+		width: 55px
+		padding: 1px 15px 0
+		span
+			display: none
 	&:hover
 		-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, .5) inset
 		box-shadow: 0 0 10px rgba(0, 0, 0, .5) inset
+	&.no_active
+		i
+			+gray
+		&:hover
+			-webkit-box-shadow: none
+			box-shadow: none
 	span
 		float: right
 		color: $black
@@ -245,7 +313,7 @@
 		+osl
 	i
 		float: left
-		margin-top: 10px
+		margin-top: 8px
 .page__prev
 	float: left
 .page__next
@@ -266,13 +334,19 @@
 		i
 			float: right
 			margin-top: 10px
+			+r(750)
+				display: none
 .page__number
 	background-color: $n
 	font-size: 16px
+	+r(750)
+		text-align: center
 	+placeholder
 		font-size: 14px
 		color: $black
 		+osl
+		+r(750)
+			text-align: center
 .categories
 	width: 100%
 	margin: 90px 0

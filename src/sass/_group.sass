@@ -688,16 +688,23 @@
 	border-right: 1px solid #f3f5f7
 	padding-bottom: 28px
 	+clr
+	+r(1130)
+		width: 50%
+	+r(960)
+		width: 100%
+		border-right: 0
 .view__color
 	text-align: left
 	margin: 25px 25px 10px
 	+clr
+	+r(380)
+		margin: 25px 10px 10px
 .view__color_info
+	position: relative
 	float: left
 	display: block
 	height: 40px
 	width: 43px
-	overflow: hidden
 	margin-right: 10px
 	padding: 3px 5px
 	-webkit-border-radius: 35px
@@ -705,15 +712,26 @@
 	border: 1px solid #e1e7ec
 	+tr(.5s)
 	+clr
+	+r(380)
+		margin-right: 5px
 	&:hover
 		.color__text
 			color: $purpur
 	&.is_active
 		width: auto
+		.color__text
+			display: inline-block
+		&:after
+			content: ""
+			position: absolute
+			bottom: -5px
+			left: 50%
+			margin-left: -5px
+			+s(arr)
 .color__text
 	line-height: 30px
 	vertical-align: top
-	display: inline-block
+	display: none
 	margin: 0 10px
 	color: #23252A
 	font-size: 12px
@@ -745,21 +763,41 @@
 		max-height: 100%
 		vertical-align: top
 
+.controller
+	display: none
+	+clr
+	+r(960)
+		display: block
+		padding: 50px 40px
+		position: relative
+		text-align: left
+	+r(651)
+		padding: 20px
 
 .configure
 	width: 54%
 	float: right
+	+r(1130)
+		width: 50%
+	+r(960)
+		width: 100%
+		overflow: hidden
 .configure__header
 	width: 100%
 	height: 70px
 	border-bottom: 1px solid #E1E7EC
 	+clr
+	+r(960)
+		background-color: #f3f5f7
+		border-right: 0
 .configure__header_in
 	position: relative
 	width: 33%
 	float: left
 	height: 70px
 	border-right: 1px solid #e1e7ec
+	+r(960)
+		display: none
 .configure__header_center
 	+vcenter
 	width: 100%
@@ -775,21 +813,33 @@
 		color: $black
 		vertical-align: top
 		+osl
+	&.show960
+		width: auto
+		float: right
+		margin: 20px 20px 0
+		+r(360)
+			margin: 20px 5px 0
 .configure__header_rate
 	position: relative
 	width: 67%
 	float: left
 	height: 70px
 	+clr
+	+r(960)
+		width: 100%
 .configure__header_box
 	white-space: nowrap
 	+clr
 	.stars
 		float: left
 		margin-left: 20px
+		+r(1350)
+			margin-left: 10px
 	p
 		margin-left: 10px
 		float: left
+		+r(1350)
+			margin-left: 0
 	.new
 		top: 0
 		left: auto
@@ -801,6 +851,10 @@
 	padding-top: 30px
 	border-bottom: 1px solid #e1e7ec
 	+clr
+	+r(960)
+		background-color: #f3f5f7
+		height: auto
+		padding-bottom: 30px
 	button
 		float: left
 		margin-left: 10px
@@ -825,6 +879,11 @@
 	width: 42%
 	float: left
 	padding-left: 20px
+	min-width: 195px
+	+clr
+	+r(651)
+		width: 100%
+		float: none
 	s
 		display: block
 		font-size: 20px
@@ -838,24 +897,30 @@
 		font-size: 40px
 		color: $black
 		+osb
+		+r(651)
+			font-size: 50px
 		span
 			font-size: 32px
 			text-transform: lowercase
 			+osl
 			color: $black
+			+r(651)
+				font-size: 39px
 
 
 .configure__check
 	height: 110px
 	border-bottom: 1px solid #f3f5f7
 	+clr
+	+r(960)
+		background-color: #f3f5f7
 .configure__check_item
 	height: 110px
 	position: relative
 	width: 33.2%
 	float: left
 	position: relative
-	border-right: 1px solid #f3f5f7
+	border-right: 1px solid #F3F5F7
 	&:last-child
 		border-right: 0
 	&:hover
@@ -871,7 +936,10 @@
 	span
 		font-size: 14px
 		color: $blue
+		vertical-align: top
 		+osl
+		+r(380)
+			font-size: 12px
 
 .configure__type
 	text-align: left
@@ -885,7 +953,19 @@
 			color: $black
 			margin-left: 5px
 
+.dota
+	+r(960)
+		width: 100%
+	+r(651)
+		padding: 20px
 
+.indente
+	+r(651)
+		+ .btn
+			display: block
+			float: none !important
+			width: 100%
+			margin-bottom: 20px
 
 .js_half_more
 	+ .read__more
@@ -935,6 +1015,29 @@
 	right: 50px
 	border-bottom: 1px solid #f3f5f7
 	height: 50px
+	+r(1500)
+		width: 45%
+	+r(1370)
+		width: 40%
+		min-width: 235px
+	+r(1280)
+		width: 50%
+		float: left
+		top: 75px
+		right: auto
+		left: 40px
+		font-size: 16px
+	+r(960)
+		top: 30px
+		left: auto
+		right: 20px
+	+r(651)
+		width: 100%
+		float: left
+		top: 75px
+		right: auto
+		left: 20px
+		font-size: 16px
 	a
 		display: inline-block
 		line-height: 50px
@@ -943,6 +1046,10 @@
 		margin-right: 15px
 		color: $black
 		+osl
+		+r(1370)
+			font-size: 15px
+		&:last-child
+			margin-right: 0
 		&:hover
 			color: $blue
 		&.is_active::after
@@ -963,6 +1070,18 @@
 		color: #979FA6
 		+osl
 		margin-bottom: 10px
+		+r(1135)
+			width: 100%
+			&:nth-child(odd)
+				margin-bottom: 0
+		+r(960)
+			width: 50%
+			&:nth-child(odd)
+				margin-bottom: 10px
+		+r(651)
+			width: 100%
+			&:nth-child(odd)
+				margin-bottom: 0
 	.function__get
 		float: right
 		color: $black
