@@ -22,6 +22,8 @@ $(document).ready(function() {
 	//close-block
 	$('.js-close').on('click', function(){
 		$(this).closest('.js-close-block').slideUp();
+		$('.js_popup').removeClass('is_active');
+		$('.js_popup_filter').removeClass('is_active');
 	});
 
 	// check select
@@ -128,61 +130,48 @@ $(document).ready(function() {
 	});
 
 
-	// // slick carousel
+	// slick carousel
+	if($(document).width() < 651){
+		$('.js-repres_slider').slick({
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			// speed: 600,
+			adaptiveHeight: true,
+			autoplay: true,
+			autoplaySpeed: 20000,
+			prevArrow: $('.js-slider__back'),
+			nextArrow: $('.js-slider__next')
+		});
+	};
 
-	// $('.js-carousel').slick({
-	// 	slidesToShow: 1,
-	// 	slidesToScroll: 1,
-	// 	arrows: false,
-	// 	fade: true,
-	// 	asNavFor: '.js-carousel-preview',
-	// });
-	// $('.js-carousel-preview').slick({
-	// 	slidesToShow: 5,
-	// 	slidesToScroll: 1,
-	// 	asNavFor: '.js-carousel',
-	// 	dots: false,
-	// 	arrows: true,
-	// 	infinite: false,
-	// 	centerMode: false,
-	// 	focusOnSelect: true,
-	// });
+	// активауия значков рейтинга в статьях
+	$('.article__rating').on('click', function() {
+		$(this).toggleClass('is_active');
+		return false;
+	});
 
-	// $(".js-carousel-preview .slick-slide").on("click",function (){
-	//   $(this).parent().find(".slick-slide").removeClass("is-active");
-	//   $(this).addClass("is-active")
-	//   return false;
-	// });
+	// переключатель показа цветов изделия
+	$('.js_color').click(function() {
+		$(this).siblings().removeClass('is_active');
+		$(this).addClass('is_active');
+		return false;
+	});
 
 
+	// popup
+	$('.js_popup').on('click', function() {
+		$(this).removeClass('is_active');
+		$('.js_popup_filter').removeClass('is_active');
+	});
 
-	// // slick carousel
-
-	// $('.js-swing').slick({
-	// 	slidesToShow: 1,
-	// 	slidesToScroll: 1,
-	// 	arrows: false,
-	// 	fade: true,
-	// 	asNavFor: '.js-swing-preview',
-	// });
-	// $('.js-swing-preview').slick({
-	// 	slidesToShow: 5,
-	// 	slidesToScroll: 1,
-	// 	asNavFor: '.js-swing',
-	// 	dots: false,
-	// 	arrows: true,
-	// 	vertical: true,
-	// 	infinite: false,
-	// 	centerMode: false,
-	// 	focusOnSelect: true,
-	// });
-
-	// $(".js-swing-preview .slick-slide").on("click",function (){
-	//   $(this).parent().find(".slick-slide").removeClass("is-active");
-	//   $(this).addClass("is-active")
-	//   return false;
-	// });
-
+	//filter
+	$('.js_filter').on('click', function() {
+		$('.js_popup_filter').addClass('is_active');
+		$('.js_popup').addClass('is_active');
+		$('html, body').animate({ scrollTop: $('.out').offset().top }, 500 );
+		return false;
+	});
 
 	// подмена картинки
 
@@ -243,19 +232,6 @@ $(document).ready(function() {
 
 
 
-	// активауия значков рейтинга в статьях
-	$('.article__rating').on('click', function() {
-		$(this).toggleClass('is_active');
-		return false;
-	});
-
-	// переключатель показа цветов изделия
-	$('.js_color').click(function() {
-		// alert('asdasdsd');
-		$(this).siblings().removeClass('is_active');
-		$(this).addClass('is_active');
-		return false;
-	});
 
 
 
@@ -267,10 +243,21 @@ $(document).ready(function() {
 
 
 
-
-
-
-
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
+// #####################
 
 
 

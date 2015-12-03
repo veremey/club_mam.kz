@@ -102,17 +102,26 @@
 	user-select: none
 	+box
 	+osl
+	+r(1150)
+		// min-width: 215px
+		background-color: $n
+		border: 0
 	&:before
 		content: ""
 		position: absolute
 		top: 15px
 		right: 10px
 		+s(bird1)
+		+r(1150)
+			top: 5px
+			right: -15px
+			+s(icon-bot-small)
 
 .select__list
 	position: absolute
 	display: none
 	width: 100%
+	min-width: 215px//??
 	left: 1px
 	right: 1px
 	top: 34px
@@ -209,6 +218,8 @@
 		float: right
 		+r(1150)
 			display: inline-block
+			width: auto
+			float: none
 		+r(340)
 			width: calc(100% - 90px)
 		li,
@@ -322,6 +333,9 @@
 .centermode
 	margin-top: 37px
 	transform: translateY(-50%)
+	span
+		display: inline-block
+		margin-bottom: 5px
 	span,
 	p
 		font-size: 14px

@@ -84,7 +84,7 @@ body
 	line-height: 1.5
 	background-color: #F3F5F7
 	width: 100%
-	min-width: 460px
+	// min-width: 300px
 
 .container__big
 	width: 90%
@@ -99,6 +99,8 @@ body
 	// +r(650)
 	+r(1860)//&&&
 		width: 90%
+	+r(750)
+		margin-top: 30px
 
 
 .container__half
@@ -129,3 +131,34 @@ a
 	min-height: 100%
 	height: auto
 	padding-top: 0
+
+
+// popup
+
+.popup
+	+coverdiv
+	position: fixed
+	background-color: rgba(0, 0, 0, .6)
+	z-index: 1000
+	display: none
+	&.is_active
+		display: block
+
+.popup__filter
+	position: absolute
+	padding-top: 30px
+	top: 0
+	left: -1500px
+	width: 80%
+	background-color: #FFF
+	z-index: 1500
+	+clr
+	+tr(.5s)
+	&.is_active
+		left: 0
+		+tr(.5s)
+	.title__gang
+		margin-left: 20px
+	.btn-close
+		top: 50px
+		right: 20px

@@ -9,14 +9,34 @@
 		-webkit-border-radius: 5px
 		border-radius: 5px
 		+box
+		+r(1000)
+			width: 100%
 		p
 			color: #fff
 			font-size: 36px
 			+os
+			+r(1160)
+				font-size: 30px
+			+r(650)
+				font-size: 28px
 		.mammy
 			position: absolute
 			bottom: 100px
 			right: 60px
+			+r(1450)
+				right: 30px
+			+r(1360)
+				bottom: 60px
+			+r(1250)
+				bottom: 30px
+			+r(1160)
+				bottom: 30px
+				right: 15px
+			+r(1000)
+				right: 60px
+				bottom: 60px
+			+r(500)
+				display: none
 	&__comment
 		position: relative
 		width: 36%
@@ -27,10 +47,18 @@
 		-webkit-border-radius: 5px
 		border-radius: 5px
 		text-align: center
+		+r(1000)
+			width: 100%
+			margin: 45px 0 15px
+			padding-top: 7%
+		+r(650)
+			padding-top: 50px
 		.snake
 			position: absolute
 			bottom: 30px
 			right: 40px
+			+r(500)
+				display: none
 		.baner__user
 			position: absolute
 			top: -40px
@@ -43,6 +71,10 @@
 			-webkit-border-radius: 100%
 			border-radius: 100%
 			overflow: hidden
+			// +r(650)
+			// 	width: 40px
+			// 	height: 40px
+			// 	top: -15px
 			img
 				max-width: 100%
 				max-height: 100%
@@ -51,17 +83,24 @@
 			font-size: 16px
 			color: $black
 			+osl
+			// +r(650)
+			// 	font-size: 12px
 		strong
 			+ossb
 	&__statistic
 		position: relative
 		width: 26%
+		// min-width: 265px
 		float: left
 		padding: 5% 4% 7%
 		background-color: $purpur
 		-webkit-border-radius: 5px
 		border-radius: 5px
 		text-align: center
+		+r(1150)
+			padding: 5% 2% 7%
+		+r(1000)
+			width: 100%
 		p
 			color: #FFF
 			font-size: 16px
@@ -70,6 +109,14 @@
 			font-size: 48px
 			color: #FFF
 			+os
+			+r(1530)
+				font-size: 40px
+			+r(1275)
+				font-size: 36px
+			+r(1000)
+				display: inline-block
+				font-size: 38px//!!!
+				margin: 10px 0
 		.chika
 			position: relative
 			overflow: hidden
@@ -105,6 +152,40 @@
 	+clr
 	.btn
 		margin: 55px auto 20px
+	.gang
+		padding-bottom: 0
+		margin-right: 1%
+		&:hover
+			opacity: 0.6
+		+r(1280)
+			width: 32%
+		+r(1000)
+			width: 49%
+		+r(650)
+			width: 100%
+			margin-right: 0
+			.gang__img
+				top: 10px
+	.quick
+		text-align: left
+		left: 0
+		width: 100%
+		a
+			padding-left: 40px
+	.container__half
+		+r(900)
+			width: 100%
+	.qas
+		&:hover
+			.swing__preview
+				display: none !important
+
+	.title__slider_wrap
+		display: none
+		+r(650)
+			display: block
+			clear: both
+
 
 .iscra
 	padding: 4% 3%
@@ -171,10 +252,21 @@
 		margin-bottom: 10px
 		&:nth-child(2n)
 			margin-right: 0
+		+r(650)
+			width: 100%
+			margin: 10px 0
 	.slider__post_header
+		position: relative
 		max-height: 115px
 		height: 115px
-		-webkit-box-shadow: inset 0 -15px 18px -3px #fff
-		box-shadow: inset 0 -15px 18px -3px #fff
+		overflow: hidden
+		&:after
+			content: ''
+			position: absolute
+			bottom: 0
+			left: 0
+			width: 100%
+			height: 18px
+			+g(rgba(255, 255, 255, .6), #fff)
 	.slider__footer
 		height: 73px

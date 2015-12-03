@@ -124,8 +124,8 @@
 		<div class="main">
 			<div class="main__header">
 				<h2 class="title__main">Детская одежда и обувь</h2>
-				<form action="/" class="search__blue">
-					<button class="btn btn-red col-xl-0">Фильтр</button>
+				<form action="" class="search__blue">
+					<button class="btn btn-red col-xl-0 js_filter">Фильтр</button>
 					<div class="search__blue_wrap">
 						<label for="searchField">Поиск в категории</label>
 						<input type="text" class="search__field" name="searchField" placeholder="Поиск в категории">
@@ -546,12 +546,81 @@
 		</div>
 	</div>
 </footer>
+<div class="popup js_popup"></div>
+<div class="popup__filter js_popup_filter">
+
+	<h2 class="title__gang">Фильтр</h2>
+	<button class="btn-close js-close"></button>
+	<div class="sidebox">
+		<h5 class="title__gray">Тип</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="bye">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="bye" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Цена</h5>
+
+		<div class="ui-slider js-ui-slider">
+			<div class="ui-slider__top">
+
+				<input type="text" class="input js-ui-slider-from">
+				<span>-</span>
+				<input type="text" class="input js-ui-slider-to">
+				<button class="btn btn__blue_bg">Ok</button>
+				</div>
+				<div class="js-ui-slider-main"></div>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Производитель</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="produce">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+
+		<div class="select js-select">
+			<span class="select__text js-select-text"></span>
+			<input type="hidden" class="js-select-input" value="">
+			<ul class="select__list js-select-list">
+				<li data-id="0">Все размеры</li>
+				<li data-id="1">Детям</li>
+				<li data-id="2">Дядям</li>
+			</ul>
+		</div>
+</div>
 <!-- load scripts -->
 <script src="js/lib/jquery.js"></script>
 <script src="js/lib/jquery-ui.min.js"></script>
-<!-- <script src="js/lib/bootstrap.min.js"></script> -->
-<!-- <script src="js/lib/slick.min.js"></script> -->
-<!-- <script src="js/lib/jquery.fancybox.js"></script> -->
 <script src="js/app.js"></script>
 </body>
 </html>
