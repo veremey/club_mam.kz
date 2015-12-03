@@ -1452,6 +1452,7 @@ a {
   float: left;
   border-right: 1px solid #ecf0f4;
   width: 23%;
+  min-width: 195px;
   height: 100px;
   box-sizing: border-box;
 }
@@ -1463,6 +1464,11 @@ a {
   width: 16.5%;
   white-space: nowrap;
   border-right: 1px solid #ecf0f4;
+}
+@media only screen and (max-width: 870px) {
+  .article__tag {
+    display: none;
+  }
 }
 .article__tag p {
   font-size: 14px;
@@ -1477,6 +1483,11 @@ a {
   height: 100px;
   white-space: nowrap;
   border-right: 1px solid #ecf0f4;
+}
+@media only screen and (max-width: 870px) {
+  .article__rating {
+    width: 13%;
+  }
 }
 .article__rating:hover .icon-star, .article__rating.is_active .icon-star {
   background-image: url("../img/icons.png");
@@ -1663,20 +1674,6 @@ a {
   font-weight: 300;
 }
 
-.icon-minus:hover {
-  background-image: url("../img/icons.png");
-  width: 23px;
-  height: 24px;
-  background-position: -223px -115px;
-}
-
-.icon-plus:hover {
-  background-image: url("../img/icons.png");
-  width: 23px;
-  height: 24px;
-  background-position: -223px -59px;
-}
-
 .subcommentar__benefit {
   position: absolute;
   top: 35px;
@@ -1833,7 +1830,6 @@ a {
 .commentar__editor {
   margin-right: 9%;
   border: 1px solid #e6eaed;
-  height: 50px;
   *zoom: 1;
 }
 .commentar__editor:after {
@@ -1843,29 +1839,60 @@ a {
 }
 
 .commentar__centering {
-  margin-top: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin-left: 50%;
   white-space: nowrap;
-}
-.commentar__centering a {
-  display: block;
 }
 
 .commentar__editor_one {
+  position: relative;
   float: left;
   height: 50px;
   width: 8%;
   border-right: 1px solid #e6eaed;
 }
+@media only screen and (max-width: 850px) {
+  .commentar__editor_one {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .commentar__editor_one {
+    width: 12%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .commentar__editor_one {
+    width: 20%;
+    border-right: 0;
+  }
+}
 
 .commentar__editor_two {
+  position: relative;
   float: left;
   width: 16%;
   height: 50px;
   border-right: 1px solid #e6eaed;
+}
+@media only screen and (max-width: 850px) {
+  .commentar__editor_two {
+    width: 18%;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .commentar__editor_two {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .commentar__editor_two {
+    width: 40%;
+  }
 }
 .commentar__editor_two a {
   display: inline-block !important;
@@ -1873,15 +1900,41 @@ a {
 }
 
 .commentar__editor_five {
+  position: relative;
   float: left;
   height: 50px;
   width: 27%;
   border-right: 1px solid #e6eaed;
 }
+@media only screen and (max-width: 850px) {
+  .commentar__editor_five {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .commentar__editor_five {
+    width: 32%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .commentar__editor_five {
+    width: 80%;
+  }
+}
 .commentar__editor_five a {
   vertical-align: middle;
   margin-right: 20px;
   display: inline-block;
+}
+@media only screen and (max-width: 1050px) {
+  .commentar__editor_five a {
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .commentar__editor_five a {
+    margin-right: 20px;
+  }
 }
 .commentar__editor_five a:last-child {
   margin-right: 0;
@@ -5369,6 +5422,20 @@ aside .search__blue label {
   vertical-align: middle;
 }
 
+.icon-minus:hover {
+  background-image: url("../img/icons.png");
+  width: 23px;
+  height: 24px;
+  background-position: -223px -115px;
+}
+
+.icon-plus:hover {
+  background-image: url("../img/icons.png");
+  width: 23px;
+  height: 24px;
+  background-position: -223px -59px;
+}
+
 .title__14 {
   font-size: 14px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -5746,6 +5813,18 @@ aside .search__blue label {
   .hide960 {
     display: none;
   }
+}
+
+.hide1180 {
+  display: block;
+}
+@media only screen and (max-width: 1180px) {
+  .hide1180 {
+    display: none;
+  }
+}
+.hide1180 + .main {
+  width: 100%;
 }
 
 .quatanava1250 {
