@@ -1148,6 +1148,11 @@ a {
   display: table;
   clear: both;
 }
+@media only screen and (max-width: 1015px) {
+  .action {
+    display: none;
+  }
+}
 .action__text {
   position: relative;
   float: left;
@@ -1218,6 +1223,11 @@ a {
   display: table;
   clear: both;
 }
+@media only screen and (max-width: 770px) {
+  .carousel {
+    width: 100%;
+  }
+}
 .carousel__img {
   width: 100%;
   border-radius: 10px;
@@ -1253,6 +1263,11 @@ a {
 .thing__text {
   float: right;
   width: 37%;
+}
+@media only screen and (max-width: 770px) {
+  .thing__text {
+    width: 100%;
+  }
 }
 
 .thing__info p {
@@ -4767,11 +4782,6 @@ aside .search__blue label {
 }
 .represent .quick {
   text-align: left;
-  left: 0;
-  width: 100%;
-}
-.represent .quick a {
-  padding-left: 40px;
 }
 @media only screen and (max-width: 900px) {
   .represent .container__half {
@@ -5696,6 +5706,12 @@ aside .search__blue label {
   }
 }
 
+@media only screen and (max-width: 1015px) {
+  .show1015 {
+    display: block;
+  }
+}
+
 @media only screen and (max-width: 1250px) {
   .show1250 {
     display: block;
@@ -5732,6 +5748,14 @@ aside .search__blue label {
   }
 }
 
+.quatanava1250 {
+  *zoom: 1;
+}
+.quatanava1250:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
 @media only screen and (max-width: 1250px) {
   .quatanava1250 {
     background-color: #FFF;
@@ -5748,6 +5772,68 @@ aside .search__blue label {
   .quatanava1250 .sidebox,
   .quatanava1250 .sidebox__short {
     width: 100%;
+  }
+}
+
+.quatanava1015 {
+  *zoom: 1;
+}
+.quatanava1015:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+@media only screen and (max-width: 1015px) {
+  .quatanava1015 {
+    background-color: #FFF;
+    display: block;
+    width: 100% !important;
+  }
+  .quatanava1015 .sidebox {
+    width: 100%;
+  }
+  .quatanava1015 .seller {
+    float: left;
+    width: 32%;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 1015px) and (max-width: 700px) {
+  .quatanava1015 .seller {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .quatanava1015 .telephone,
+  .quatanava1015 .town {
+    width: 27%;
+    float: left;
+    margin-left: 27px;
+  }
+}
+@media only screen and (max-width: 1015px) and (max-width: 700px) {
+  .quatanava1015 .telephone,
+  .quatanava1015 .town {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 55px;
+  }
+  .quatanava1015 .telephone i,
+  .quatanava1015 .town i {
+    left: 0;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .quatanava1015 .sidebox__short {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 1015px) and (max-width: 650px) {
+  .quatanava1015 .sidebox__short {
+    width: 100%;
+    padding: 25px;
   }
 }
 

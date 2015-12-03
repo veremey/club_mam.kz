@@ -37,6 +37,9 @@
 .show960
 	+r(960)
 		display: block
+.show1015
+	+r(1015)
+		display: block
 .show1250
 	+r(1250)
 		display: block
@@ -55,7 +58,9 @@
 	display: block
 	+r(960)
 		display: none
+
 .quatanava1250
+	+clr
 	+r(1250)
 		background-color: #FFF
 		display: block
@@ -66,6 +71,38 @@
 			float: left
 			+r(650)
 				width: 100%
+.quatanava1015
+	+clr
+	+r(1015)
+		background-color: #FFF
+		display: block
+		width: 100% !important
+		.sidebox
+			width: 100%
+		.seller
+			float: left
+			width: 32%
+			margin-bottom: 0
+			+r(700)
+				width: 100%
+				margin-bottom: 40px
+		.telephone,
+		.town
+			width: 27%
+			float: left
+			margin-left: 27px
+			+r(700)
+				width: 100%
+				margin-left: 0
+				padding-left: 55px
+				i
+					left: 0
+		.sidebox__short
+			width: 50%
+			float: left
+			+r(650)
+				width: 100%
+				padding: 25px
 .top200
 	clear: both
 	background-color: $n
