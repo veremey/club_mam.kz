@@ -80,27 +80,72 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
-
-	// .seller//++++++++
-	// 	display: inline-block//++++++++
-	// 	margin-bottom: 0//++++++++
-	// 	transform: translate(0, -50%)//++++++++
-	// 	padding-left: 45px//++++++++
-	// 	margin-left: 0//++++++++
+	.seller__text
+		white-space: nowrap
+.cow
+	.article__name
+		+r(750)
+			width: 100%
+			padding-top: 1px
+			border-right: 0
+			border-bottom: 1px solid #ecf0f4
+			.article__centering
+				display: block
+				position: static
+				margin: 20px 0 0 35px
+				top: 0
+				left: 0
+				transform: translate(0, 0)
+	.article__button
+		+r(1180)
+			width: 24%
+		+r(1150)
+			width: 20%
+			.btn
+				padding: 0 15px
+		+r(1190)
+			display: none
+	.article__rating
+		+r(1190)
+			width: 15%
+			&:nth-of-type(3)
+				border-right: 0
+		+r(750)
+			width: 33.2%
+			border-bottom: 1px solid #ecf0f4
+	.article__tag
+		+r(890)
+			width: 27%
+		+r(790)
+			width: 25%
 	.seller__text
 		white-space: nowrap
 		.show460
 			color: $blue
 	.seller__img:after
 		content: none
-	// .say//++++++++
-	// 	padding-left: 45px//++++++++
-	// 	transform: translate(0, -50%)//++++++++
-// .article__centering//+++++
-// 	margin-top: 50px//+++++
-// 	transform: translate(-50%, -50%)//+++++
-// 	margin-left: 50%//+++++
-	// transform: translate(-50%)
+
+.comes
+	display: none
+	+r(880)
+		display: block
+		position: relative
+		margin: 120px 0 10px
+	.btn
+		+r(650)
+			width: 80%
+.parag
+	background-color: #FFF
+	padding: 0 45px 15px
+	a
+		display: block
+		font-size: 15px
+		color: $black
+		+os
+		margin-bottom: 10px
+		+tr(.3s)
+		&:hover
+			color: $purpur
 
 .awry
 	.article__name,
