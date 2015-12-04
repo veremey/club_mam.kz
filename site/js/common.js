@@ -210,6 +210,25 @@ $(document).ready(function() {
 		});
 	};
 
+	//calendar
+	if($(document).width() < 851){
+		$('.js-week').on('click', function() {
+			$(this).addClass('is_active').siblings().removeClass('is_active');
+			$('.js-get-week').slideDown();
+			$('.js-get-month').slideUp();
+			return false;
+		});
+		$('.js-month').on('click', function() {
+			$(this).addClass('is_active').siblings().removeClass('is_active');
+			$('.js-get-month').slideDown();
+			$('.js-get-week').slideUp();
+
+			return false;
+		});
+	}
+
+
+
 	//read more
 	$('.side__text').readmore({
 		speed: 75,

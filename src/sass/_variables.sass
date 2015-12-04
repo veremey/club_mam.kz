@@ -22,11 +22,29 @@
 	+r(750)
 		display: block
 		width: 100%
+
 .col-m-2
 	+r(750)
 		display: block
 		width: 50%
 		float: left
+
+.col1-2
+	width: 41%
+	p
+		font-size: 18px
+		color: $black
+		+osl
+
+.col-d-1
+	+r(850)
+		position: relative
+		display: block
+		width: 100%
+		z-index: 5
+
+
+
 .poazat650
 	display: none
 	+r(650)
@@ -82,9 +100,9 @@
 	display: block
 	+r(1180)
 		display: none
-	+ .main
-		+r(1180)
-			width: 100%
+.main.rock1180
+	+r(1180)
+		width: 100%
 .hide1250
 	+r(1250)
 		display: none
@@ -525,14 +543,6 @@
 	border-radius: 4px
 	+box
 	+clr
-
-.col1-2
-	width: 41%
-	p
-		font-size: 18px
-		color: $black
-		+osl
-
 
 .reduce
 	width: 24%

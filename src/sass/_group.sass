@@ -47,6 +47,9 @@
 	img
 		float: left
 		max-width: 66%
+		+r(980)
+			max-width: 100%
+			width: 100%
 	p
 		float: right
 		width: 22%
@@ -54,8 +57,14 @@
 		font-size: 14px
 		color: #9195A1
 		margin-top: 15px
+		+r(980)
+			width: 100%
+			margin-right: 0
+			font-style: italic
 .article__list
 	margin: 70px 30px 55px 65px
+	+r(800)
+		margin: 50px 20px 40px 0
 	li
 		color: $black
 		font-size: 18px
@@ -71,6 +80,8 @@
 	width: 105px
 	height: 105px
 	margin: 0 30px 10px 0
+	+r(500)
+		display: none
 	img
 		max-width: 100%
 		vertical-align: top
@@ -257,8 +268,10 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
-	+r(880)
-		border-top: 0
+	// +r(880)
+	// 	border-top: 0
+
+
 	// .article__centering//++++++++
 	// 	display: inline-block//++++++++
 
@@ -345,6 +358,7 @@
 		+r(500)
 			width: 100%
 			margin-top: 5px
+			margin-left: 0
 
 
 .commentar
@@ -569,19 +583,19 @@
 			+osl
 	.article__rating
 		width: 17%
-		+r(990)
+		+r(1350)
 			width: 15%
-		+r(780)
+		+r(1070)
 			width: 14%
 		+r(750)
 			width: 33.3%
 			border-right: 0
 	.article__button
 		width: 21%
-		+r(990)
+		+r(1350)
 			width: 26%
-		+r(780)
-			width: 28%
+		+r(1070)
+			width: 27%
 		+r(750)
 			display: none
 .state
@@ -711,7 +725,12 @@
 	-webkit-border-radius: 5px
 	border-radius: 5px
 	+clr
-	&:nth-of-type(5)
+	+r(1300)
+		width: 49%
+	+r(650)
+		width: 100%
+		margin-right: 0
+	&:nth-of-type(6)
 		margin-right: 0
 	.read__more
 		margin-left: 40px
@@ -737,6 +756,12 @@
 	left: 35px
 	width: 65px
 	height: 65px
+	+r(1300)
+		top: 8px
+		left: 67px
+	+r(850)
+		top: 0
+		left: 35px
 	img
 		max-width: 100%
 		vertical-align: top
@@ -757,15 +782,59 @@
 .gang__row
 	clear: both
 	width: 100%
+.gang__row1300
+	clear: both
+	width: 100%
+	display: none
+	+r(1300)
+		display: block
+
+
+
+.tabulashin
+	display: none
+	+r(850)
+		display: block
+		height: 50px
+	a
+		display: inline-block
+		font-size: 15px
+		line-height: 46px
+		color: $black
+		+osl
+		margin-right: 20px
+		&.is_active
+			border-bottom: 4px solid $purpur
+			+os
+
 
 .mama
 	margin-top: 72px
+	+r(850)
+		display: none
+.mamanay
+	display: none
+	+r(850)
+		position: absolute
+		display: block
+		top: 80px
+		left: 50%
+		transform: translateX(-50%)
+		z-index: -1
 
 .callendar
 	text-align: left
 	width: 34%
 	float: left
 	margin: 35px 25px 25px
+	+r(850)
+		text-align: center
+		width: 80%
+		margin: 0 auto
+		float: none
+		padding-bottom: 30px
+	+r(650)
+		width: 100%
 	.title__gang
 		margin-left: 10px
 .callendar__list
@@ -783,7 +852,8 @@
 		+os
 		&:nth-child(9n+8)
 			border-right: 0
-		&:hover
+		&:hover,
+		&.is_active
 			background-color: #F7F8FA
 		&:active
 			background-color: #EDF1F5
@@ -799,6 +869,14 @@
 	margin-right: 40px
 	margin-top: 35px
 	+clr
+	+r(850)
+		display: none
+		width: 80%
+		margin: 0 auto
+		float: none
+		text-align: center
+	+r(650)
+		width: 100%
 	.title__gang
 		margin-left: 10px
 	a
