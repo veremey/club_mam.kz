@@ -9,7 +9,22 @@ $(document).ready(function() {
 	autoplay: true,
 	autoplaySpeed: 20000,
 	prevArrow: $('.js-page__back'),
-	nextArrow: $('.js-page__next')
+	nextArrow: $('.js-page__next'),
+	responsive: [
+	{
+		breakpoint: 950,
+		settings: {
+			slidesToShow: 2,
+		}
+	},
+	{
+		breakpoint: 650,
+		settings: {
+			slidesToShow: 1,
+		}
+	},
+
+	]
 });
 
 });

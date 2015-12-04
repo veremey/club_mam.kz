@@ -136,7 +136,7 @@ $(document).ready(function() {
 	};
 
 
-	// активауия значков рейтин��а в статьях
+	// активауия значков рейтинга в статьях
 	$('.article__rating').on('click', function() {
 		$(this).toggleClass('is_active');
 		return false;

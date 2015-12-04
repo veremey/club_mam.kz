@@ -31,8 +31,20 @@
 	display: none
 	+r(650)
 		display: inline-block
+.show460
+	display: none
+	+r(460)
+		display: inline-block
 .show650
 	+r(650)
+		display: block
+.show800
+	display: none
+	+r(800)
+		display: block
+.show880
+	display: none
+	+r(880)
 		display: block
 .show960
 	+r(960)
@@ -46,13 +58,17 @@
 .hide650
 	+r(650)
 		display: none
-.hide1250
-	+r(1250)
-		display: none
-
 .hide750
 	display: block
 	+r(750)
+		display: none
+.hide800
+	display: block
+	+r(800)
+		display: none
+.hide880
+	display: block
+	+r(880)
 		display: none
 .hide960
 	display: block
@@ -63,7 +79,11 @@
 	+r(1180)
 		display: none
 	+ .main
-		width: 100%
+		+r(1180)
+			width: 100%
+.hide1250
+	+r(1250)
+		display: none
 
 .quatanava1250
 	+clr

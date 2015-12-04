@@ -80,6 +80,7 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
+
 	// .seller//++++++++
 	// 	display: inline-block//++++++++
 	// 	margin-bottom: 0//++++++++
@@ -88,6 +89,8 @@
 	// 	margin-left: 0//++++++++
 	.seller__text
 		white-space: nowrap
+		.show460
+			color: $blue
 	.seller__img:after
 		content: none
 	// .say//++++++++
@@ -98,6 +101,45 @@
 // 	transform: translate(-50%, -50%)//+++++
 // 	margin-left: 50%//+++++
 	// transform: translate(-50%)
+
+.awry
+	.article__name,
+	.article__tag
+		width: 50%
+		height: 75px
+		border-bottom: 1px solid #ecf0f4
+	.article__tag
+		white-space: nowrap
+		color: $blue
+		border-right: 0
+		+r(460)
+			display: none
+	.article__name
+		+r(460)
+			width: 100%
+	.article__rating
+		width: 33.3%
+		height: 75px
+		border-bottom: 1px solid #ecf0f4
+		&:nth-of-type(3)
+			border-right: 0
+	.article__button
+		height: 75px
+	.say
+		+r(880)
+			display: none
+	.article__soc
+		+r(880)
+			width: 25%
+			height: 75px
+			border-bottom: 1px solid #ecf0f4
+			&:nth-of-type(4)
+				border-right: 0
+
+
+
+
+
 .article__name
 	float: left
 	border-right: 1px solid #ecf0f4
@@ -113,8 +155,6 @@
 	width: 16.5%
 	white-space: nowrap
 	border-right: 1px solid #ecf0f4
-	+r(870)
-		display: none
 	p
 		font-size: 14px
 		color: #727376
@@ -149,6 +189,15 @@
 	height: 100px
 	width: 25%
 	white-space: nowrap
+	+r(880)
+		width: 100%
+		.article__centering
+			position: static !important
+			top: 0 !important
+			left: 0 !important
+			transform: translate(0, 0) !important
+			margin-left: 20px !important
+			margin-top: 20px !important
 	p
 		font-size: 14px
 		+osl
@@ -163,6 +212,8 @@
 	border-top: 1px solid #ecf0f4
 	background-color: #FFF
 	+clr
+	+r(880)
+		border-top: 0
 	// .article__centering//++++++++
 	// 	display: inline-block//++++++++
 
@@ -192,6 +243,8 @@
 	width: 39%
 	float: left
 	height: 100px
+	+r(880)
+		width: 100%
 
 .group__thame_wrap
 	white-space: nowrap
@@ -204,12 +257,24 @@
 		margin-right: 10px
 		padding: 1px 3px
 		line-height: 1
+		+r(1330)
+			margin-right: 5px
+		+r(880)
+			margin-right: 25px
+		+r(440)
+			margin-right: 0
+		+r(360)
+			&:nth-of-type(4n-3)
+				display: none
+
 		&:hover
 			background-color: #E8ECEF
 
 .pre-comment
 	margin: 60px 0 55px
 	+clr
+	+r(500)
+		margin: 30px 0 20px
 	h4
 		float: left
 		font-size: 30px
@@ -217,14 +282,24 @@
 		white-space: nowrap
 		padding-left: 45px
 		+osl
+		+r(830)
+			width: 100%
 
 .pre-comment_btn
 	float: right
 	white-space: nowrap
 	+clr
+	+r(830)
+		margin-top: 10px
+		float: left
+	+r(500)
+		white-space: normal
 	.btn
 		margin-left: 10px
 		vertical-align: top
+		+r(500)
+			width: 100%
+			margin-top: 5px
 
 
 .commentar
@@ -233,12 +308,17 @@
 	margin-bottom: 15px
 	background-color: #FFF
 	+clr
+	+r(650)
+		padding-left: 15px
 
 .commentar__benefit,
 .subcommentar__benefit
 	position: absolute
 	top: 35px
 	right: 35px
+	z-index: 10
+	+r(800)
+		right: 10px
 	a
 		float: left
 		vertical-align: top
@@ -255,11 +335,16 @@
 	position: absolute
 	top: 35px
 	right: -80px
+	+r(800)
+		right: 10px
+		top: 20px
 
 .commentarium
 	position: relative
 	padding-left: 70px
 	+clr
+	+r(800)
+		padding-left: 0px
 
 
 .commentar__form
@@ -290,6 +375,11 @@
 	width: 45px
 	height: 45px
 	vertical-align: top
+	+r(800)
+		position: static !important
+		float: left
+		margin-right: 10px
+		margin-bottom: 10px
 	img
 		max-width: 100%
 		vertical-align: top
@@ -300,6 +390,8 @@
 	margin-right: 115px
 	vertical-align: top
 	+clr
+	+r(800)
+		margin-right: 10px
 .commentar__header
 	+clr
 .commentar__name
@@ -320,6 +412,7 @@
 	margin: 5px 0
 	color: $black
 	+osl
+
 .commentar__btn
 	a
 		font-size: 14px
@@ -335,6 +428,8 @@
 	position: relative
 	padding: 25px 0 10px 0
 	+clr
+	+r(800)
+		padding-left: 10px
 
 .subcommentar__user
 	@extend .commentar__user
@@ -344,6 +439,9 @@
 .subcommentar__item
 	margin-left: 70px
 	+clr
+	+r(800)
+		margin-left: 0
+		float: left
 
 .commentar__editor
 	margin-right: 9%
@@ -404,10 +502,12 @@
 		vertical-align: middle
 		margin-right: 20px
 		display: inline-block
-		+r(1050)
+		+r(1420)
 			margin-right: 10px
 		+r(740)
 			margin-right: 20px
+		+r(500)
+			margin-right: 10px
 		&:last-child
 			margin-right: 0
 
@@ -422,8 +522,6 @@
 		width: 17%
 	.article__button
 		width: 21%
-
-
 
 
 .squard
