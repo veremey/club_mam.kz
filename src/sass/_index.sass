@@ -132,6 +132,29 @@
 				background-color: $purpur
 				+ossb
 				+vcenter
+.title__slider_wrap
+	display: none
+	+clr
+	+r(650)
+		position: relative
+		width: 100%
+		display: block
+		text-align: center
+		margin-bottom: 20px
+	button
+		background-color: $n
+		vertical-align: top
+		&:hover
+			+gray
+	.icon-prev
+		float: left
+	.icon-next
+		float: right
+	span
+		+vcenter
+		font-size: 12px
+		color: $black
+		+os
 
 .baner__commiting
 	width: 80%
@@ -166,6 +189,13 @@
 			margin-right: 0
 			.gang__img
 				top: 10px
+	.gang__img
+		+r(1300)
+			top: 8px
+			left: 35px
+		+r(850)
+			top: 0
+			left: 35px
 	.quick
 		text-align: left
 	.container__half
