@@ -3902,6 +3902,7 @@ a {
   position: relative;
   float: left;
   width: 32.6%;
+  padding-top: 10px;
   margin-right: 1%;
   margin-bottom: 10px;
   background-color: #FFF;
