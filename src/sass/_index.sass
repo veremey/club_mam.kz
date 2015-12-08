@@ -178,6 +178,8 @@
 	.gang
 		padding-bottom: 0
 		margin-right: 1%
+		height: 160px
+		padding: 0
 		&:hover
 			opacity: 0.6
 		+r(1280)
@@ -187,15 +189,33 @@
 		+r(650)
 			width: 100%
 			margin-right: 0
-			.gang__img
-				top: 10px
+			// .gang__img
+			// 	top: 10px
+	.gang__header
+		height: 160px
+		padding: 0 40px
+	.title__gang
+		position: absolute
+		top: 50%
+		margin-top: 0
+		margin-left: 25%
+		min-height: 0
 	.gang__img
-		+r(1300)
-			top: 8px
-			left: 35px
-		+r(850)
-			top: 0
-			left: 35px
+		top: 50%
+		transform: translateY(-50%)
+		padding-bottom: 30px
+		img
+			width: 65px
+			height: 65px
+			-webkit-border-radius: 100%
+			border-radius: 100%
+
+		// +r(1300)//08.12
+		// 	top: 8px//08.12
+		// 	left: 35px//08.12
+		// +r(850)//08.12
+		// 	top: 0//08.12
+		// 	left: 35px//08.12
 	.quick
 		text-align: left
 	.container__half
@@ -212,7 +232,8 @@
 			display: block
 			clear: both
 
-
+.triger__post
+	+clr
 .iscra
 	padding: 4% 3%
 	text-align: center
