@@ -786,6 +786,35 @@ a {
   right: 20px;
 }
 
+.presentation-bg {
+  background: url(../img/bg.jpg) repeat 50% 50% #c4e3fc;
+}
+
+.site__presentation {
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 50px auto;
+  width: 40%;
+  min-width: 300px;
+  padding: 30px 50px;
+  box-sizing: border-box;
+}
+.site__presentation li {
+  margin-bottom: 10px;
+}
+.site__presentation a {
+  position: relative;
+  font-size: 16px;
+  color: #23252a;
+  text-decoration: none;
+  font-family: "avantgardegothiccbold", Arial, sans-serif;
+}
+.site__presentation a:hover {
+  color: #52abf0;
+}
+.site__presentation a:visited {
+  color: #eb6c96;
+}
+
 .slick-slider {
   position: relative;
   display: block;
