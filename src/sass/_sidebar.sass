@@ -15,6 +15,18 @@ aside
 		margin-left: 45px
 		label
 			color: #323337
+.side__left
+	width: 320px
+	float: left
+	vertical-align: top
+	margin-right: 15px
+	+clr
+.side__right
+	width: 320px
+	float: right
+	vertical-align: top
+	margin-left: 15px
+	+clr
 .sidebox
 	position: relative
 	width: 100%
@@ -60,14 +72,12 @@ aside
 	.title__side
 		padding: 45px 0 0 45px
 
-
 .side__text
 	margin-bottom: 15px
 	p
 		font-size: 16px
 		color: #7E8489
 		+os
-
 
 .side__link
 	background-color: #FFF
@@ -77,6 +87,13 @@ aside
 	font-size: 18px
 	color: $black
 	+osl
+	span
+		display: inline-block
+		padding-top: 10px
+		color: $gray
+		font-size: 16px
+		vertical-align: middle
+		+osl
 	&:hover
 		color: #52abf0
 		background-color: #f7f9fa
@@ -89,14 +106,29 @@ aside
 	width: 55px
 	height: 55px
 	margin-right: 12px
+	padding: 0 !important
 	vertical-align: top
 	img
 		max-width: 100%
 		vertical-align: top
+		-webkit-border-radius: 100%
+		border-radius: 100%
+.side__link_icon
+	display: inline-block
+	vertical-align: middle
+	padding-top: 10px
+	margin-right: 10px
+	+ strong
+		display: inline-block
+		vertical-align: top
+		font-size: 30px
+		+osl
+
 .side__link_text
 	display: inline-block
 	vertical-align: top
 	height: 55px
+	width: 157px
 	p
 		font-size: 18px
 		color: $black
@@ -104,7 +136,33 @@ aside
 		transform: translateY(-50%)
 		line-height: 1
 		+osl
+.side__photo
+	width: 82px
+	height: 82px
+	-webkit-border-radius: 100%
+	border-radius: 100%
+	margin-right: 10px
+	display: inline-block
+	vertical-align: top
+	&_name
+		display: inline-block
+		position: relative
+		height: 84px
+		width: calc(100% - 98px)
+		&_wrap
+			position: absolute
+			left: 0
+			top: 50%
+			+try(-50%)
+			p
+				font-size: 18px
+				color: $black
+				+osl
+			span
+				font-size: 16px
+				color: $gray
 
+				+osl
 .side__pictures
 	text-align: center
 	+clr
@@ -258,6 +316,36 @@ aside
 		margin-left: 7px
 		+os
 
+.place
+	margin: 20px 0 25px
+	text-align: center
+	padding-left: 35px
+	a
+		position: relative
+		color: $blue
+		font-size: 14px
+		+os
+		&:hover
+			color: $blued
+		&:before
+			content: ""
+			position: absolute
+			top: -2px
+			left: -30px
+			+s(icon-place)
+.connect__btn
+	margin-bottom: 20px
+	.btn
+		width: 248px
+		height: 54px
+		+os
+	.btn__transparent
+		margin-top: 10px
+		border: 1px solid $blue
+		color: $blue
+		&:hover
+			background-color: $blue
+			color: $blued
 .side__check
 	margin-top: 15px
 	.radio

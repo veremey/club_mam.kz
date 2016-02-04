@@ -73,9 +73,10 @@
 $purpur: #eb6c96
 $blue: #52abf0
 $blued: #388ac9
+$body: #F3F5F7
 $n: transparent
 $black: #23252a
-
+$gray: #acb1b7
 
 html, body
 	height: 100%
@@ -93,7 +94,7 @@ body
 	+clr
 .container
 	width: 76.6%
-	max-width: 1974px
+	max-width: 1374px
 	margin: 0 auto
 	+clr
 	// +r(650)
@@ -114,6 +115,11 @@ body
 		font-size: 18px
 		color: $black
 		+osl
+.container__inner
+	width: calc(100% - 684px)
+	float: left
+	vertical-align: top
+	+clr
 
 *
 	outline: none
@@ -161,11 +167,17 @@ a
 		right: 20px
 
 
+
+///
+// Презентация
+
+
 .presentation-bg
 	background: url(../img/bg.jpg) repeat 50% 50% #c4e3fc
+	padding-top: 50px
 .site__presentation
 	background-color: rgba(255, 255, 255, .9)
-	margin: 50px auto
+	margin: 0 auto 50px
 	width: 40%
 	min-width: 300px
 	padding: 30px 50px

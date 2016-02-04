@@ -141,6 +141,11 @@ $(document).ready(function() {
 		return false;
 	});
 
+	//active icon-star
+	$('.clothes__icons').on('click', '.icon-star', function() {
+		$(this).toggleClass('is_active');
+	});
+
 	// переключатель показа цветов изделия
 	$('.js_color').click(function() {
 		$(this).siblings().removeClass('is_active');
@@ -241,6 +246,14 @@ $(document).ready(function() {
 		collapsedHeight: 125,
 		// heightMargin: 16,
 		moreLink: '<a class="read__more" href="#"><span>Читать полностью </span><i class="icon-bot"></i></a',
+		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-top"></i></a>'
+	});
+	//read more
+	$('.comunity_height').readmore({
+		speed: 75,
+		collapsedHeight: 575,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"><span>Показать еще(12)  </span><i class="icon-bot"></i></a',
 		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-top"></i></a>'
 	});
 	//read more

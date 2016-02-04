@@ -43,7 +43,13 @@
 		width: 100%
 		z-index: 5
 
-
+.show__little_clothes
+	+clr
+	.clothes
+		width: 49%
+		margin-right: 2%
+		&:nth-child(2n)
+			margin-right: 0
 
 .poazat650
 	display: none
@@ -174,6 +180,11 @@
 	margin-bottom: 45px
 	+osl
 
+.comunity_height
+	+ .read__more
+		text-align: center
+		line-height: 50px
+		padding-top: 30px
 
 .js-accordeon-post
 	display: none

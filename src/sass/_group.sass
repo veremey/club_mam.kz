@@ -34,7 +34,6 @@
 		+osl
 	.article__text_smaller
 		font-size: 18px
-
 .article__img
 	float: left
 	max-width: 100%
@@ -74,7 +73,6 @@
 		i
 			margin-right: 15px
 			vertical-align: top
-
 .article__picture
 	float: left
 	width: 105px
@@ -93,6 +91,37 @@
 	+clr
 	.seller__text
 		white-space: nowrap
+.article__footer__short
+	width: 100%
+	border-top: 1px solid #ecf0f4
+	background-color: #FFF
+	+clr
+	.article__rating
+		width: 18%
+		&:last-child
+			border-right: 1px solid $n
+.article__post
+	position: relative
+	width: 46%
+	padding-left: 44px
+	height: 100px
+	border-right: 1px solid $body
+	float: left
+	&_wrap
+		position: absolute
+		left: 44px
+		top: 50%
+		+try(-50%)
+	p
+		font-size: 14px
+		color: $gray
+		+osl
+	a
+		font-size: 14px
+		color: $blue
+		+osl
+		&:hover
+			color: $purpur
 .cow
 	.article__name
 		+r(750)
@@ -191,9 +220,6 @@
 			border-bottom: 1px solid #ecf0f4
 			&:nth-of-type(4)
 				border-right: 0
-
-
-
 
 
 .article__name
