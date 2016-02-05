@@ -3,7 +3,6 @@ $(document).ready(function() {
 
 
 	// accordeon
-
 	$('.js-accordeon-link').on('click', function() {
 			var post = $(this).closest('.js-accordeon-item').find('.js-accordeon-post');
 
@@ -101,12 +100,41 @@ $(document).ready(function() {
 
 
 	/* Скрипт для рейтинга */
-
 	$('.stars').each(function(){
 
 		var rating = $(this);
 		var rating_input = rating.parents('form').find('input[name="rating"]');
 		var stars = $('.star > span', rating);
+
+		rating.find('.descr').hover(function(){
+			stars.removeClass('active');
+			rating_input.val(0);
+		});
+
+		stars.each(function(index){
+			var current = index + 1;
+
+			$(this).hover (
+				function(){
+					stars.removeClass('active').slice(0, current).addClass('active');
+				},
+				function(){
+					rating_input.val(parseFloat($('.active', rating).length/2));
+				}
+			);
+
+		});
+
+	});
+
+
+	/* Скрипт для рейтинга Большой */
+
+	$('.star__big_wrap').each(function(){
+
+		var rating = $(this);
+		var rating_input = rating.parents('form').find('input[name="rating"]');
+		var stars = $('.star__big > span', rating);
 
 		rating.find('.descr').hover(function(){
 			stars.removeClass('active');
@@ -143,7 +171,7 @@ $(document).ready(function() {
 	});
 
 	//active icon-star
-	$('.clothes__icons').on('click', '.icon-star', function() {
+	$('.clothes__icons, .side__user').on('click', '.icon-star', function() {
 		$(this).toggleClass('is_active');
 	});
 
@@ -154,7 +182,11 @@ $(document).ready(function() {
 		return false;
 	});
 
-
+	//clone block
+	if($(document).width() < 1250){
+		var children = $('.js-move_children').remove()
+		$('.js-here-chilgren').after(children).css('margin-bottom', '15px');
+	};
 
 	// подмена картинки
 
@@ -241,6 +273,14 @@ $(document).ready(function() {
 
 
 
+	//read more
+	$('.photo__height').readmore({
+		speed: 75,
+		collapsedHeight: 160,
+		// heightMargin: 16,
+		moreLink: '<a class="read__more" href="#"><span>Показать еще </span><i class="icon-bot"></i></a',
+		lessLink: '<a class="read__more" href="#"><span>Скрыть </span><i class="icon-top"></i></a>'
+	});
 	//read more
 	$('.side__text').readmore({
 		speed: 75,

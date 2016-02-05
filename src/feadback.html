@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+	<title>baraholka</title>
+	//= includes/head.html
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<!-- BEGIN  out-->
+<div class="out">
+	//= includes/header.html
+	//= includes/breadcrumbs.html
+	<div class="container">
+		<aside class="side__left" style="margin-bottom: 90px">
+			<div class="sidebox side__user" style="margin-bottom: 1px;">
+				<a href="#" class="icon-star"></a>
+				<a href="#" class="sidebox__user">
+					<img src="img/comp1.jpg" alt="Иллюстрация">
+				</a>
+				<h3 class="title__main pro">Castrol</h3>
+				<div class="community">
+					<p style="color: #52abf0">Был на сайте 25 янв в 12:00</p>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community" style="margin-bottom: 0;">
+					<div class="side__rating">
+						<div class="stars">
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r"></span>
+							</span>
+						</div>
+						<p>отзывов: <span>22</span></p>
+					</div>
+					<button class="btn btn__gray">Добавить в друзья</button>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community">
+					<div class="weekend">
+						<p>Выходные: <mark>Воскресение</mark></p>
+					</div>
+					<div class="hookup">
+						<i class="icon-phone"></i>
+						<a href="tel:+992 (361) 616 161">+992 (361) 616 161</a>
+						<a href="tel:+992 (362) 626262">+992 (362) 626262</a>
+						<a href="tel:+992 (907) 626  060">+992 (907) 626  060</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-planet"></i>
+						<a href="#" target="_blank">Перейти на сайт продавца</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-place"></i>
+						<p>Таджикистан, Душанбе, <br>пр. Рудаки 83</p>
+					</div>
+				</div>
+			</div>
+			<div class="sideclear">
+				<div class="map" id="map"></div>
+			</div>
+		</aside>
+		<div class="container__wide" style="margin-top: 85px; padding-top: 25px;">
+			<h2 class="title__main">
+				Ваш отзыв о Castrol
+			</h2>
+			<form action="" class="assessment">
+				<textarea name="" placeholder="Опишите ваши впечатления по работе продавца"></textarea>
+				<div class="seller__rate">
+					<p>Оцените продавца</p>
+					<div class="star__big_wrap">
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r"></span>
+						</span>
+					</div>
+					<input type="text" name="" class="castom__name" placeholder="Ваше имя">
+					<input type="email" name="" class="castom__mail" placeholder="E-mail">
+					<button class="btn btn-red">Опубликовать</button>
+				</div>
+			</form>
+			<p>Стоит упомянуть об оперативности доставки, соответствии цен указанным в каталоге, аккуратности оформления покупки и приветливости персонала.</p>
+		</div>
+	</div><!-- end container -->
+
+</div>
+<!-- END out-->
+//= includes/footer.html
+<div class="popup js_popup"></div>
+//= includes/filter.html
+//= includes/search.html
+<!-- load scripts -->
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/yandexMapInit.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

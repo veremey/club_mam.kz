@@ -1,4 +1,4 @@
-// group .. groups.. stati .. post ..group_category .. calendar
+// group .. groups.. stati .. post ..group_category .. calendar .. feadback
 .info
 	margin-top: 20px
 	+clr
@@ -1397,3 +1397,66 @@
 	.function__get
 		float: right
 		color: $black
+
+
+.assessment
+	margin-bottom: 10px
+	+clr
+	textarea
+		width: 47%
+		height: 280px
+		float: left
+		margin-right: 4%
+		padding: 25px
+		resize: none
+		border: 1px solid $body
+		outline: nones
+		vertical-align: top
+		+placeholder
+			font-size: 16px
+			color: $black
+			+osl
+	+ p
+		width: 45%
+		font-size: 14px
+		color: $gray
+		+osl
+.seller__rate
+	width: 49%
+	float: right
+	+clr
+	p
+		font-size: 16px
+		color: $gray
+		+osl
+	.castom__name
+		width: 288px
+		height: 59px
+		border: 1px solid $body
+		margin-bottom: 5px
+		padding: 0 20px
+		font-size: 16px
+		+placeholder
+			font-size: 16px
+			color: $gray
+			+osl
+	.castom__mail
+		width: 370px
+		height: 59px
+		font-size: 16px
+		border: 1px solid $body
+		margin-bottom: 20px
+		padding: 0 20px
+		+placeholder
+			font-size: 16px
+			color: $gray
+			+osl
+	.btn
+		background-color: $purpur
+		color: #fff
+		height: 50px
+		font-size: 20px
+		+tr(.3s)
+		&:hover
+			color: $purpur
+			background-color: #FFF

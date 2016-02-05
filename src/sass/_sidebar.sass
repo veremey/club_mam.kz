@@ -16,11 +16,13 @@ aside
 		label
 			color: #323337
 .side__left
+	position: relative
 	width: 320px
 	float: left
 	vertical-align: top
 	margin-right: 15px
 	+clr
+
 .side__right
 	width: 320px
 	float: right
@@ -44,9 +46,30 @@ aside
 		margin: 0
 		// line-height: 1
 .side__user
+	position: relative
 	margin-top: 85px
 	padding-bottom: 0
 	text-align: center
+	.icon-star
+		position: absolute
+		top: 10px
+		right: 10px
+		+s(icon-star)
+		&:hover
+			+scale(1.1)
+		&.is_active
+			+s(icon-star-active)
+.side__rating
+	width: 200px
+	margin: 0 auto
+	text-align: center
+	+clr
+	.stars
+		float: left
+		margin-right: 10px
+	span
+		color: $black
+
 .sidebox__user
 	position: absolute
 	top: -80px
@@ -339,10 +362,8 @@ aside
 		width: 248px
 		height: 54px
 		+os
-	.btn__transparent
+	.btn-blue
 		margin-top: 10px
-		border: 1px solid $blue
-		color: $blue
 		&:hover
 			background-color: $blue
 			color: $blued
@@ -364,3 +385,64 @@ aside
 		+os
 		i
 			margin-right: 10px
+	.btn__gray
+		margin-top: 10px
+		width: 100%
+		font-size: 14px
+		height: 50px
+.photo__height
+	+clr
+.album
+	position: relative
+	float: left
+	width: 74px
+	height: 74px
+	-webkit-border-radius: 100%
+	border-radius: 100%
+	margin-right: 10px
+	margin-bottom: 10px
+	vertical-align: top
+	overflow: hidden
+	&:nth-child(3n)
+		margin-right: 0
+	img
+		width: 74px
+		height: 74px
+		-webkit-border-radius: 100%
+		border-radius: 100%
+		vertical-align: top
+	&__lenth
+		+coverdiv
+		background-color: rgba(38, 166, 217, .7)
+		span
+			+vcenter
+			font-size: 18px
+			+osb
+			color: #FFF
+
+.weekend
+	margin-bottom: 30px
+.hookup
+	text-align: center
+	margin-top: 15px
+	i
+		margin-bottom: 15px
+	a[href^="tel"]
+		display: block
+		margin-bottom: 10px
+		color: $black
+		font-size: 14px
+		+os
+		&:hover
+			text-decoration: underline
+	a
+		display: block
+		color: $blue
+		font-size: 14px
+		+osl
+		&:hover
+			color: $purpur
+	p
+		font-size: 14px
+		+osl
+		color: $gray

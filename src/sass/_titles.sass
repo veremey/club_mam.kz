@@ -53,6 +53,14 @@
 	color: $black
 	margin: 0 10px 15px 35px
 	+os
+	&.pro
+		position: relative
+		&:after
+			content: ""
+			position: absolute
+			top: -5px
+			right: -30px
+			+s(icon-pro)
 	+r(650)
 		margin: 0px
 		font-size: 28px

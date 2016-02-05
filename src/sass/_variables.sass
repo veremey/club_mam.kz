@@ -1,3 +1,10 @@
+mark
+	background-color: #F3F5F7
+	text-transform: uppercase
+	color: $purpur
+	font-size: 12px
+	padding: 2px 4px
+	+ossb
 .clear
 	height: 0
 	display: table
@@ -22,20 +29,17 @@
 	+r(750)
 		display: block
 		width: 100%
-
 .col-m-2
 	+r(750)
 		display: block
 		width: 50%
 		float: left
-
 .col1-2
 	width: 41%
 	p
 		font-size: 18px
 		color: $black
 		+osl
-
 .col-d-1
 	+r(850)
 		position: relative
@@ -43,6 +47,9 @@
 		width: 100%
 		z-index: 5
 
+.map
+	height: 330px
+	width: 100%
 .show__little_clothes
 	+clr
 	.clothes
@@ -180,7 +187,8 @@
 	margin-bottom: 45px
 	+osl
 
-.comunity_height
+.comunity_height,
+.photo__height
 	+ .read__more
 		text-align: center
 		line-height: 50px
@@ -510,6 +518,40 @@
 		background: url(../img/star_a.png) 0 0 no-repeat
 	.star_r.active
 		background: url(../img/star_a.png) 100% 0 no-repeat
+
+.star__big_wrap
+	position: relative
+	float: left
+	width: 250px
+	height: 36px
+	z-index: 2
+	margin: 10px 0 20px
+	.star__big
+		display: inline-block
+		vertical-align: middle
+		width: 29px
+		height: 28px
+		margin-right: 0
+	.star__big_l
+		display: block
+		float: left
+		width: 15px
+		height: 28px
+		background: url(../img/star_big_p.png)
+		cursor: pointer
+		margin-right: 0
+	.star__big_r
+		display: block
+		float: left
+		width: 14px
+		height: 28px
+		background: url(../img/star_big_p.png) 100% 0 no-repeat
+		cursor: pointer
+		margin-right: 0
+	.star__big_l.active
+		background: url(../img/star_big_a.png) 0 0 no-repeat
+	.star__big_r.active
+		background: url(../img/star_big_a.png) 100% 0 no-repeat
 
 
 .read__more

@@ -1,0 +1,411 @@
+<!doctype html>
+<html>
+<head>
+	<title>baraholka</title>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<link rel="stylesheet" media="all" href="css/screen.css" >
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!--[if IE]><script src="js/html5shiv.js"></script><![endif]-->
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<!-- BEGIN  out-->
+<div class="out">
+	<header class="header">
+		<div class="header__top">
+			<div class="container__big">
+				<a href="/" class="logo">
+					<h1><span>Club-</span>mam.kz</h1>
+				</a>
+				<div class="header__top_nav col-x-0">
+					<a href="#"><i class="icon-ledy"></i>Мир леди</a>
+					<a href="#"><i class="icon-mom"></i>Беременость</a>
+					<a href="#"><i class="icon-chield"></i> Дети</a>
+				</div>
+				<div class="header__user">
+					<a href="#" class="user__massege"></a>
+					<a href="#" class="user__bell"></a>
+					<a href="#" class="user__menu">
+						<span>2</span>
+						<div class="user__img">
+							<img src="img/user.jpg" alt="Иллюстрация">
+						</div>
+					</a>
+					<button class="icon-menu "></button>
+				</div>
+				<a href="#" class="col-x-12">
+	
+				</a>
+	
+			</div>
+		</div>
+		<div class="header__bottom">
+			<div class="container__big">
+				<nav>
+				<ul class="header__menu">
+					<li><a href="#">Справочник</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Барахолка</a></li>
+					<li><a href="#">Форум</a></li>
+				</ul>
+				</nav>
+				<form class="search__blue">
+					<div class="search__blue_wrap">
+						<label for="searchField">Поиск..</label>
+							<input type="text" class="search__field" name="searchField" placeholder="Поиск..">
+						<button class="btn-search"></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<section class="breadcrumbs center">
+		<a href="#">Главная
+			<i class="icon-right"></i>
+		</a>
+		<a href="#">Группы
+			<i class="icon-right"></i>
+		</a>
+		<a href="#">Семья
+			<i class="icon-right"></i>
+		</a>
+		<a href="#" class="is_active">Семейное здоровье</a>
+	</section>
+	<div class="container">
+		<aside class="side__left" style="margin-bottom: 90px">
+			<div class="sidebox side__user" style="margin-bottom: 1px;">
+				<a href="#" class="icon-star"></a>
+				<a href="#" class="sidebox__user">
+					<img src="img/comp1.jpg" alt="Иллюстрация">
+				</a>
+				<h3 class="title__main pro">Castrol</h3>
+				<div class="community">
+					<p style="color: #52abf0">Был на сайте 25 янв в 12:00</p>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community" style="margin-bottom: 0;">
+					<div class="side__rating">
+						<div class="stars">
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r"></span>
+							</span>
+						</div>
+						<p>отзывов: <span>22</span></p>
+					</div>
+					<button class="btn btn__gray">Добавить в друзья</button>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community">
+					<div class="weekend">
+						<p>Выходные: <mark>Воскресение</mark></p>
+					</div>
+					<div class="hookup">
+						<i class="icon-phone"></i>
+						<a href="tel:+992 (361) 616 161">+992 (361) 616 161</a>
+						<a href="tel:+992 (362) 626262">+992 (362) 626262</a>
+						<a href="tel:+992 (907) 626  060">+992 (907) 626  060</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-planet"></i>
+						<a href="#" target="_blank">Перейти на сайт продавца</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-place"></i>
+						<p>Таджикистан, Душанбе, <br>пр. Рудаки 83</p>
+					</div>
+				</div>
+			</div>
+			<div class="sideclear">
+				<div class="map" id="map"></div>
+			</div>
+		</aside>
+		<div class="container__wide" style="margin-top: 85px; padding-top: 25px;">
+			<h2 class="title__main">
+				Ваш отзыв о Castrol
+			</h2>
+			<form action="" class="assessment">
+				<textarea name="" placeholder="Опишите ваши впечатления по работе продавца"></textarea>
+				<div class="seller__rate">
+					<p>Оцените продавца</p>
+					<div class="star__big_wrap">
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r active"></span>
+						</span>
+						<span class="star__big">
+							<span class="star__big_l active"></span>
+							<span class="star__big_r"></span>
+						</span>
+					</div>
+					<input type="text" name="" class="castom__name" placeholder="Ваше имя">
+					<input type="email" name="" class="castom__mail" placeholder="E-mail">
+					<button class="btn btn-red">Опубликовать</button>
+				</div>
+			</form>
+			<p>Стоит упомянуть об оперативности доставки, соответствии цен указанным в каталоге, аккуратности оформления покупки и приветливости персонала.</p>
+		</div>
+	</div><!-- end container -->
+
+</div>
+<!-- END out-->
+<footer class="footer">
+	<div class="footer__top">
+		<div class="container">
+			<a href="/" class="logo col-xl-0 col-m-1">
+					<h2><span>Club-</span>mam.kz</h2>
+				</a>
+			<div class="col-xl-4 col-m-2">
+				<a href="/" class="logo col-m-0">
+					<h2><span>Club-</span>mam.kz</h2>
+				</a>
+				<ul class="footer__list">
+					<li><a href="#">Справочник</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Барахолка</a></li>
+					<li><a href="#">Форум</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-4 col-m-0">
+				<h2 class="title__14">Мир леди</h2>
+				<ul class="footer__list">
+					<li><a href="#"> Семейная психология</a></li>
+					<li><a href="#">Семейное здоровье</a></li>
+					<li><a href="#">Финансы</a></li>
+					<li><a href="#">Интимные отношения</a></li>
+					<li><a href="#">Наши папы</a></li>
+					<li><a href="#">Свадьба</a></li>
+					<li><a href="#">Счастливые моменты</a></li>
+					<li><a href="#">Усыновление</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-4 col-m-0">
+				<h2 class="title__14">Беременность</h2>
+				<ul class="footer__list">
+					<li><a href="#">Планирование беременности</a></li>
+					<li><a href="#">Беременность</a></li>
+					<li><a href="#">ЭКО</a></li>
+					<li><a href="#">Роды</a></li>
+					<li><a href="#">Роддома</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-4 col-m-0">
+				<h2 class="title__14">Дети</h2>
+				<ul class="footer__list">
+					<li><a href="#">Детские сады</a></li>
+					<li><a href="#">Развитие</a></li>
+					<li><a href="#">Товары для детей</a></li>
+					<li><a href="#">От рождения до года</a></li>
+					<li><a href="#">От года до трех</a></li>
+					<li><a href="#">От шести и старше</a></li>
+					<li><a href="#">От трех до шести</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-0 col-m-2">
+				<h2 class="title__14">Мир леди</h2>
+				<h2 class="title__14">Беременность</h2>
+				<h2 class="title__14">Дети</h2>
+			</div>
+		</div>
+	</div>
+	<div class="footer__botom">
+		<div class="container center">
+			<div class="footer__botom_link">
+				<a href="#" >Подписка на новости</a>
+				<a href="#" >Поиск по сайту</a>
+				<a href="#" >Соглашение</a>
+				<a href="#" >Правообладателям</a>
+		</div>
+		<p> Club-mam.kz — сайт о беременности и материнстве. Дневники беременности и развития детей, календарь беременности, отзывы о товарах, <br> роддома, а также множество других полезных разделов и сервисов. <br> © 2005—2014</p>
+			<div class="footer__socio">
+				<a href="#" class="footer-f"></a>
+				<a href="#" class="footer-vk"></a>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="popup js_popup"></div>
+<div class="popup__filter js_popup_filter">
+
+	<h2 class="title__gang">Фильтр</h2>
+	<button class="btn-close js-close"></button>
+	<div class="sidebox">
+		<h5 class="title__gray">Тип</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="bye">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="bye" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Цена</h5>
+
+		<div class="ui-slider js-ui-slider">
+			<div class="ui-slider__top">
+
+				<input type="text" class="input js-ui-slider-from">
+				<span>-</span>
+				<input type="text" class="input js-ui-slider-to">
+				<button class="btn btn__blue_bg">Ok</button>
+				</div>
+				<div class="js-ui-slider-main"></div>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Производитель</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="produce">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+
+		<div class="select js-select">
+			<span class="select__text js-select-text"></span>
+			<input type="hidden" class="js-select-input" value="">
+			<ul class="select__list js-select-list">
+				<li data-id="0">Все размеры</li>
+				<li data-id="1">Детям</li>
+				<li data-id="2">Дядям</li>
+			</ul>
+		</div>
+</div>
+<div class="popup__search js_popup_search">
+
+	<h2 class="title__gang">Фильтр</h2>
+	<button class="btn-close js-close"></button>
+	<div class="sidebox">
+		<h5 class="title__gray">Тип</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="bye">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="bye" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Цена</h5>
+
+		<div class="ui-slider js-ui-slider">
+			<div class="ui-slider__top">
+
+				<input type="text" class="input js-ui-slider-from">
+				<span>-</span>
+				<input type="text" class="input js-ui-slider-to">
+				<button class="btn btn__blue_bg">Ok</button>
+				</div>
+				<div class="js-ui-slider-main"></div>
+		</div>
+	</div>
+
+	<div class="sidebox">
+		<h5 class="title__gray">Производитель</h5>
+		<div class="side__check">
+			<label class="radio"  >
+				<input type="radio" name="produce">
+				<span>Классические <sup>(4356)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+			<label class="radio"  >
+				<input type="radio" name="produce" checked>
+				<span>Коляски для двойни <sup>(45)</sup></span>
+			</label>
+		</div>
+	</div>
+
+	<div class="sidebox">
+
+		<div class="select js-select">
+			<span class="select__text js-select-text"></span>
+			<input type="hidden" class="js-select-input" value="">
+			<ul class="select__list js-select-list">
+				<li data-id="0">Все размеры</li>
+				<li data-id="1">Детям</li>
+				<li data-id="2">Дядям</li>
+			</ul>
+		</div>
+</div>
+<!-- load scripts -->
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/yandexMapInit.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
