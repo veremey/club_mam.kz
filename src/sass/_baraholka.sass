@@ -235,6 +235,24 @@
 				font-size: 14px
 			+r(330)
 				padding: 0 5px
+	&__locate
+		float: right
+		a
+			display: inline-block
+			padding-left: 30px
+			position: relative
+			color: $blue
+			margin-top: 20px
+			+osl
+			&:hover
+				color: $purpur
+			&:after
+				content: ""
+				position: absolute
+				top: -2px
+				left: 0
+				+s(icon-place)
+
 .clothes
 	position: relative
 	float: left
