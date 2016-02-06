@@ -12,6 +12,19 @@
 	+r(660)
 		font-size: 28px
 		margin: 30px auto
+.title__vend
+	display: inline-block
+	font-size: 30px
+	color: $black
+	+osl
+	&.pro
+		position: relative
+		&:after
+			content: ""
+			position: absolute
+			top: 20px
+			right: -40px
+			+s(icon-pro)
 .title__side
 	font-size: 30px
 	color: $black

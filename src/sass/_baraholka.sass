@@ -394,3 +394,85 @@
 		height: 31px
 		margin-left: 50%
 
+.vend
+	display: table
+	table-layout: fixed
+	width: 100%
+	background-color: #FFF
+	position: relative
+	margin-bottom: 10px
+	padding: 30px 50px 30px 44px
+	+clr
+	.icon-star
+		position: absolute
+		top: 20px
+		right: 10px
+		+s(icon-star)
+		&:hover
+			+scale(1.1)
+		&.is_active
+			+s(icon-star-active)
+	&__name
+		width: 40%
+		display: table-cell
+		vertical-align: middle
+		padding-right: 50px
+		+clr
+		.img-pro
+			display: inline-block
+			margin: 0 0 0 10px
+			width: 30px
+			height: 15px
+			float: none
+			-webkit-border-radius: 0
+			border-radius: 0
+			vertical-align: middle
+		img
+			float: left
+			vertical-align: top
+			margin-right: 15px
+			-webkit-border-radius: 100%
+			border-radius: 100%
+			width: 50px
+			height: 50px
+			+ .title__vend
+				float: right
+				width: calc(100% - 68px)
+				vertical-align: top
+		.title__vend
+			display: inline-block
+	&__rate
+		width: 13%
+		display: table-cell
+		vertical-align: middle
+		+clr
+		p
+			font-size: 14px
+			color: $gray
+			+osl
+		strong
+			font-size: 14px
+			color: $black
+			+osl
+	&__weekend
+		width: 13%
+		display: table-cell
+		vertical-align: middle
+		+clr
+		p
+			font-size: 14px
+			color: $gray
+			+osl
+	&__contact
+		display: table-cell
+		vertical-align: middle
+		+clr
+		a[href^="tel"]
+			font-size: 14px
+			color: $black
+			+os
+		a
+			font-size: 14px
+			color: $gray
+			+osl
+

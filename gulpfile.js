@@ -133,45 +133,45 @@ gulp.task('delete', function (cb) {
 
 
 // icon font
-var fontname = 'svgfont';
-gulp.task('font', function(){
-  return gulp.src('src/img/svg/*.svg')
-    // .pipe(svgmin())
-    .pipe(iconfont({
-      fontName: fontname,
-      appendUnicode: true,
-      formats: ['ttf', 'eot', 'woff', 'woff2'],
-      // timestamp: runTimestamp,
-      normalize: true,
-      fontHeight: 1001,
-      fontStyle: 'normal',
-      fontWeight: 'normal'
-    }))
-    .on('glyphs', function(glyphs, options) {
-        console.log(glyphs);
-        gulp.src('src/helpers/_svgfont.sass')
-            .pipe(consolidate('lodash', {
-                glyphs: glyphs,
-                fontName: fontname,
-                fontPath: 'fonts/',
-                className: 'icon'
-            }))
-            .pipe(gulp.dest('src/sass/'));
-        gulp.src('src/helpers/icons.html')
-            .pipe(consolidate('lodash', {
-                glyphs: glyphs,
-                fontName: fontname,
-                fontPath: 'fonts/',
-                className: 'icon',
-                htmlBefore: '<i class="icon ',
-                htmlAfter: '"></i>',
-                htmlBr: ''
-            }))
-            .pipe(gulp.dest('site/'));
-    })
-    .pipe(gulp.dest('site/css/fonts/'))
-    .pipe(reload({stream: true}));
-});
+// var fontname = 'svgfont';
+// gulp.task('font', function(){
+//   return gulp.src('src/img/svg/*.svg')
+//     // .pipe(svgmin())
+//     .pipe(iconfont({
+//       fontName: fontname,
+//       appendUnicode: true,
+//       formats: ['ttf', 'eot', 'woff', 'woff2'],
+//       // timestamp: runTimestamp,
+//       normalize: true,
+//       fontHeight: 1001,
+//       fontStyle: 'normal',
+//       fontWeight: 'normal'
+//     }))
+//     .on('glyphs', function(glyphs, options) {
+//         console.log(glyphs);
+//         gulp.src('src/helpers/_svgfont.sass')
+//             .pipe(consolidate('lodash', {
+//                 glyphs: glyphs,
+//                 fontName: fontname,
+//                 fontPath: 'fonts/',
+//                 className: 'icon'
+//             }))
+//             .pipe(gulp.dest('src/sass/'));
+//         gulp.src('src/helpers/icons.html')
+//             .pipe(consolidate('lodash', {
+//                 glyphs: glyphs,
+//                 fontName: fontname,
+//                 fontPath: 'fonts/',
+//                 className: 'icon',
+//                 htmlBefore: '<i class="icon ',
+//                 htmlAfter: '"></i>',
+//                 htmlBr: ''
+//             }))
+//             .pipe(gulp.dest('site/'));
+//     })
+//     .pipe(gulp.dest('site/css/fonts/'))
+//     .pipe(reload({stream: true}));
+// });
 
 
 
@@ -199,7 +199,7 @@ gulp.task('watch', function() {
     gulp.watch(src.sass + '/**/*', ['sass']);
     gulp.watch('src/js/*', ['js']);
     gulp.watch('src/img/*', ['copy']);
-    gulp.watch('src/img/svg/*', ['font']);
+    // gulp.watch('src/img/svg/*', ['font']);
     gulp.watch(['src/*.html', 'src/includes/*.html'], ['html']);
     gulp.watch(src.img + '/icons/*.png', ['sprite']);
 });
@@ -207,4 +207,4 @@ gulp.task('watch', function() {
 
 gulp.task('default', ['build', 'browser-sync', 'watch'], function() {});
 
-gulp.task('build', ['html','font','sprite','copy','js','sass'], function() {});
+gulp.task('build', ['html',/*'font',*/'sprite','copy','js','sass'], function() {});
