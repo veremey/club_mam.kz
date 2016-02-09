@@ -4653,6 +4653,14 @@ aside .search__blue label {
 }
 .sidebox .title__main {
   margin: 0;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.sidebox p {
+  color: #23252a;
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
 }
 
 .side__user {
@@ -4892,7 +4900,6 @@ aside .search__blue label {
 .sidebox__short {
   position: relative;
   background-color: #fff;
-  float: left;
   width: 100%;
   padding: 35px 40px;
   border-top: 1px solid #f0f3f5;

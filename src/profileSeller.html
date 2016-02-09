@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+	<title>Profile Seller</title>
+	//= includes/head.html
+	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+	<!-- BEGIN  out-->
+<div class="out">
+	//= includes/header.html
+	//= includes/breadcrumbs.html
+	<div class="container">
+		<aside class="side__left" style="margin-bottom: 90px">
+			<div class="sidebox side__user" style="margin-bottom: 1px;">
+				<a href="#" class="icon-star"></a>
+				<a href="#" class="sidebox__user">
+					<img src="img/comp1.jpg" alt="Иллюстрация">
+				</a>
+				<h3 class="title__main pro">Castrol</h3>
+				<div class="community">
+					<p style="color: #52abf0">Был на сайте 25 янв в 12:00</p>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community" style="margin-bottom: 0;">
+					<div class="side__rating">
+						<div class="stars">
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r active"></span>
+							</span>
+							<span class="star">
+								<span class="star_l active"></span>
+								<span class="star_r"></span>
+							</span>
+						</div>
+						<p>отзывов: <span>22</span></p>
+					</div>
+					<button class="btn btn__gray">Добавить в друзья</button>
+				</div>
+			</div>
+			<div class="sidebox">
+				<div class="community">
+					<div class="weekend">
+						<p>Выходные: <mark>Воскресение</mark></p>
+					</div>
+					<div class="hookup">
+						<i class="icon-phone"></i>
+						<a href="tel:+992 (361) 616 161">+992 (361) 616 161</a>
+						<a href="tel:+992 (362) 626262">+992 (362) 626262</a>
+						<a href="tel:+992 (907) 626  060">+992 (907) 626  060</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-planet"></i>
+						<a href="#" target="_blank">Перейти на сайт продавца</a>
+					</div>
+					<div class="hookup">
+						<i class="icon-place"></i>
+						<p>Таджикистан, Душанбе, <br>пр. Рудаки 83</p>
+					</div>
+				</div>
+			</div>
+			<div class="sideclear">
+				<div class="map" id="map"></div>
+			</div>
+
+			<div class="sidebox" style="margin: 20px 0 -10px;">
+				<h3 class="title__side">Каталог <i class="icon-info_blue"></i></h3>
+				<div class="sidebox__delivery">
+					<h6>По Киеву</h6>
+					<p>Самовывоз из нашего магазина</p>
+					<p>Курьером по адресу</p>
+					<br>
+					<h6>В регионах</h6>
+					<ul>
+						<li>самовывоз из точки выдачи</li>
+						<li>из пункта службы доставки</li>
+						<li>курьером по адресу</li>
+					</ul>
+				</div>
+			</div>
+			<div class="sidebox__short" style="padding-bottom: 45px;">
+				<h3 class="title__side" style="margin-bottom: 0px;">Оплата <i class="icon-info_blue"></i></h3>
+				<p style="color: #23252a;">Наличными, Безналичными,<br> Кредит, Visa/MasterCard</p>
+			</div>
+			<div class="sidebox__short" style="padding-bottom: 45px;">
+				<h3 class="title__side"  style="margin-bottom: 0px;">Гарантия <i class="icon-info_blue"></i></h3>
+				<p style="color: #23252a;">Обмен/возврат товара в течение <br> 14 дней</p>
+			</div>
+			<div class="sidebox" style="margin: 20px 0 -10px;">
+				<h3 class="title__side">О продавце </h3>
+				<p>Мы уже долго работаем на рынке Украины, поэтому решили для наших дорогих покупателей открыть интернет-магазин для Вашего удобства и экономии времени.</p>
+				<p>На страницах нашего магазина Вы сможете найти огромный выбор товаров для дома.</p>
+			</div>
+		</aside>
+
+		<!-- START main -->
+		<div class="main">
+			<div class="main__header">
+				<h2 class="title__main">Детская одежда и обувь</h2>
+				<form action="/" class="search__blue">
+					<button class="btn btn-red col-xl-0 js_filter">Фильтр</button>
+					<div class="search__blue_wrap">
+						<label for="searchField">Поиск в категории</label>
+						<input type="text" class="search__field" name="searchField" placeholder="Поиск в категории">
+						<button class="btn-search"></button>
+					</div>
+				</form>
+			</div>
+
+			<div class="sort" >
+				<p>Сортировка:</p>
+				<ul class="sort__item ">
+					<li class="is_active"><a href="#">От дешевых к дорогим</a></li>
+					<li><a href="#">от дорогих к дешевым</a></li>
+					<li><a href="#">популярные</a></li>
+					<li><a href="#">новинки</a></li>
+					<li><a href="#">акционные</a></li>
+				</ul>
+				<div class="input-row__field col-xl-0">
+					<div class="select js-select">
+						<span class="select__text js-select-text"></span>
+						<input type="hidden" class="js-select-input" value="">
+						<ul class="select__list js-select-list">
+							<li data-id="0">от дорогих к дешевым</li>
+							<li data-id="1">популярные</li>
+							<li data-id="2">новинки</li>
+							<li data-id="3">акционные</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div> <!-- END MAIN -->
+		<div class="main">
+
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+			//= includes/qas.html
+			//= includes/qas.html
+			//= includes/qas.html
+			<div class="main__row"></div>
+
+			<div class="clear"></div>
+			//= includes/pager.html
+		</div>
+	</div><!-- end container -->
+
+</div>
+<!-- END out-->
+//= includes/footer.html
+<div class="popup js_popup"></div>
+//= includes/filter.html
+//= includes/search.html
+<!-- load scripts -->
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/yandexMapInit.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
