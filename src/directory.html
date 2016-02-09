@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+	<title>Directory</title>
+	//= includes/head.html
+</head>
+<body>
+	<!-- BEGIN  out-->
+<div class="out">
+	//= includes/header.html
+	//= includes/breadcrumbs.html
+	<div class="container">
+		<aside>
+			<div class="sidebox">
+				<h3 class="title__side">Каталог</h3>
+				<div class="js-accordeon-item">
+					<a href="#" class="tab__title js-accordeon-link is-open"><i class="icon-top"></i>Для детей</a>
+					<div class="tab__box js-accordeon-post" style="display: block;">
+						<a href="#" class="is_active">Детская одежда и обувь  </a>
+						<a href="#">Товары для детей и игрушки </a>
+						<a href="#">Услуги</a>
+					</div>
+				</div>
+				<div class="js-accordeon-item">
+					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Для взрослых</a>
+					<div class="tab__box js-accordeon-post">
+						<a href="#" class="is_active">Детская одежда и обувь  </a>
+						<a href="#">Товары для детей и игрушки </a>
+						<a href="#">Услуги</a>
+					</div>
+				</div>
+				<div class="js-accordeon-item">
+					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Хобби и отдых</a>
+					<div class="tab__box js-accordeon-post">
+						<a href="#" class="is_active">Детская одежда и обувь  </a>
+						<a href="#">Товары для детей и игрушки </a>
+						<a href="#">Услуги</a>
+					</div>
+				</div>
+				<div class="js-accordeon-item">
+					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Услуги</a>
+					<div class="tab__box js-accordeon-post">
+						<a href="#" class="is_active">Детская одежда и обувь  </a>
+						<a href="#">Товары для детей и игрушки </a>
+						<a href="#">Услуги</a>
+					</div>
+				</div>
+				<div class="js-accordeon-item">
+					<a href="#" class="tab__title js-accordeon-link"><i class="icon-top"></i>Для дома и дачи</a>
+					<div class="tab__box js-accordeon-post">
+						<a href="#" class="is_active">Детская одежда и обувь  </a>
+						<a href="#">Товары для детей и игрушки </a>
+						<a href="#">Услуги</a>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<!-- START main -->
+		<div class="main">
+			<div class="main__header">
+				<h2 class="title__main">Детская одежда и обувь</h2>
+				<form action="" class="search__blue">
+					<button class="btn btn-red col-xl-0 js_filter">Фильтр</button>
+					<div class="search__blue_wrap">
+						<label for="searchField">Поиск в категории</label>
+						<input type="text" class="search__field" name="searchField" placeholder="Поиск в категории">
+						<button class="btn-search"></button>
+					</div>
+				</form>
+			</div>
+			<div class="closed__block js-close-block">
+				<button class="btn-close js-close"></button>
+				<div class="closed__filter">
+					<div class="closed__filter_row">
+						<div class="filter__check">
+							<label class="radio"  >
+								<input type="radio" name="bye">
+								<span>Для девочек</span>
+							</label>
+							<label class="radio"  >
+								<input type="radio" name="bye" checked>
+								<span>Для мальчиков</span>
+							</label>
+						</div>
+						<div class="filter__choose">
+							<div class="input-row__field">
+								<div class="select js-select">
+									<span class="select__text js-select-text"></span>
+									<input type="hidden" class="js-select-input" value="">
+									<ul class="select__list js-select-list">
+										<li data-id="0">Все рубрики</li>
+										<li data-id="1">Дети</li>
+										<li data-id="2">Дяди</li>
+									</ul>
+								</div>
+							</div>
+							<div class="input-row__field">
+								<div class="select js-select">
+									<span class="select__text js-select-text"></span>
+									<input type="hidden" class="js-select-input" value="">
+									<ul class="select__list js-select-list">
+										<li data-id="0">Все размеры</li>
+										<li data-id="1">Xl</li>
+										<li data-id="2">XXXl</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="closed__filter_row">
+						<div class="filder__input_wrap">
+							<input type="text" name="ot" placeholder="Цена от">
+							<input type="text" name="do" placeholder="Цена до">
+						</div>
+						<div class="filter__check" style="margin-top: 15px;">
+							<label class="radio"  >
+								<input type="radio" name="goods">
+								<span>Новые товары</span>
+							</label>
+							<label class="radio"  >
+								<input type="radio" name="goods" checked>
+								<span>С фото</span>
+							</label>
+						</div>
+						<div class="filter__btn_wrap">
+							<button class="btn btn-blue" type="submit">Найти</button>
+							<button class="btn-transparent" type="reset">Сбросить фильтр</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>  <!-- END main -->
+		<!-- begin main  -->
+		<div class="main">
+
+
+
+
+			<div class="clear"></div>
+			//= includes/pager.html
+		</div>
+		<!-- end main -->
+
+	</div><!-- end container -->
+
+
+
+</div>
+<!-- END out-->
+//= includes/footer.html
+<div class="popup js_popup"></div>
+//= includes/filter.html
+//= includes/search.html
+<!-- load scripts -->
+<script src="js/lib/jquery.js"></script>
+<script src="js/lib/jquery-ui.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
