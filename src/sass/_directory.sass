@@ -1,0 +1,120 @@
+.directory
+	position: relative
+	margin-top: 20px
+	background-color: #FFF
+	+clr
+	.icon-star
+		position: absolute
+		top: 15px
+		right: 20px
+		&.is_active
+			+s(icon-star-blue)
+	&__header
+		display: table
+		table-layout: fixed
+		width: 100%
+		vertical-align: top
+		border-bottom: 1px solid $body
+	&__user
+		display: table-cell
+		width: 47%
+		padding: 25px 40px
+		vertical-align: top
+		border-right: 1px solid $body
+		p
+			font-size: 14px
+			+osl
+		strong
+			+os
+		> img
+			width: 80px
+			height: 80px
+			vertical-align: top
+			display: inline-block
+			-webkit-border-radius: 100%
+			border-radius: 100%
+		&_title
+			display: inline-block
+			margin-left: 20px
+	&__pay
+		display: table-cell
+		vertical-align: middle
+		width: 30%
+		padding: 25px 35px
+		border-right: 1px solid $body
+		p
+			font-size: 14px
+			+os
+		strong
+			font-size: 18px
+			+os
+		span
+			color: $gray
+			font-size: 14px
+			+osl
+	&__rate
+		display: table-cell
+		width: 23%
+		vertical-align: middle
+		padding: 25px 35px
+		p
+			font-size: 14px
+			color: $gray
+			+osl
+		strong
+			color: $black
+	&__contant
+		display: table
+		table-layout: fixed
+		width: 100%
+		vertical-align: top
+		&_learn
+			display: table-cell
+			width: 47%
+			padding: 25px 40px
+			vertical-align: top
+			border-right: 1px solid $body
+			p
+				font-size: 18px
+				color: $black
+				+osl
+		&_profit
+			display: table-cell
+			width: 53%
+			vertical-align: top
+			padding: 25px 35px
+			&.short
+				width: 30%
+				padding: 25px 35px
+				border-right: 1px solid $body
+			p
+				font-size: 14px
+				color: $gray
+				margin-bottom: 10px
+				+osl
+		&_photo
+			display: table-cell
+			width: 23%
+			vertical-align: top
+			padding: 25px 35px
+			a
+				position: relative
+				float: left
+				margin: 0 10px 10px 0
+				width: 60px
+				height: 60px
+				-webkit-border-radius: 100%
+				border-radius: 100%
+				overflow: hidden
+				&:hover
+					span
+						opacity: 1
+				span
+					opacity: 0
+					+coverdiv
+					background-color: rgba(82, 171, 240, .7)
+				strong
+					+vcenter
+					font-size: 18px
+					color: #FFF
+					+ossb

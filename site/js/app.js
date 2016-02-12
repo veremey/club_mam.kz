@@ -171,7 +171,7 @@ $(document).ready(function() {
 	});
 
 	//active icon-star
-	$('.clothes__icons, .side__user, .vend').on('click', '.icon-star', function() {
+	$('.clothes__icons, .side__user, .vend,.directory').on('click','.icon-star', function() {
 		$(this).toggleClass('is_active');
 	});
 
