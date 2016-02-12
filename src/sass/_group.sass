@@ -1477,3 +1477,82 @@
 		text-transform: uppercase
 		color: $black
 		+os
+
+.grut
+	background-color: #FFF
+	+clr
+	&__header
+		display: table
+		table-layout: fixed
+		width: 100%
+		border-bottom: 1px solid $body
+		&_price
+			display: table-cell
+			width: 67%
+			vertical-align: top
+			padding: 25px 40px
+			border-right: 1px solid $body
+			p
+				font-size: 18px
+				color: $black
+				+osl
+			strong
+				font-size: 22px
+				+ossb
+			span
+				font-size: 14px
+				color: $gray
+				+osl
+			a
+				font-size: 14px
+				color: $blue
+				+osl
+				text-decoration: underline
+				&:hover
+					color: $purpur
+
+		&_rate
+			display: table-cell
+			width: 33%
+			vertical-align: top
+			padding: 25px 40px
+			p
+				color: $gray
+				font-style: 14px
+				+osl
+			a
+				color: $blue
+				font-style: 14px
+				display: inline
+				text-decoration: none
+				+osl
+				&:hover
+					color: $purpur
+
+
+
+.roster
+	margin-bottom: 35px
+	+clr
+	p
+		font-size: 18px
+		color: $gray
+		+osl
+	span
+		font-size: 18px
+		color: $black
+		+osl
+	&_list
+		+clr
+	li
+		position: relative
+		padding-left: 20px
+		font-size: 18px
+		color: $black
+		+osl
+		&:before
+			content: ""
+			position: absolute
+			left: 0
+			top: 7px
+			+s(icon-roster)

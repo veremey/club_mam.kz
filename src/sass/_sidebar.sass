@@ -42,14 +42,40 @@ aside
 	+clr
 	+r(1580)
 		padding: 40px 25px 50px
-	.title__main
-		margin: 0
-		line-height: 1
-		margin-bottom: 15px
 	p
 		color: $black
 		font-size: 14px
 		+osl
+	.title__main
+		margin: 0
+		line-height: 1
+		margin-bottom: 15px
+	.roster
+		margin-bottom: 15px
+		+clr
+		p
+			font-size: 14px
+			color: $gray
+			+osl
+		span
+			font-size: 14px
+			color: $black
+			+os
+		&_list
+			+clr
+		li
+			position: relative
+			padding-left: 20px
+			font-size: 14px
+			color: $black
+			+os
+			&:before
+				content: ""
+				position: absolute
+				left: 0
+				top: 7px
+				+s(icon-roster)
+
 .side__user
 	position: relative
 	margin-top: 85px
@@ -150,6 +176,13 @@ aside
 		display: inline-block
 		vertical-align: top
 		font-size: 30px
+		+osl
+.pustishka
+	margin: 25px 0
+	+clr
+	strong
+		color: $black
+		font-size: 20px
 		+osl
 
 .side__link_text
@@ -368,6 +401,7 @@ aside
 		height: 54px
 		+os
 	.btn-blue
+		font-size: 20px
 		margin-top: 10px
 		&:hover
 			background-color: $blue
