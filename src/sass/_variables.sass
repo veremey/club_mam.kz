@@ -90,6 +90,9 @@ mark
 .show1250
 	+r(1250)
 		display: block
+.show1380
+	+r(1380)
+		display: block
 .hide650
 	+r(650)
 		display: none
@@ -118,6 +121,9 @@ mark
 		width: 100%
 .hide1250
 	+r(1250)
+		display: none
+.hide1380
+	+r(1380)
 		display: none
 
 .quatanava1250
@@ -228,6 +234,9 @@ mark
 		+r(700)
 			width: 100%
 			margin: 0 0 15px
+	&.wide1180
+		+r(1180)
+			width: 100%
 
 
 
@@ -553,27 +562,42 @@ mark
 	.star__big_r.active
 		background: url(../img/star_big_a.png) 100% 0 no-repeat
 
+
 .empty__padding
 	display: table
 	table-layout: fixed
 	padding: 0
 	width: 100%
+	+r(760)
+		display: none
 	.input-row__field
 		width: 80%
+		min-width: 230px
 	.filter__cell
 		display: table-cell
 		border-right: 1px solid $body
 		vertical-align: middle
 		padding: 30px 0
+
 		&_first
 			width: 38%
 			padding-left: 40px
+			+r(1180)
+				padding-left: 20px
+			+r(850)
+				padding-left: 0
 		&_second
 			width: 41%
 			padding-left: 55px
+			+r(850)
+				width: 35%
+				padding-left: 30px
 		&_third
 			width: 21%
 			padding-left: 50px
+			border-right: none
+			+r(1380)
+				padding-left: 25px
 	.filter__btn_wrap
 		float: left
 

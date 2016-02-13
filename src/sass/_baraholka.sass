@@ -227,6 +227,11 @@
 			float: none
 		+r(340)
 			width: calc(100% - 90px)
+		&.show1380
+			+r(1380)
+				display: inline-block
+				float: none
+				width: auto
 		li,
 		span
 			+r(380)
@@ -237,6 +242,13 @@
 				padding: 0 5px
 	&__locate
 		float: right
+		+r(650)
+			float: right
+			width: 100%
+		&.show650
+			display: none
+			+r(650)
+				display: block
 		a
 			display: inline-block
 			padding-left: 30px
@@ -403,6 +415,8 @@
 	margin-bottom: 10px
 	padding: 30px 50px 30px 44px
 	+clr
+	+r(480)
+		padding: 30px 20px 30px 30px
 	.icon-star
 		position: absolute
 		top: 20px
@@ -418,6 +432,12 @@
 		vertical-align: middle
 		padding-right: 50px
 		+clr
+		+r(970)
+			width: 45%
+		+r(870)
+			display: block
+			margin-bottom: 15px
+			width: 100%
 		.img-pro
 			display: inline-block
 			margin: 0 0 0 10px
@@ -431,21 +451,33 @@
 			float: left
 			vertical-align: top
 			margin-right: 15px
-			-webkit-border-radius: 100%
 			border-radius: 100%
 			width: 50px
 			height: 50px
+			+r(480)
+				display: inline-block
+				float: none
 			+ .title__vend
 				float: right
 				width: calc(100% - 68px)
 				vertical-align: top
+				+r(480)
+					float: none
+					display: inline
+					width: auto
 		.title__vend
 			display: inline-block
 	&__rate
-		width: 13%
+		width: 15%
 		display: table-cell
 		vertical-align: middle
 		+clr
+		+r(870)
+			display: inline-block
+			width: 50%
+			text-align: center
+			.stars
+				margin: 0 auto 15px
 		p
 			font-size: 14px
 			color: $gray
@@ -455,18 +487,30 @@
 			color: $black
 			+osl
 	&__weekend
-		width: 13%
+		width: 15%
 		display: table-cell
 		vertical-align: middle
 		+clr
+		+r(870)
+			display: inline-block
+			width: 50%
+			text-align: center
 		p
 			font-size: 14px
 			color: $gray
 			+osl
 	&__contact
+		width: 30%
 		display: table-cell
 		vertical-align: middle
 		+clr
+		+r(970)
+			width: 25%
+		+r(870)
+			display: block
+			width: 100%
+			margin-top: 15px
+			text-align: center
 		a[href^="tel"]
 			font-size: 14px
 			color: $black
