@@ -1401,11 +1401,24 @@
 .assessment
 	margin-bottom: 10px
 	+clr
-	textarea
+	+r(650)
+		margin-top: 15px
+	&__wrap
 		width: 47%
-		height: 280px
 		float: left
 		margin-right: 4%
+		+r(1150)
+			width: 60%
+		+r(1020)
+			width: 100%
+		p
+			width: 96%
+			font-size: 14px
+			color: $gray
+			+osl
+	textarea
+		width: 100%
+		height: 280px
 		padding: 25px
 		resize: none
 		border: 1px solid $body
@@ -1415,15 +1428,15 @@
 			font-size: 16px
 			color: $black
 			+osl
-	+ p
-		width: 45%
-		font-size: 14px
-		color: $gray
-		+osl
 .seller__rate
 	width: 49%
 	float: right
 	+clr
+	+r(1150)
+		width: 36%
+	+r(1020)
+		width: 100%
+		margin: 20px 0
 	p
 		font-size: 16px
 		color: $gray
@@ -1435,6 +1448,8 @@
 		margin-bottom: 5px
 		padding: 0 20px
 		font-size: 16px
+		+r(1270)
+			width: 100%
 		+placeholder
 			font-size: 16px
 			color: $gray
@@ -1446,6 +1461,8 @@
 		border: 1px solid $body
 		margin-bottom: 20px
 		padding: 0 20px
+		+r(1270)
+			width: 100%
 		+placeholder
 			font-size: 16px
 			color: $gray

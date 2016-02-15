@@ -58,6 +58,13 @@ mark
 		&:nth-child(2n)
 			margin-right: 0
 
+.wide1020
+	+r(1020)
+		display: block
+		width: 100%
+		// margin-top: 0 !important
+		// margin-bottom: 60px
+
 .poazat650
 	display: none
 	+r(650)
@@ -535,12 +542,18 @@ mark
 	height: 36px
 	z-index: 2
 	margin: 10px 0 20px
+	+r(1020)
+		width: 100%
 	.star__big
 		display: inline-block
 		vertical-align: middle
 		width: 29px
 		height: 28px
 		margin-right: 0
+		+r(1020)
+			margin-right: 20px
+		+r(400)
+			margin-right: 0px
 	.star__big_l
 		display: block
 		float: left
