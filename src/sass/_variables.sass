@@ -57,13 +57,24 @@ mark
 		margin-right: 2%
 		&:nth-child(2n)
 			margin-right: 0
+		+r(1400)
+			width: 100%
+			margin: 20px 0 0
+		+r(1300)
+			width: 49%
+			margin-right: 2%
+			&:nth-child(2n)
+				margin-right: 0
 
 .wide1020
 	+r(1020)
 		display: block
 		width: 100%
-		// margin-top: 0 !important
-		// margin-bottom: 60px
+
+.rebuild1250
+	+r(1250)
+		width: calc(100% - 335px)
+		float: right
 
 .poazat650
 	display: none

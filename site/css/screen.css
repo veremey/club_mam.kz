@@ -2496,6 +2496,24 @@ a {
   margin-left: 0 !important;
 }
 
+.article__photo {
+  display: none;
+  background-color: #FFF;
+  margin-bottom: 20px;
+  padding: 35px 44px;
+}
+@media only screen and (max-width: 1250px) {
+  .article__photo {
+    display: block;
+  }
+}
+.article__photo .album {
+  margin-right: 10px;
+}
+.article__photo .album:nth-child(3n) {
+  margin-right: 10px;
+}
+
 .squard {
   position: relative;
   width: 100%;
@@ -7379,6 +7397,20 @@ aside .search__blue label {
 .title__side .btn {
   float: right;
 }
+@media only screen and (max-width: 1400px) {
+  .title__side .btn {
+    width: 100%;
+    margin-top: 15px;
+    float: none;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .title__side .btn {
+    width: auto;
+    margin: 0;
+    float: right;
+  }
+}
 @media only screen and (max-width: 660px) {
   .title__side {
     line-height: 1;
@@ -7536,6 +7568,12 @@ aside .search__blue label {
   margin-bottom: 15px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
+}
+.title__article a {
+  color: #23252a;
+}
+.title__article a:hover {
+  color: #eb6c96;
 }
 
 .btn {
@@ -7773,11 +7811,33 @@ mark {
 .show__little_clothes .clothes:nth-child(2n) {
   margin-right: 0;
 }
+@media only screen and (max-width: 1400px) {
+  .show__little_clothes .clothes {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .show__little_clothes .clothes {
+    width: 49%;
+    margin-right: 2%;
+  }
+  .show__little_clothes .clothes:nth-child(2n) {
+    margin-right: 0;
+  }
+}
 
 @media only screen and (max-width: 1020px) {
   .wide1020 {
     display: block;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .rebuild1250 {
+    width: calc(100% - 335px);
+    float: right;
   }
 }
 
