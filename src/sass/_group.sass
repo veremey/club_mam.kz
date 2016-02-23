@@ -98,6 +98,8 @@
 	+clr
 	.article__rating
 		width: 18%
+		+r(750)
+			width: 33.33%
 		&:last-child
 			border-right: 1px solid $n
 .article__post
@@ -107,6 +109,10 @@
 	height: 100px
 	border-right: 1px solid $body
 	float: left
+	+r(750)
+		width: 100%
+		float: none
+		border-bottom: 1px solid $body
 	&_wrap
 		position: absolute
 		left: 44px

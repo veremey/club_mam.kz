@@ -1622,6 +1622,11 @@ a {
 .article__footer__short .article__rating {
   width: 18%;
 }
+@media only screen and (max-width: 750px) {
+  .article__footer__short .article__rating {
+    width: 33.33%;
+  }
+}
 .article__footer__short .article__rating:last-child {
   border-right: 1px solid transparent;
 }
@@ -1633,6 +1638,13 @@ a {
   height: 100px;
   border-right: 1px solid #F3F5F7;
   float: left;
+}
+@media only screen and (max-width: 750px) {
+  .article__post {
+    width: 100%;
+    float: none;
+    border-bottom: 1px solid #F3F5F7;
+  }
 }
 .article__post_wrap {
   position: absolute;
@@ -5488,6 +5500,7 @@ aside .search__blue label {
 .connect__btn .btn {
   width: 248px;
   height: 54px;
+  max-width: 100%;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
 }
@@ -5621,6 +5634,19 @@ aside .search__blue label {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
   color: #acb1b7;
+}
+
+@media only screen and (max-width: 1020px) {
+  .kid__link {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .kid__link {
+    width: 100%;
+    float: none;
+  }
 }
 
 .slider__post_item {
@@ -7411,6 +7437,12 @@ aside .search__blue label {
     float: right;
   }
 }
+@media only screen and (max-width: 750px) {
+  .title__side .btn {
+    margin-top: 15px;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 660px) {
   .title__side {
     line-height: 1;
@@ -7826,6 +7858,12 @@ mark {
     margin-right: 0;
   }
 }
+@media only screen and (max-width: 750px) {
+  .show__little_clothes .clothes {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
 
 @media only screen and (max-width: 1020px) {
   .wide1020 {
@@ -7833,11 +7871,24 @@ mark {
     width: 100%;
   }
 }
+@media only screen and (max-width: 1020px) {
+  .wide1020.side__left {
+    margin-right: 0;
+  }
+}
 
 @media only screen and (max-width: 1250px) {
   .rebuild1250 {
     width: calc(100% - 335px);
     float: right;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .rebuild1250.wide1020 {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
   }
 }
 

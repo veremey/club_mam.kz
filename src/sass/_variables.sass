@@ -65,16 +65,28 @@ mark
 			margin-right: 2%
 			&:nth-child(2n)
 				margin-right: 0
+		+r(750)
+			width: 100%
+			margin: 20px 0 0
 
 .wide1020
 	+r(1020)
 		display: block
 		width: 100%
+	&.side__left
+		+r(1020)
+			margin-right: 0
 
 .rebuild1250
 	+r(1250)
 		width: calc(100% - 335px)
 		float: right
+	&.wide1020
+		+r(1020)
+			float: none
+			width: 100%
+			margin-top: 20px
+			overflow: hidden
 
 .poazat650
 	display: none
