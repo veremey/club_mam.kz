@@ -7877,6 +7877,18 @@ mark {
   }
 }
 
+@media only screen and (max-width: 1280px) {
+  .wide1280 {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .wide1280.side__left {
+    margin-right: 0;
+  }
+}
+
 @media only screen and (max-width: 1250px) {
   .rebuild1250 {
     width: calc(100% - 335px);
