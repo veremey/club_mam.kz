@@ -77,6 +77,7 @@ mark
 		+r(1020)
 			margin-right: 0
 
+
 .wide1400
 	+r(1400)
 		display: block
@@ -84,6 +85,14 @@ mark
 	&.side__left
 		+r(1400)
 			margin-right: 0
+
+.wide1160
+	+r(1160)
+		float: none
+		display: block
+		width: 100%
+		margin-top: 20px
+		overflow: hidden
 .rebuild1400
 	+r(1400)
 		width: calc(100% - 335px)
@@ -286,6 +295,16 @@ mark
 	&.wide1180
 		+r(1180)
 			width: 100%
+	&.rebuild1260
+		+r(1260)
+			width: calc(100% - 335px)
+			float: right
+		&.wide1160
+			+r(1160)
+				float: none
+				width: 100%
+				margin-top: 20px
+				overflow: hidden
 
 
 

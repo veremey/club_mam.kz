@@ -3977,7 +3977,7 @@ a {
 .grut__header_rate {
   display: table-cell;
   width: 33%;
-  vertical-align: top;
+  vertical-align: middle;
   padding: 25px 40px;
 }
 @media only screen and (max-width: 650px) {
@@ -4408,6 +4408,11 @@ a {
 .sort .sort__item li {
   margin-right: 20px;
   float: left;
+}
+@media only screen and (max-width: 1180px) {
+  .sort .sort__item li {
+    margin-right: 15px;
+  }
 }
 .sort .sort__item li.show {
   display: block;
@@ -5607,6 +5612,11 @@ aside .search__blue label {
 @media only screen and (max-width: 1250px) {
   .photo__height.js-move_children {
     margin: 10px 40px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .photo__height.js-move_children {
+    margin: 10px;
   }
 }
 .photo__height.js-move_children .album {
@@ -7947,6 +7957,16 @@ mark {
   }
 }
 
+@media only screen and (max-width: 1160px) {
+  .wide1160 {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 1400px) {
   .rebuild1400 {
     width: calc(100% - 335px);
@@ -8322,6 +8342,20 @@ mark {
 @media only screen and (max-width: 1180px) {
   .main.wide1180 {
     width: 100%;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .main.rebuild1260 {
+    width: calc(100% - 335px);
+    float: right;
+  }
+}
+@media only screen and (max-width: 1160px) {
+  .main.rebuild1260.wide1160 {
+    float: none;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
   }
 }
 
