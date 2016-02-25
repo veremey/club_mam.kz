@@ -77,14 +77,24 @@ mark
 		+r(1020)
 			margin-right: 0
 
-.wide1280
-	+r(1280)
+.wide1400
+	+r(1400)
 		display: block
 		width: 100%
 	&.side__left
-		+r(1280)
+		+r(1400)
 			margin-right: 0
-
+.rebuild1400
+	+r(1400)
+		width: calc(100% - 335px)
+		float: right
+	&.wide1020
+		+r(1020)
+			float: none
+			width: 100%
+			// margin-top: 20px
+			padding-top: 20px
+			overflow: hidden
 
 .rebuild1250
 	+r(1250)

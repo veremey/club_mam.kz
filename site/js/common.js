@@ -123,12 +123,9 @@ $(document).ready(function() {
 			);
 
 		});
-
 	});
 
-
 	/* Скрипт для рейтинга Большой */
-
 	$('.star__big_wrap').each(function(){
 
 		var rating = $(this);
@@ -153,7 +150,6 @@ $(document).ready(function() {
 			);
 
 		});
-
 	});
 
 	//Попап поиска < 651px
@@ -161,7 +157,6 @@ $(document).ready(function() {
 		$('.search__field').addClass('js_search');
 		$('.btn-search').addClass('js_search');
 	};
-
 
 	// активауия значков рейтинга в статьях
 	$('.article__rating').on('click', function() {

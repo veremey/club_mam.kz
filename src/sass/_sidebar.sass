@@ -29,6 +29,11 @@ aside
 	vertical-align: top
 	margin-left: 15px
 	+clr
+	&.wide1400
+		margin-left: 0
+		margin-right: 0
+		.sidebox
+			padding: 40px 40px 50px
 .sidebox
 	position: relative
 	width: 100%
@@ -60,10 +65,15 @@ aside
 			font-size: 14px
 			color: $gray
 			+osl
+			+r(1400)
+				font-size: 18px
 		span
 			font-size: 14px
 			color: $black
 			+os
+			+r(1400)
+				font-size: 18px
+				+osl
 		&_list
 			+clr
 		li
@@ -435,6 +445,12 @@ aside
 		height: 50px
 .photo__height
 	+clr
+	&.js-move_children
+		+r(1250)
+			margin: 10px 40px
+		.album
+			display: inline-block
+			margin-right: 10px
 .album
 	position: relative
 	float: left

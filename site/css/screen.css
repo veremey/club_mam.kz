@@ -3921,12 +3921,31 @@ a {
   width: 100%;
   border-bottom: 1px solid #F3F5F7;
 }
+@media only screen and (max-width: 650px) {
+  .grut__header {
+    display: block;
+    *zoom: 1;
+  }
+  .grut__header:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+}
 .grut__header_price {
   display: table-cell;
   width: 67%;
   vertical-align: top;
   padding: 25px 40px;
   border-right: 1px solid #F3F5F7;
+}
+@media only screen and (max-width: 650px) {
+  .grut__header_price {
+    width: 100%;
+    display: block;
+    border: none;
+    padding-bottom: 0;
+  }
 }
 .grut__header_price p {
   font-size: 18px;
@@ -3961,6 +3980,14 @@ a {
   vertical-align: top;
   padding: 25px 40px;
 }
+@media only screen and (max-width: 650px) {
+  .grut__header_rate {
+    width: 100%;
+    display: block;
+    border: none;
+    padding-top: 0;
+  }
+}
 .grut__header_rate p {
   color: #acb1b7;
   font-style: 14px;
@@ -3977,6 +4004,9 @@ a {
 }
 .grut__header_rate a:hover {
   color: #eb6c96;
+}
+.grut__header_rate .stars {
+  float: left;
 }
 
 .roster {
@@ -4937,6 +4967,13 @@ aside .search__blue label {
   display: table;
   clear: both;
 }
+.side__right.wide1400 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.side__right.wide1400 .sidebox {
+  padding: 40px 40px 50px;
+}
 
 .sidebox {
   position: relative;
@@ -4991,11 +5028,23 @@ aside .search__blue label {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
 }
+@media only screen and (max-width: 1400px) {
+  .sidebox .roster p {
+    font-size: 18px;
+  }
+}
 .sidebox .roster span {
   font-size: 14px;
   color: #23252a;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
+}
+@media only screen and (max-width: 1400px) {
+  .sidebox .roster span {
+    font-size: 18px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+  }
 }
 .sidebox .roster_list {
   *zoom: 1;
@@ -5554,6 +5603,15 @@ aside .search__blue label {
   content: " ";
   display: table;
   clear: both;
+}
+@media only screen and (max-width: 1250px) {
+  .photo__height.js-move_children {
+    margin: 10px 40px;
+  }
+}
+.photo__height.js-move_children .album {
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .album {
@@ -7877,15 +7935,30 @@ mark {
   }
 }
 
-@media only screen and (max-width: 1280px) {
-  .wide1280 {
+@media only screen and (max-width: 1400px) {
+  .wide1400 {
     display: block;
     width: 100%;
   }
 }
-@media only screen and (max-width: 1280px) {
-  .wide1280.side__left {
+@media only screen and (max-width: 1400px) {
+  .wide1400.side__left {
     margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .rebuild1400 {
+    width: calc(100% - 335px);
+    float: right;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .rebuild1400.wide1020 {
+    float: none;
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
   }
 }
 
