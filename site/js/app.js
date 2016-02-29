@@ -205,8 +205,6 @@ $(document).ready(function() {
 		carousel.find('.js-carousel__img img').attr('src', carousel.find('.is_active img').attr('src'));
 	});
 
-
-
 	// slick carousel
 	if($(document).width() < 651){
 		$('.js-repres_slider').slick({
@@ -221,6 +219,12 @@ $(document).ready(function() {
 			nextArrow: $('.js-slider__next')
 		});
 	};
+	//dirrectory сворачивани текста при <1200
+	$('.directory__slide a').on('click', function() {
+		var spin = $(this).parent().next('.directory__contant_learn_wrap');
+		spin.toggleClass('is_active');
+		return false;
+	});
 
 	//calendar
 	if($(document).width() < 851){
@@ -318,6 +322,8 @@ $(document).ready(function() {
 		moreLink: '<a class="read__more" href="#"> <i class="icon-bot"></i> <span>Еще</span> </a',
 		lessLink: '<a class="read__more" href="#"> <i class="icon-top"></i> <span>Скрыть</span> </a>'
 	});
+
+
 
 
 

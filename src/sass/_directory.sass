@@ -15,33 +15,62 @@
 		width: 100%
 		vertical-align: top
 		border-bottom: 1px solid $body
+		+r(1200)
+			display: block
+			width: 100%
+			+clr
 	&__user
 		display: table-cell
 		width: 47%
 		padding: 25px 40px
 		vertical-align: top
 		border-right: 1px solid $body
+		+r(1200)
+			display: block
+			min-height: 130px
+			width: 100%
+			+clr
+		+r(450)
+			padding: 25px
 		p
 			font-size: 14px
 			+osl
 		strong
+			color: $black
 			+os
 		> img
 			width: 80px
 			height: 80px
 			vertical-align: top
-			display: inline-block
+			position: absolute
+			top: 25px
+			left: 35px
 			-webkit-border-radius: 100%
 			border-radius: 100%
+			+r(450)
+				width: 50px
+				height: 50px
+				left: 25px
 		&_title
 			display: inline-block
-			margin-left: 20px
+			margin-left: 100px
+			+r(450)
+				margin-left: 70px
 	&__pay
 		display: table-cell
 		vertical-align: middle
 		width: 30%
 		padding: 25px 35px
 		border-right: 1px solid $body
+		+r(1200)
+			display: block
+			width: 100%
+			border-right: none
+			padding: 25px 35px 0
+			border-top: 1px solid $body
+			+clr
+		+r(450)
+			padding: 25px 25px 0
 		p
 			font-size: 14px
 			+os
@@ -57,10 +86,23 @@
 		width: 23%
 		vertical-align: middle
 		padding: 25px 35px
+		+r(1200)
+			display: block
+			width: 100%
+			padding: 0 35px 25px
+			+clr
+		+r(450)
+			padding: 0 25px 25px
+		.stars
+			+r(1200)
+				float: left
 		p
 			font-size: 14px
 			color: $gray
 			+osl
+			+r(1200)
+				float: left
+				margin-top: 3px
 		strong
 			color: $black
 	&__contant
@@ -68,16 +110,33 @@
 		table-layout: fixed
 		width: 100%
 		vertical-align: top
+		+r(1200)
+			display: block
+			width: 100%
+			+clr
 		&_learn
 			display: table-cell
 			width: 47%
-			padding: 25px 40px
+			padding: 25px 35px
 			vertical-align: top
 			border-right: 1px solid $body
+			+r(1200)
+				display: block
+				width: 100%
+				padding-bottom: 0
+				+clr
+			+r(450)
+				padding: 25px 25px 0
 			p
 				font-size: 18px
 				color: $black
 				+osl
+			&_wrap
+				+r(1200)
+					display: none
+					&.is_active
+						display: block
+						margin-bottom: 25px
 		&_profit
 			display: table-cell
 			width: 53%
@@ -87,6 +146,20 @@
 				width: 30%
 				padding: 25px 35px
 				border-right: 1px solid $body
+				+r(1200)
+					display: block
+					width: 100%
+					padding: 0 35px
+					+clr
+				+r(450)
+					padding: 0 25px 25px
+			+r(1200)
+				display: block
+				width: 100%
+				padding-top: 0
+				+clr
+			+r(450)
+				padding: 0 25px 25px
 			p
 				font-size: 14px
 				color: $gray
@@ -97,6 +170,15 @@
 			width: 23%
 			vertical-align: top
 			padding: 25px 35px
+			+r(1359)
+				padding: 25px 30px
+			+r(1200)
+				display: block
+				width: 100%
+				padding-top: 0
+				+clr
+			+r(650)
+				display: none
 			a
 				position: relative
 				float: left
@@ -109,6 +191,17 @@
 				&:hover
 					span
 						opacity: 1
+				&:nth-child(2n)
+					margin-right: 0
+				+r(1330)
+					width: 54px
+					height: 54px
+				+r(1200)
+					width: 60px
+					height: 60px
+					margin-right: 10px
+					&:nth-child(2n)
+						margin-right: 10px
 				span
 					opacity: 0
 					+coverdiv
@@ -118,3 +211,15 @@
 					font-size: 18px
 					color: #FFF
 					+ossb
+	&__slide
+		display: none
+		margin-bottom: 7px
+		+r(1200)
+			display: block
+		a
+			color: $blue
+			font-size: 14px
+			+os
+			+tr(.4s)
+			&:hover
+				color: $blued
