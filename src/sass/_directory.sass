@@ -38,6 +38,8 @@
 		strong
 			color: $black
 			+os
+			+r(650)
+				+osb
 		> img
 			width: 80px
 			height: 80px
@@ -55,7 +57,10 @@
 			display: inline-block
 			margin-left: 100px
 			+r(450)
-				margin-left: 70px
+				margin-left: 60px
+			.title__vend
+				+r(400)
+					font-size: 24px
 	&__pay
 		display: table-cell
 		vertical-align: middle
@@ -77,6 +82,8 @@
 		strong
 			font-size: 18px
 			+os
+			+r(650)
+				+osb
 		span
 			color: $gray
 			font-size: 14px
@@ -162,7 +169,7 @@
 				padding: 0 25px 25px
 			p
 				font-size: 14px
-				color: $gray
+				color: #84868d
 				margin-bottom: 10px
 				+osl
 		&_photo

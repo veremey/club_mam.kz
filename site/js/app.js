@@ -194,7 +194,12 @@ $(document).ready(function() {
 		carousel.find('.js-swing__img img').attr('src', carousel.find('.is_active img').attr('src'));
 	});
 
-
+	//dirrectory сворачивани текста при <1200
+	$('.directory__slide a').on('click', function() {
+		var spin = $(this).parent().next('.directory__contant_learn_wrap');
+		spin.toggleClass('is_active');
+		return false;
+	});
 
 	$('.js-take-preview').click( function() {
 		var src = $('.is_active').attr('src');
@@ -219,12 +224,7 @@ $(document).ready(function() {
 			nextArrow: $('.js-slider__next')
 		});
 	};
-	//dirrectory сворачивани текста при <1200
-	$('.directory__slide a').on('click', function() {
-		var spin = $(this).parent().next('.directory__contant_learn_wrap');
-		spin.toggleClass('is_active');
-		return false;
-	});
+
 
 	//calendar
 	if($(document).width() < 851){

@@ -4274,6 +4274,11 @@ a {
     background-position: -184px -162px;
   }
 }
+@media only screen and (max-width: 380px) {
+  .select__text:before {
+    right: -25px;
+  }
+}
 
 .select__list {
   position: absolute;
@@ -4383,7 +4388,7 @@ a {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;
 }
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 380px) {
   .sort p {
     margin-right: 0;
   }
@@ -4834,11 +4839,16 @@ a {
 @media only screen and (max-width: 870px) {
   .vend__rate {
     display: inline-block;
-    width: 50%;
+    width: 33%;
     text-align: center;
   }
   .vend__rate .stars {
     margin: 0 auto 15px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .vend__rate {
+    width: 50%;
   }
 }
 .vend__rate p {
@@ -4867,8 +4877,13 @@ a {
 @media only screen and (max-width: 870px) {
   .vend__weekend {
     display: inline-block;
-    width: 50%;
+    width: 33%;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .vend__weekend {
+    width: 50%;
   }
 }
 .vend__weekend p {
@@ -4896,9 +4911,16 @@ a {
 @media only screen and (max-width: 870px) {
   .vend__contact {
     display: block;
-    width: 100%;
-    margin-top: 15px;
+    float: right;
+    width: 34%;
     text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .vend__contact {
+    margin-top: 15px;
+    float: none;
+    width: 100%;
   }
 }
 .vend__contact a[href^="tel"] {
@@ -6822,6 +6844,12 @@ aside .search__blue label {
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
 }
+@media only screen and (max-width: 650px) {
+  .directory__user strong {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 700;
+  }
+}
 .directory__user > img {
   width: 80px;
   height: 80px;
@@ -6844,7 +6872,12 @@ aside .search__blue label {
 }
 @media only screen and (max-width: 450px) {
   .directory__user_title {
-    margin-left: 70px;
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .directory__user_title .title__vend {
+    font-size: 24px;
   }
 }
 .directory__pay {
@@ -6883,6 +6916,12 @@ aside .search__blue label {
   font-size: 18px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
+}
+@media only screen and (max-width: 650px) {
+  .directory__pay strong {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 700;
+  }
 }
 .directory__pay span {
   color: #acb1b7;
@@ -7041,7 +7080,7 @@ aside .search__blue label {
 }
 .directory__contant_profit p {
   font-size: 14px;
-  color: #acb1b7;
+  color: #84868d;
   margin-bottom: 10px;
   font-family: "Open Sans", Arial, sans-serif;
   font-weight: 300;

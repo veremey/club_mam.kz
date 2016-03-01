@@ -121,6 +121,8 @@
 			top: 5px
 			right: -15px
 			+s(icon-bot-small)
+		+r(380)
+			right: -25px
 
 .select__list
 	position: absolute
@@ -188,7 +190,7 @@
 		font-size: 14px
 		color: #a1a5aa
 		+osl
-		+r(340)
+		+r(380)
 			margin-right: 0
 	.sort__item
 		position: relative
@@ -476,10 +478,12 @@
 		+clr
 		+r(870)
 			display: inline-block
-			width: 50%
+			width: 33%
 			text-align: center
 			.stars
 				margin: 0 auto 15px
+		+r(640)
+			width: 50%
 		p
 			font-size: 14px
 			color: $gray
@@ -495,8 +499,10 @@
 		+clr
 		+r(870)
 			display: inline-block
-			width: 50%
+			width: 33%
 			text-align: center
+		+r(640)
+			width: 50%
 		p
 			font-size: 14px
 			color: $gray
@@ -510,9 +516,13 @@
 			width: 25%
 		+r(870)
 			display: block
-			width: 100%
-			margin-top: 15px
+			float: right
+			width: 34%
 			text-align: center
+		+r(640)
+			margin-top: 15px
+			float: none
+			width: 100%
 		a[href^="tel"]
 			font-size: 14px
 			color: $black
