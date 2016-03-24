@@ -24,7 +24,10 @@
 .header__top_nav
 	display: inline-block
 	+vcenter
-	a
+	z-index: 50
+	a,
+	.header__top_menu
+		display: inline-block
 		position: relative
 		font-size: 22px
 		line-height: 100px
@@ -34,8 +37,9 @@
 		+osl
 		+tr(.3s)
 		&:hover
-			opacity: 0.7
 			color: $purpur
+			// i
+			// 	opacity: 0.7
 		+r(1260)
 			margin-right: 30px
 			padding-left: 45px
@@ -43,8 +47,52 @@
 			margin-right: 10px
 		i
 			position: absolute
-			top: -10px
+			top: 25px
 			left: 0px
+.header__top_menu
+	z-index: 200
+	&:hover
+		color: $purpur
+		ul
+			display: block
+			z-index: 2000
+	+r(1260)
+		margin-right: 30px
+		padding-left: 45px
+	+r(1150)
+		margin-right: 10px
+	i
+		position: absolute
+		top: -10px
+		left: 0px
+	ul
+		display: none
+		position: absolute
+		top: 100px
+		left: -20px
+		width: 394px
+		background-color: #fff
+		padding: 30px 45px
+		z-index: 2000
+		box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2)
+		li
+			float: left
+			vertical-align: top
+			width: 48%
+			margin-right: 2%
+			&:nth-child(even)
+				margin-right: 0
+		a
+			display: block
+			font-size: 16px
+			color: $black
+			line-height: 35px
+			text-align: left
+			margin: 0
+			padding: 0
+			&:hover
+				color: $blue
+
 .header__user
 	float: right
 	margin-top: 20px
@@ -77,8 +125,10 @@
 	margin-right: 45px
 	display: inline-block
 	vertical-align: top
+	z-index: 200
 	&:hover
-		opacity: 0.7
+		.user__list
+			display: block
 	+r(1150)
 		margin-right: 20px
 	&:after
@@ -87,7 +137,7 @@
 		top: 25px
 		right: -15px
 		+arr(10, 6, #000, b)
-		+r(700)
+		+r(950)
 			display: none
 	+r(700)
 		margin-top: 7px
@@ -107,6 +157,27 @@
 			border-radius: 100%
 			+os
 			z-index: 5
+.user__list
+	display: none
+	width: 230px
+	padding: 15px 0
+	position: absolute
+	top: 60px
+	right: -45px
+	background-color: #FFF
+	z-index: 200
+	-webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2)
+	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2)
+	a
+		display: block
+		line-height: 35px
+		padding: 0 35px
+		color: $black
+		font-size: 16px
+		+os
+		+tr(.3s)
+		&:hover
+			color: $blue
 
 .user__img
 	-webkit-border-radius: 100%
