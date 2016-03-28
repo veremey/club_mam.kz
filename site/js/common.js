@@ -23,6 +23,15 @@ $(document).ready(function() {
 		$('.js_popup').removeClass('is_active');
 		$('.js_popup_filter').removeClass('is_active');
 	});
+	$('.header__user').on('click', '.icon-menu', function(){
+		// alert('menu');
+		$(this).parents('.container__big').next('.burger').addClass('is_active');
+	});
+
+	$('.burger__cloce').on('click', function() {
+		$('.burger').removeClass('is_active');
+		// alert('');
+	});
 
 	// check select
 

@@ -83,8 +83,8 @@ html {
   width: 6px;
   height: 4px;
   background-image: url("../img/icons.png");
-  background-position: -70px -54px;
-  background-size: 136px 121px;
+  background-position: -83px -31px;
+  background-size: 148px 134px;
 }
 
 .i-aye {
@@ -92,8 +92,8 @@ html {
   width: 16px;
   height: 9px;
   background-image: url("../img/icons.png");
-  background-position: -90px -96px;
-  background-size: 136px 121px;
+  background-position: -45px -111px;
+  background-size: 148px 134px;
 }
 
 .i-bell {
@@ -101,8 +101,8 @@ html {
   width: 13px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -96px -49px;
-  background-size: 136px 121px;
+  background-position: -109px -49px;
+  background-size: 148px 134px;
 }
 
 .i-bird1 {
@@ -110,8 +110,8 @@ html {
   width: 6px;
   height: 4px;
   background-image: url("../img/icons.png");
-  background-position: -70px -48px;
-  background-size: 136px 121px;
+  background-position: -83px -25px;
+  background-size: 148px 134px;
 }
 
 .i-btn-close {
@@ -119,8 +119,8 @@ html {
   width: 7px;
   height: 7px;
   background-image: url("../img/icons.png");
-  background-position: -125px -109px;
-  background-size: 136px 121px;
+  background-position: -138px -109px;
+  background-size: 148px 134px;
 }
 
 .i-check {
@@ -128,8 +128,8 @@ html {
   width: 6px;
   height: 5px;
   background-image: url("../img/icons.png");
-  background-position: -49px -36px;
-  background-size: 136px 121px;
+  background-position: -138px -127px;
+  background-size: 148px 134px;
 }
 
 .i-footer-f-750 {
@@ -137,8 +137,8 @@ html {
   width: 16px;
   height: 16px;
   background-image: url("../img/icons.png");
-  background-position: 0px -48px;
-  background-size: 136px 121px;
+  background-position: -31px -54px;
+  background-size: 148px 134px;
 }
 
 .i-footer-f {
@@ -146,8 +146,8 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -79px -34px;
-  background-size: 136px 121px;
+  background-position: -32px -80px;
+  background-size: 148px 134px;
 }
 
 .i-footer-vk-750 {
@@ -155,8 +155,8 @@ html {
   width: 16px;
   height: 16px;
   background-image: url("../img/icons.png");
-  background-position: -18px -48px;
-  background-size: 136px 121px;
+  background-position: -49px -54px;
+  background-size: 148px 134px;
 }
 
 .i-footer-vk {
@@ -164,8 +164,8 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -79px -49px;
-  background-size: 136px 121px;
+  background-position: -16px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-a {
@@ -173,8 +173,8 @@ html {
   width: 10px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -125px -37px;
-  background-size: 136px 121px;
+  background-position: -138px -37px;
+  background-size: 148px 134px;
 }
 
 .i-icon-abc {
@@ -182,8 +182,8 @@ html {
   width: 15px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -41px -66px;
-  background-size: 136px 121px;
+  background-position: -87px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-b {
@@ -191,8 +191,8 @@ html {
   width: 10px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -125px -80px;
-  background-size: 136px 121px;
+  background-position: -138px -90px;
+  background-size: 148px 134px;
 }
 
 .i-icon-basket {
@@ -200,8 +200,8 @@ html {
   width: 9px;
   height: 9px;
   background-image: url("../img/icons.png");
-  background-position: -125px -59px;
-  background-size: 136px 121px;
+  background-position: -138px -59px;
+  background-size: 148px 134px;
 }
 
 .i-icon-bot-small {
@@ -209,8 +209,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -92px -81px;
-  background-size: 136px 121px;
+  background-position: -46px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-bot {
@@ -218,8 +218,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -62px -81px;
-  background-size: 136px 121px;
+  background-position: -106px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-bottom {
@@ -227,8 +227,17 @@ html {
   width: 20px;
   height: 20px;
   background-image: url("../img/icons.png");
-  background-position: 0px -27px;
-  background-size: 136px 121px;
+  background-position: -36px -27px;
+  background-size: 148px 134px;
+}
+
+.i-icon-burger_search {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/icons.png");
+  background-position: -91px 0px;
+  background-size: 148px 134px;
 }
 
 .i-icon-chield {
@@ -237,7 +246,34 @@ html {
   height: 25px;
   background-image: url("../img/icons.png");
   background-position: 0px 0px;
-  background-size: 136px 121px;
+  background-size: 148px 134px;
+}
+
+.i-icon-chield_h {
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  background-image: url("../img/icons.png");
+  background-position: -22px 0px;
+  background-size: 148px 134px;
+}
+
+.i-icon-close-320 {
+  display: inline-block;
+  width: 7px;
+  height: 8px;
+  background-image: url("../img/icons.png");
+  background-position: -138px -100px;
+  background-size: 148px 134px;
+}
+
+.i-icon-close-640 {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-image: url("../img/icons.png");
+  background-position: 0px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-close {
@@ -245,8 +281,8 @@ html {
   width: 6px;
   height: 7px;
   background-image: url("../img/icons.png");
-  background-position: -49px -27px;
-  background-size: 136px 121px;
+  background-position: -83px -16px;
+  background-size: 148px 134px;
 }
 
 .i-icon-code {
@@ -254,8 +290,8 @@ html {
   width: 13px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -17px -111px;
-  background-size: 136px 121px;
+  background-position: 0px -126px;
+  background-size: 148px 134px;
 }
 
 .i-icon-cool-active {
@@ -263,8 +299,8 @@ html {
   width: 14px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -59px -96px;
-  background-size: 136px 121px;
+  background-position: -30px -111px;
+  background-size: 148px 134px;
 }
 
 .i-icon-cool {
@@ -272,8 +308,8 @@ html {
   width: 14px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -75px -96px;
-  background-size: 136px 121px;
+  background-position: -14px -111px;
+  background-size: 148px 134px;
 }
 
 .i-icon-eye {
@@ -281,8 +317,8 @@ html {
   width: 16px;
   height: 9px;
   background-image: url("../img/icons.png");
-  background-position: 0px -111px;
-  background-size: 136px 121px;
+  background-position: -91px -69px;
+  background-size: 148px 134px;
 }
 
 .i-icon-f {
@@ -290,8 +326,8 @@ html {
   width: 15px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -79px 0px;
-  background-size: 136px 121px;
+  background-position: -91px -18px;
+  background-size: 148px 134px;
 }
 
 .i-icon-face {
@@ -299,8 +335,8 @@ html {
   width: 18px;
   height: 23px;
   background-image: url("../img/icons.png");
-  background-position: -22px 0px;
-  background-size: 136px 121px;
+  background-position: -44px 0px;
+  background-size: 148px 134px;
 }
 
 .i-icon-g {
@@ -308,8 +344,8 @@ html {
   width: 15px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -53px -48px;
-  background-size: 136px 121px;
+  background-position: -91px -52px;
+  background-size: 148px 134px;
 }
 
 .i-icon-i {
@@ -317,8 +353,8 @@ html {
   width: 10px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -125px -70px;
-  background-size: 136px 121px;
+  background-position: -138px -70px;
+  background-size: 148px 134px;
 }
 
 .i-icon-info {
@@ -326,8 +362,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -96px -65px;
-  background-size: 136px 121px;
+  background-position: -109px -65px;
+  background-size: 148px 134px;
 }
 
 .i-icon-info_blue {
@@ -335,8 +371,8 @@ html {
   width: 10px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -125px 0px;
-  background-size: 136px 121px;
+  background-position: -138px 0px;
+  background-size: 148px 134px;
 }
 
 .i-icon-ledy {
@@ -344,8 +380,17 @@ html {
   width: 16px;
   height: 25px;
   background-image: url("../img/icons.png");
-  background-position: -42px 0px;
-  background-size: 136px 121px;
+  background-position: -18px -27px;
+  background-size: 148px 134px;
+}
+
+.i-icon-ledy_h {
+  display: inline-block;
+  width: 16px;
+  height: 25px;
+  background-image: url("../img/icons.png");
+  background-position: 0px -27px;
+  background-size: 148px 134px;
 }
 
 .i-icon-libra {
@@ -353,8 +398,8 @@ html {
   width: 16px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: 0px -66px;
-  background-size: 136px 121px;
+  background-position: -64px -38px;
+  background-size: 148px 134px;
 }
 
 .i-icon-link {
@@ -362,8 +407,8 @@ html {
   width: 12px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -32px -111px;
-  background-size: 136px 121px;
+  background-position: -28px -126px;
+  background-size: 148px 134px;
 }
 
 .i-icon-locate {
@@ -371,8 +416,8 @@ html {
   width: 8px;
   height: 11px;
   background-image: url("../img/icons.png");
-  background-position: -125px -47px;
-  background-size: 136px 121px;
+  background-position: -138px -47px;
+  background-size: 148px 134px;
 }
 
 .i-icon-menu {
@@ -380,8 +425,8 @@ html {
   width: 26px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -21px -27px;
-  background-size: 136px 121px;
+  background-position: -64px 0px;
+  background-size: 148px 134px;
 }
 
 .i-icon-menu480 {
@@ -389,8 +434,8 @@ html {
   width: 13px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -75px -66px;
-  background-size: 136px 121px;
+  background-position: -80px -111px;
+  background-size: 148px 134px;
 }
 
 .i-icon-mes-active {
@@ -398,8 +443,8 @@ html {
   width: 13px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -96px -33px;
-  background-size: 136px 121px;
+  background-position: -109px 0px;
+  background-size: 148px 134px;
 }
 
 .i-icon-mes {
@@ -407,8 +452,8 @@ html {
   width: 13px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -96px 0px;
-  background-size: 136px 121px;
+  background-position: -109px -16px;
+  background-size: 148px 134px;
 }
 
 .i-icon-minus-h {
@@ -416,8 +461,8 @@ html {
   width: 12px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -111px -57px;
-  background-size: 136px 121px;
+  background-position: -124px -29px;
+  background-size: 148px 134px;
 }
 
 .i-icon-minus {
@@ -425,8 +470,8 @@ html {
   width: 12px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -111px -15px;
-  background-size: 136px 121px;
+  background-position: -124px -43px;
+  background-size: 148px 134px;
 }
 
 .i-icon-mom {
@@ -434,8 +479,17 @@ html {
   width: 14px;
   height: 25px;
   background-image: url("../img/icons.png");
-  background-position: -60px -22px;
-  background-size: 136px 121px;
+  background-position: 0px -54px;
+  background-size: 148px 134px;
+}
+
+.i-icon-mom_h {
+  display: inline-block;
+  width: 14px;
+  height: 25px;
+  background-image: url("../img/icons.png");
+  background-position: -15px -54px;
+  background-size: 148px 134px;
 }
 
 .i-icon-next {
@@ -443,8 +497,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: 0px -96px;
-  background-size: 136px 121px;
+  background-position: -61px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-phone {
@@ -452,8 +506,8 @@ html {
   width: 11px;
   height: 11px;
   background-image: url("../img/icons.png");
-  background-position: -111px -84px;
-  background-size: 136px 121px;
+  background-position: -124px -84px;
+  background-size: 148px 134px;
 }
 
 .i-icon-pic {
@@ -461,8 +515,8 @@ html {
   width: 12px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -46px -111px;
-  background-size: 136px 121px;
+  background-position: -15px -126px;
+  background-size: 148px 134px;
 }
 
 .i-icon-place {
@@ -470,8 +524,8 @@ html {
   width: 8px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -125px -23px;
-  background-size: 136px 121px;
+  background-position: -138px -23px;
+  background-size: 148px 134px;
 }
 
 .i-icon-planet {
@@ -479,8 +533,8 @@ html {
   width: 11px;
   height: 11px;
   background-image: url("../img/icons.png");
-  background-position: -111px -71px;
-  background-size: 136px 121px;
+  background-position: -124px -71px;
+  background-size: 148px 134px;
 }
 
 .i-icon-plus-h {
@@ -488,8 +542,8 @@ html {
   width: 12px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -111px -43px;
-  background-size: 136px 121px;
+  background-position: -124px -15px;
+  background-size: 148px 134px;
 }
 
 .i-icon-plus {
@@ -497,8 +551,8 @@ html {
   width: 12px;
   height: 12px;
   background-image: url("../img/icons.png");
-  background-position: -111px -29px;
-  background-size: 136px 121px;
+  background-position: -124px -57px;
+  background-size: 148px 134px;
 }
 
 .i-icon-post {
@@ -506,8 +560,8 @@ html {
   width: 13px;
   height: 6px;
   background-image: url("../img/icons.png");
-  background-position: -84px -111px;
-  background-size: 136px 121px;
+  background-position: -31px -71px;
+  background-size: 148px 134px;
 }
 
 .i-icon-prev {
@@ -515,8 +569,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -15px -96px;
-  background-size: 136px 121px;
+  background-position: -76px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-print {
@@ -524,8 +578,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -45px -96px;
-  background-size: 136px 121px;
+  background-position: 0px -111px;
+  background-size: 148px 134px;
 }
 
 .i-icon-pro {
@@ -533,8 +587,8 @@ html {
   width: 15px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -58px -66px;
-  background-size: 136px 121px;
+  background-position: -63px -111px;
+  background-size: 148px 134px;
 }
 
 .i-icon-right {
@@ -542,8 +596,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -30px -96px;
-  background-size: 136px 121px;
+  background-position: -109px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-roster {
@@ -551,8 +605,8 @@ html {
   width: 7px;
   height: 7px;
   background-image: url("../img/icons.png");
-  background-position: -125px -100px;
-  background-size: 136px 121px;
+  background-position: -138px -118px;
+  background-size: 148px 134px;
 }
 
 .i-icon-smile {
@@ -560,8 +614,8 @@ html {
   width: 14px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: 0px -81px;
-  background-size: 136px 121px;
+  background-position: -48px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-smilik {
@@ -569,8 +623,8 @@ html {
   width: 11px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -59px -111px;
-  background-size: 136px 121px;
+  background-position: -54px -126px;
+  background-size: 148px 134px;
 }
 
 .i-icon-star-active {
@@ -578,8 +632,8 @@ html {
   width: 14px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -15px -81px;
-  background-size: 136px 121px;
+  background-position: 0px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-star-blue {
@@ -587,8 +641,8 @@ html {
   width: 14px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -31px -81px;
-  background-size: 136px 121px;
+  background-position: -15px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-star {
@@ -596,8 +650,8 @@ html {
   width: 14px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -46px -81px;
-  background-size: 136px 121px;
+  background-position: -31px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-t {
@@ -605,8 +659,8 @@ html {
   width: 10px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -125px -90px;
-  background-size: 136px 121px;
+  background-position: -138px -80px;
+  background-size: 148px 134px;
 }
 
 .i-icon-tel {
@@ -614,8 +668,8 @@ html {
   width: 11px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -111px -97px;
-  background-size: 136px 121px;
+  background-position: -124px -97px;
+  background-size: 148px 134px;
 }
 
 .i-icon-thame {
@@ -623,8 +677,8 @@ html {
   width: 18px;
   height: 20px;
   background-image: url("../img/icons.png");
-  background-position: -60px 0px;
-  background-size: 136px 121px;
+  background-position: -64px -16px;
+  background-size: 148px 134px;
 }
 
 .i-icon-top {
@@ -632,8 +686,8 @@ html {
   width: 13px;
   height: 13px;
   background-image: url("../img/icons.png");
-  background-position: -77px -81px;
-  background-size: 136px 121px;
+  background-position: -91px -96px;
+  background-size: 148px 134px;
 }
 
 .i-icon-tw {
@@ -641,8 +695,8 @@ html {
   width: 15px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -79px -17px;
-  background-size: 136px 121px;
+  background-position: -67px -54px;
+  background-size: 148px 134px;
 }
 
 .i-icon-u {
@@ -650,8 +704,8 @@ html {
   width: 11px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -72px -111px;
-  background-size: 136px 121px;
+  background-position: -42px -126px;
+  background-size: 148px 134px;
 }
 
 .i-icon-vk {
@@ -659,8 +713,8 @@ html {
   width: 15px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -36px -48px;
-  background-size: 136px 121px;
+  background-position: -91px -35px;
+  background-size: 148px 134px;
 }
 
 .i-icon-ya {
@@ -668,8 +722,8 @@ html {
   width: 22px;
   height: 8px;
   background-image: url("../img/icons.png");
-  background-position: -17px -66px;
-  background-size: 136px 121px;
+  background-position: -63px -80px;
+  background-size: 148px 134px;
 }
 
 .i-lupa {
@@ -677,8 +731,8 @@ html {
   width: 10px;
   height: 10px;
   background-image: url("../img/icons.png");
-  background-position: -125px -12px;
-  background-size: 136px 121px;
+  background-position: -138px -12px;
+  background-size: 148px 134px;
 }
 
 .i-mes {
@@ -686,8 +740,8 @@ html {
   width: 13px;
   height: 15px;
   background-image: url("../img/icons.png");
-  background-position: -96px -16px;
-  background-size: 136px 121px;
+  background-position: -109px -33px;
+  background-size: 148px 134px;
 }
 
 .i-message {
@@ -695,8 +749,8 @@ html {
   width: 12px;
   height: 14px;
   background-image: url("../img/icons.png");
-  background-position: -111px 0px;
-  background-size: 136px 121px;
+  background-position: -124px 0px;
+  background-size: 148px 134px;
 }
 
 @font-face {
@@ -1861,19 +1915,19 @@ a {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -31px -162px;
+  background-position: 0px -193px;
 }
 .article__rating:hover .icon-cool, .article__rating.is_active .icon-cool {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 23px;
-  background-position: -119px -193px;
+  background-position: -60px -223px;
 }
 .article__rating:hover .icon-mes, .article__rating.is_active .icon-mes {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 29px;
-  background-position: -193px -66px;
+  background-position: -218px 0px;
 }
 .article__rating span {
   display: inline-block;
@@ -3122,7 +3176,7 @@ a {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -140px -108px;
+  background-position: -167px -62px;
 }
 
 .color__text {
@@ -4054,7 +4108,7 @@ a {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -251px -200px;
+  background-position: -276px -237px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -4262,7 +4316,7 @@ a {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -140px -97px;
+  background-position: -167px -51px;
 }
 @media only screen and (max-width: 1150px) {
   .select__text:before {
@@ -4271,7 +4325,7 @@ a {
     background-image: url("../img/icons.png");
     width: 26px;
     height: 26px;
-    background-position: -184px -162px;
+    background-position: -93px -193px;
   }
 }
 @media only screen and (max-width: 380px) {
@@ -4516,7 +4570,7 @@ a {
   background-image: url("../img/icons.png");
   width: 15px;
   height: 23px;
-  background-position: -251px -47px;
+  background-position: -276px -47px;
 }
 
 .clothes {
@@ -4612,7 +4666,7 @@ a {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -31px -162px;
+  background-position: 0px -193px;
 }
 .clothes__name {
   display: block;
@@ -4750,7 +4804,7 @@ a {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -93px -162px;
+  background-position: -62px -193px;
 }
 .vend .icon-star:hover {
   -ms-transform: scale(1.1);
@@ -4761,7 +4815,7 @@ a {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -31px -162px;
+  background-position: 0px -193px;
 }
 .vend__name {
   width: 40%;
@@ -5097,7 +5151,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -251px -200px;
+  background-position: -276px -237px;
 }
 
 .side__user {
@@ -5113,7 +5167,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -93px -162px;
+  background-position: -62px -193px;
 }
 .side__user .icon-star:hover {
   -ms-transform: scale(1.1);
@@ -5124,7 +5178,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -31px -162px;
+  background-position: 0px -193px;
 }
 
 .side__rating {
@@ -5487,7 +5541,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 20px;
-  background-position: -223px -194px;
+  background-position: -248px -194px;
 }
 .telephone a {
   display: block;
@@ -5567,7 +5621,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 15px;
   height: 23px;
-  background-position: -251px -47px;
+  background-position: -276px -47px;
 }
 
 .connect__btn {
@@ -6155,7 +6209,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 24px;
   height: 27px;
-  background-position: -223px 0px;
+  background-position: -248px 0px;
   margin-right: 45px;
   display: inline-block;
   vertical-align: top;
@@ -6179,7 +6233,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 28px;
-  background-position: -193px -99px;
+  background-position: -218px -99px;
   margin-right: 45px;
   display: inline-block;
   vertical-align: top;
@@ -6200,7 +6254,7 @@ aside .search__blue label {
 
 .user__menu {
   position: relative;
-  margin-right: 45px;
+  padding-right: 45px;
   display: inline-block;
   vertical-align: top;
   z-index: 200;
@@ -6210,14 +6264,14 @@ aside .search__blue label {
 }
 @media only screen and (max-width: 1150px) {
   .user__menu {
-    margin-right: 20px;
+    padding-right: 20px;
   }
 }
 .user__menu:after {
   content: "";
   position: absolute;
   top: 25px;
-  right: -15px;
+  right: 15px;
   width: 0px;
   height: 0px;
   border-style: solid;
@@ -6232,7 +6286,7 @@ aside .search__blue label {
 @media only screen and (max-width: 700px) {
   .user__menu {
     margin-top: 7px;
-    margin-right: 5px;
+    padding-right: 5px;
   }
 }
 .user__menu span {
@@ -6266,6 +6320,11 @@ aside .search__blue label {
   z-index: 200;
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
 }
+@media only screen and (max-width: 370px) {
+  .user__list {
+    right: -30px;
+  }
+}
 .user__list a {
   display: block;
   line-height: 35px;
@@ -6296,6 +6355,218 @@ aside .search__blue label {
 .user__img img {
   max-width: 100%;
   vertical-align: top;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #3b444d;
+  z-index: 5000;
+  *zoom: 1;
+}
+.burger:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.burger.is_active {
+  display: block;
+}
+.burger > .logo {
+  margin: 40px 0 0 60px;
+}
+@media only screen and (max-width: 640px) {
+  .burger > .logo {
+    font-size: 20px;
+    margin: 20px 0 0 30px;
+  }
+  .burger > .logo h1 {
+    line-height: 40px;
+    font-size: 20px;
+  }
+}
+.burger__cloce {
+  float: right;
+  position: relative;
+  top: 50px;
+  right: 35px;
+  width: 68px;
+  height: 68px;
+  background-color: #3b444d;
+}
+@media only screen and (max-width: 640px) {
+  .burger__cloce {
+    top: 25px;
+    right: 16px;
+    width: 34px;
+    height: 34px;
+  }
+}
+.burger__cloce:hover {
+  background-color: #2e3841;
+}
+.burger__cloce .icon-close-640 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 640px) {
+  .burger__cloce .icon-close-640 {
+    background-image: url("../img/icons.png");
+    width: 14px;
+    height: 15px;
+    background-position: -276px -200px;
+  }
+}
+.burger__top_menu {
+  font-size: 0;
+}
+.burger__top_menu li {
+  height: 130px;
+  padding-left: 30%;
+}
+@media only screen and (max-width: 640px) {
+  .burger__top_menu li {
+    height: 70px;
+  }
+}
+.burger__top_menu li:hover {
+  background-color: #2e3841;
+}
+.burger__top_menu a {
+  display: block;
+  position: relative;
+  font-size: 35px;
+  line-height: 130px;
+  color: #FFF;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+}
+@media only screen and (max-width: 640px) {
+  .burger__top_menu a {
+    font-size: 16px;
+    line-height: 70px;
+  }
+}
+.burger__top_menu i {
+  position: absolute;
+  top: 41px;
+  left: -60px;
+}
+@media only screen and (max-width: 640px) {
+  .burger__top_menu i {
+    top: 10px;
+    left: -40px;
+    -ms-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.burger__bottom_menu {
+  padding: 40px 0;
+}
+@media only screen and (max-width: 640px) {
+  .burger__bottom_menu {
+    padding: 20px 0;
+  }
+}
+.burger__bottom_menu li {
+  padding-left: calc(30% - 60px);
+}
+@media only screen and (max-width: 640px) {
+  .burger__bottom_menu li {
+    padding-left: calc(30% - 40px);
+  }
+}
+.burger__bottom_menu li:hover {
+  background-color: #2e3841;
+}
+.burger__bottom_menu a {
+  display: block;
+  line-height: 80px;
+  color: #FFF;
+  font-size: 30px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+@media only screen and (max-width: 640px) {
+  .burger__bottom_menu a {
+    line-height: 40px;
+    font-size: 15px;
+  }
+}
+.burger__search {
+  position: relative;
+  background-color: #52ABF0;
+  padding: 15px 12%;
+}
+.burger__search p {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+}
+@media only screen and (max-width: 640px) {
+  .burger__search p {
+    font-size: 12px;
+  }
+}
+.burger__search input {
+  font-size: 48px;
+  color: #fff;
+  max-width: calc(100% - 72px);
+  background-color: #52ABF0;
+  height: 80px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+@media only screen and (max-width: 640px) {
+  .burger__search input {
+    font-size: 24px;
+    max-width: calc(100% - 38px);
+    height: 40px;
+  }
+}
+.burger__search button {
+  margin-top: 10px;
+  vertical-align: top;
+  position: relative;
+  width: 68px;
+  height: 68px;
+  background-color: #52ABF0;
+}
+@media only screen and (max-width: 640px) {
+  .burger__search button {
+    width: 34px;
+    height: 34px;
+    margin-top: 5px;
+  }
+}
+.burger__search button:hover {
+  background-color: #3794dd;
+}
+.burger__search button i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 640px) {
+  .burger__search button i {
+    background-image: url("../img/icons.png");
+    width: 19px;
+    height: 19px;
+    background-position: -276px -24px;
+  }
 }
 
 .header__bottom {
@@ -6797,7 +7068,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -140px -108px;
+  background-position: -167px -62px;
 }
 .represent__text p {
   font-size: 18px;
@@ -6879,7 +7150,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -62px -162px;
+  background-position: -31px -193px;
 }
 .directory__header {
   display: table;
@@ -7282,7 +7553,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 32px;
   height: 50px;
-  background-position: -84px 0px;
+  background-position: -36px -54px;
 }
 
 .icon-mom {
@@ -7290,7 +7561,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 49px;
-  background-position: -120px -44px;
+  background-position: 0px -108px;
 }
 
 .icon-chield {
@@ -7306,7 +7577,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 28px;
   height: 27px;
-  background-position: -159px -99px;
+  background-position: -32px -161px;
 }
 
 .footer-f {
@@ -7314,7 +7585,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 28px;
   height: 27px;
-  background-position: -159px -68px;
+  background-position: -64px -161px;
 }
 
 .icon-menu {
@@ -7322,7 +7593,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 51px;
   height: 29px;
-  background-position: -43px -54px;
+  background-position: -128px 0px;
 }
 
 .icon-right {
@@ -7330,7 +7601,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -60px -193px;
+  background-position: -218px -161px;
 }
 
 .icon-top {
@@ -7338,7 +7609,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -154px -162px;
+  background-position: -183px -193px;
 }
 
 .btn-close {
@@ -7346,7 +7617,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -251px -218px;
+  background-position: -276px -219px;
 }
 
 .bird1 {
@@ -7354,7 +7625,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 7px;
-  background-position: -140px -97px;
+  background-position: -167px -51px;
 }
 
 .icon-star {
@@ -7362,7 +7633,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -93px -162px;
+  background-position: -62px -193px;
 }
 
 .icon-post {
@@ -7370,7 +7641,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 11px;
-  background-position: -169px -223px;
+  background-position: -62px -143px;
 }
 
 .icon-next {
@@ -7378,7 +7649,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: 0px -193px;
+  background-position: -123px -193px;
 }
 
 .icon-prev {
@@ -7386,7 +7657,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -30px -193px;
+  background-position: -153px -193px;
 }
 
 .icon-bottom {
@@ -7394,7 +7665,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 39px;
   height: 39px;
-  background-position: 0px -54px;
+  background-position: -72px -54px;
 }
 
 .icon-tel {
@@ -7402,7 +7673,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 20px;
-  background-position: -223px -194px;
+  background-position: -248px -194px;
 }
 
 .icon-locate {
@@ -7410,7 +7681,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 15px;
   height: 21px;
-  background-position: -251px -94px;
+  background-position: -276px -94px;
 }
 
 .icon-print {
@@ -7418,7 +7689,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 25px;
   height: 25px;
-  background-position: -90px -193px;
+  background-position: 0px -223px;
 }
 
 .icon-smile {
@@ -7426,7 +7697,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 27px;
-  background-position: 0px -162px;
+  background-position: -96px -161px;
 }
 
 .icon-libra {
@@ -7434,7 +7705,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 31px;
   height: 26px;
-  background-position: 0px -132px;
+  background-position: -128px -77px;
 }
 
 .icon-close {
@@ -7442,7 +7713,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 12px;
   height: 14px;
-  background-position: -98px -54px;
+  background-position: -167px -33px;
 }
 
 .icon-face {
@@ -7450,7 +7721,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 36px;
   height: 46px;
-  background-position: -44px 0px;
+  background-position: -88px 0px;
 }
 
 .icon-thame {
@@ -7458,7 +7729,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 35px;
   height: 40px;
-  background-position: -120px 0px;
+  background-position: -128px -33px;
 }
 
 .icon-bot {
@@ -7466,7 +7737,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -124px -162px;
+  background-position: -213px -193px;
 }
 
 .icon-info {
@@ -7474,7 +7745,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -193px -131px;
+  background-position: -218px -131px;
 }
 
 .icon-cool {
@@ -7482,7 +7753,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 23px;
-  background-position: -150px -193px;
+  background-position: -29px -223px;
 }
 
 .icon-mes {
@@ -7490,7 +7761,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 29px;
-  background-position: -193px 0px;
+  background-position: -218px -33px;
 }
 
 .icon-vk {
@@ -7498,7 +7769,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 30px;
-  background-position: -72px -97px;
+  background-position: -183px -70px;
 }
 
 .icon-f {
@@ -7506,7 +7777,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 30px;
-  background-position: -159px 0px;
+  background-position: -183px -36px;
 }
 
 .icon-tw {
@@ -7514,7 +7785,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 30px;
-  background-position: -159px -34px;
+  background-position: -134px -108px;
 }
 
 .icon-g {
@@ -7522,7 +7793,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 30px;
-  background-position: -106px -97px;
+  background-position: -183px -104px;
 }
 
 .icon-minus {
@@ -7530,7 +7801,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -31px;
+  background-position: -248px -87px;
 }
 
 .icon-minus-h {
@@ -7538,7 +7809,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -115px;
+  background-position: -248px -59px;
 }
 
 .icon-plus {
@@ -7546,7 +7817,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -59px;
+  background-position: -248px -115px;
 }
 
 .icon-plus-h {
@@ -7554,7 +7825,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -87px;
+  background-position: -248px -31px;
 }
 
 .icon-code {
@@ -7562,7 +7833,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 16px;
-  background-position: -35px -223px;
+  background-position: 0px -252px;
 }
 
 .icon-b {
@@ -7570,7 +7841,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 16px;
-  background-position: -251px -160px;
+  background-position: -276px -180px;
 }
 
 .icon-i {
@@ -7578,7 +7849,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 16px;
-  background-position: -251px -140px;
+  background-position: -276px -140px;
 }
 
 .icon-u {
@@ -7586,7 +7857,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 16px;
-  background-position: -144px -223px;
+  background-position: -84px -252px;
 }
 
 .icon-t {
@@ -7594,7 +7865,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 16px;
-  background-position: -251px -180px;
+  background-position: -276px -160px;
 }
 
 .icon-a {
@@ -7602,7 +7873,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 20px;
   height: 16px;
-  background-position: -251px -74px;
+  background-position: -276px -74px;
 }
 
 .icon-link {
@@ -7610,7 +7881,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 16px;
-  background-position: -65px -223px;
+  background-position: -57px -252px;
 }
 
 .icon-pic {
@@ -7618,7 +7889,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 16px;
-  background-position: -92px -223px;
+  background-position: -30px -252px;
 }
 
 .icon-smilik {
@@ -7626,7 +7897,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 16px;
-  background-position: -119px -223px;
+  background-position: -109px -252px;
 }
 
 .icon-abc {
@@ -7634,7 +7905,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 29px;
   height: 16px;
-  background-position: -83px -132px;
+  background-position: -175px -161px;
 }
 
 .icon-ya {
@@ -7642,7 +7913,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 44px;
   height: 16px;
-  background-position: -35px -132px;
+  background-position: -127px -161px;
 }
 
 .icon-eye {
@@ -7650,7 +7921,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 31px;
   height: 18px;
-  background-position: 0px -223px;
+  background-position: -183px -138px;
 }
 
 .icon-info_blue {
@@ -7658,7 +7929,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 20px;
   height: 20px;
-  background-position: -251px 0px;
+  background-position: -276px 0px;
 }
 
 .icon-bot-small {
@@ -7666,7 +7937,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 26px;
   height: 26px;
-  background-position: -184px -162px;
+  background-position: -93px -193px;
 }
 
 .icon-basket {
@@ -7674,7 +7945,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 18px;
   height: 17px;
-  background-position: -251px -119px;
+  background-position: -276px -119px;
 }
 
 .icon-place {
@@ -7682,7 +7953,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 15px;
   height: 23px;
-  background-position: -251px -47px;
+  background-position: -276px -47px;
 }
 
 .icon-pro {
@@ -7690,7 +7961,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 15px;
-  background-position: -116px -132px;
+  background-position: -126px -223px;
 }
 
 .icon-phone {
@@ -7698,7 +7969,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 21px;
   height: 21px;
-  background-position: -223px -169px;
+  background-position: -248px -169px;
 }
 
 .icon-planet {
@@ -7706,7 +7977,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 22px;
   height: 22px;
-  background-position: -223px -143px;
+  background-position: -248px -143px;
 }
 
 .icon-star-blue {
@@ -7714,7 +7985,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 27px;
   height: 26px;
-  background-position: -62px -162px;
+  background-position: -31px -193px;
 }
 
 .icon-roster {
@@ -7722,7 +7993,55 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -251px -200px;
+  background-position: -276px -237px;
+}
+
+.icon-ledy_h {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 32px;
+  height: 50px;
+  background-position: 0px -54px;
+}
+
+.icon-mom_h {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 27px;
+  height: 49px;
+  background-position: -31px -108px;
+}
+
+.icon-chield_h {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 40px;
+  height: 50px;
+  background-position: -44px 0px;
+}
+
+.icon-close-640 {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 28px;
+  height: 28px;
+  background-position: 0px -161px;
+}
+
+.icon-burger_search {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 31px;
+  height: 32px;
+  background-position: -183px 0px;
+}
+
+.icon-close-320 {
+  display: inline-block;
+  background-image: url("../img/icons.png");
+  width: 14px;
+  height: 15px;
+  background-position: -276px -200px;
 }
 
 .icon-menu {
@@ -7742,7 +8061,7 @@ aside .search__blue label {
     background-image: url("../img/icons.png");
     width: 26px;
     height: 15px;
-    background-position: -150px -132px;
+    background-position: -160px -223px;
     margin-top: 30px;
   }
 }
@@ -7760,7 +8079,7 @@ aside .search__blue label {
     background-image: url("../img/icons.png");
     width: 32px;
     height: 31px;
-    background-position: 0px -97px;
+    background-position: -62px -108px;
   }
 }
 
@@ -7769,7 +8088,7 @@ aside .search__blue label {
     background-image: url("../img/icons.png");
     width: 32px;
     height: 31px;
-    background-position: -36px -97px;
+    background-position: -98px -108px;
   }
 }
 
@@ -7781,14 +8100,14 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -115px;
+  background-position: -248px -59px;
 }
 
 .icon-plus:hover {
   background-image: url("../img/icons.png");
   width: 23px;
   height: 24px;
-  background-position: -223px -87px;
+  background-position: -248px -31px;
 }
 
 .title__14 {
@@ -7832,7 +8151,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 15px;
-  background-position: -116px -132px;
+  background-position: -126px -223px;
 }
 
 .title__side {
@@ -7938,7 +8257,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 30px;
   height: 15px;
-  background-position: -116px -132px;
+  background-position: -126px -223px;
 }
 @media only screen and (max-width: 650px) {
   .title__main {
@@ -8101,7 +8420,7 @@ aside .search__blue label {
   background-image: url("../img/icons.png");
   width: 14px;
   height: 14px;
-  background-position: -251px -218px;
+  background-position: -276px -219px;
   background-color: transparent;
   z-index: 5;
 }
@@ -8834,7 +9153,7 @@ mark {
   background-image: url("../img/icons.png");
   width: 19px;
   height: 19px;
-  background-position: -251px -24px;
+  background-position: -276px -24px;
   background-color: transparent;
   z-index: 10;
 }
@@ -8871,7 +9190,7 @@ mark {
   background-image: url("../img/icons.png");
   width: 11px;
   height: 9px;
-  background-position: -98px -72px;
+  background-position: -276px -255px;
 }
 .radio span {
   position: relative;

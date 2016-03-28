@@ -122,7 +122,7 @@
 		display: none!important
 .user__menu
 	position: relative
-	margin-right: 45px
+	padding-right: 45px
 	display: inline-block
 	vertical-align: top
 	z-index: 200
@@ -130,18 +130,18 @@
 		.user__list
 			display: block
 	+r(1150)
-		margin-right: 20px
+		padding-right: 20px
 	&:after
 		content: ""
 		position: absolute
 		top: 25px
-		right: -15px
+		right: 15px
 		+arr(10, 6, #000, b)
 		+r(950)
 			display: none
 	+r(700)
 		margin-top: 7px
-		margin-right: 5px
+		padding-right: 5px
 	span
 		display: none
 		+r(478)
@@ -168,6 +168,8 @@
 	z-index: 200
 	-webkit-box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2)
 	box-shadow: 0 0 1px 0 rgba(0, 0, 0, .2)
+	+r(370)
+		right: -30px
 	a
 		display: block
 		line-height: 35px
@@ -193,6 +195,131 @@
 		max-width: 100%
 		vertical-align: top
 
+.burger
+	display: none
+	position: absolute
+	top: 0
+	left: 0
+	right: 0
+	width: 100%
+	background-color: #3b444d
+	z-index: 5000
+	+clr
+	// +r(950)
+	// 	display: block
+	&.is_active
+		display: block
+	> .logo
+		margin: 40px 0 0 60px
+		+r(640)
+			font-size: 20px
+			margin: 20px 0 0 30px
+			h1
+				line-height: 40px
+				font-size: 20px
+	&__cloce
+		float: right
+		position: relative
+		top: 50px
+		right: 35px
+		width: 68px
+		height: 68px
+		background-color: #3b444d
+		+r(640)
+			top: 25px
+			right: 16px
+			width: 34px
+			height: 34px
+		&:hover
+			background-color: #2e3841
+		.icon-close-640
+			+vcenter
+			+r(640)
+				+s(icon-close-320)
+	&__top_menu
+		font-size: 0
+		li
+			height: 130px
+			padding-left: 30%
+			+r(640)
+				height: 70px
+			&:hover
+				background-color: #2e3841
+		a
+			display: block
+			position: relative
+			font-size: 35px
+			line-height: 130px
+			color: #FFF
+			+osl
+			+r(640)
+				font-size: 16px
+				line-height: 70px
+		i
+			position: absolute
+			top: 41px
+			left: -60px
+			+r(640)
+				top: 10px
+				left: -40px
+				+scale(.5)
+	&__bottom_menu
+		padding: 40px 0
+		+r(640)
+			padding: 20px 0
+		li
+			padding-left: calc(30% - 60px)
+			+r(640)
+				padding-left: calc(30% - 40px)
+			&:hover
+				background-color: #2e3841
+		a
+			display: block
+			line-height: 80px
+			color: #FFF
+			font-size: 30px
+			+os
+			+r(640)
+				line-height: 40px
+				font-size: 15px
+	&__search
+		position: relative
+		background-color: #52ABF0
+		padding: 15px 12%
+		p
+			font-size: 24px
+			color: #fff
+			+os
+			+r(640)
+				font-size: 12px
+		input
+			font-size: 48px
+			color: #fff
+			max-width: calc(100% - 72px)
+			background-color: #52ABF0
+			height: 80px
+			+osb
+			+r(640)
+				font-size: 24px
+				max-width: calc(100% - 38px)
+				height: 40px
+		button
+			margin-top: 10px
+			vertical-align: top
+			position: relative
+			width: 68px
+			height: 68px
+			background-color: #52ABF0
+			+r(640)
+				width: 34px
+				height: 34px
+				margin-top: 5px
+			&:hover
+				background-color: #3794dd
+			i
+				+vcenter
+				+r(640)
+					+s(lupa)
 
 // #######################
 
