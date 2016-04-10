@@ -1,4 +1,12 @@
 $(document).ready(function() {
+	//хлебнные крошки
+	if($(document).width() < 750){
+		$('.breadcrumbs .is_active').on('click', function() {
+			$('.breadcrumbs a:not(.is_active)').slideToggle();
+			$('.breadcrumbs').addClass('is_active');
+			return false;
+		});
+	}
 
 
 	// accordeon
