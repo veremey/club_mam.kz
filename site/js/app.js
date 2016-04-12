@@ -1,5 +1,8 @@
 
 $(document).ready(function() {
+	var width = $(document).width();
+	// console.log(width);
+
 	//хлебнные крошки
 	if($(document).width() < 750){
 		$('.breadcrumbs .is_active').on('click', function() {
@@ -25,6 +28,12 @@ $(document).ready(function() {
 		};
 		return false;
 	});
+
+	if($(document).width() < 1180){
+		var getPut = $('.js-getPut a').clone();
+
+		$('.js-setPut').append(getPut);
+	}
 
 	//close-block
 	$('.js-close').on('click', function(){

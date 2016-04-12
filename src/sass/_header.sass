@@ -2,6 +2,7 @@
 	position: relative
 	background-color: #FFF
 	+clr
+
 .header__top
 	position: relative
 	height: 100px
@@ -25,6 +26,8 @@
 	display: inline-block
 	+vcenter
 	z-index: 50
+	+r(1050)
+		left: 47%
 	a,
 	.header__top_menu
 		display: inline-block
@@ -96,6 +99,10 @@
 .header__user
 	float: right
 	margin-top: 20px
+	.btn__enter,
+	.btn__registr
+		+r(640)
+			display: none
 .user__massege
 	margin-top: 20px
 	+s(message)
@@ -205,8 +212,6 @@
 	background-color: #3b444d
 	z-index: 5000
 	+clr
-	// +r(950)
-	// 	display: block
 	&.is_active
 		display: block
 	> .logo
@@ -236,6 +241,14 @@
 			+vcenter
 			+r(640)
 				+s(icon-close-320)
+	&__registration
+		display: none
+		border-top: 1px solid $blue
+		+r(640)
+			display: block
+		&_wrap
+			padding: 10px 0
+			text-align: center
 	&__top_menu
 		font-size: 0
 		li
@@ -356,16 +369,15 @@
 	padding-top: 1px
 	border-bottom: 1px solid #e8ecf0
 	margin-bottom: 50px !important
-	+r(750)
-		border: 1px solid red
-		text-align: center
-		width: 90%
-		margin: 0 auto
-		-webkit-border-radius: 40px
-		border-radius: 40px
-		&.is_active
-			-webkit-border-radius: 20px
-			border-radius: 20px
+	height: 65px
+	overflow: hidden
+	// +r()
+	&__wrap
+		white-space: nowrap
+		overflow: scroll
+		height: 75px
+		width: 110%
+		padding-right: 10%
 	a
 		display: inline-block
 		vertical-align: top
@@ -375,31 +387,14 @@
 		line-height: 65px
 		margin-right: 15px
 		+osl
-		+r(750)
-			width: 100%
-			line-height: 40px
-			display: none
+
 		&.is_active
 			position: relative
 			color: #B1B8BC
-			+r(750)
-				display: block
-				&:after
-					content: ""
-					position: absolute
-					top: 7px
-					right: 10px
-					+s(icon-bread-750)
-					display: none
-					+r(750)
-						display: inline-block
+
 		&:hover
 			color: $purpur
 	i
 		vertical-align: middle
 		margin-left: 15px
 		&.icon-right
-			+r(750)
-				display: none
-				// display: inline-block
-				// +s(icon-bread-750)

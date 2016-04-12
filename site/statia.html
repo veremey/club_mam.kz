@@ -19,7 +19,7 @@
 				<a href="/" class="logo">
 					<h1><span>Club-</span>mam.kz</h1>
 				</a>
-				<div class="header__top_nav col-x-0">
+				<div class="header__top_nav hide-980">
 					<div class="header__top_menu">
 						<i class="icon-ledy"></i>
 						Мир леди
@@ -37,23 +37,9 @@
 					<a href="#"><i class="icon-chield"></i> Дети</a>
 				</div>
 				<div class="header__user">
-					<a href="#" class="user__massege"></a>
-					<a href="#" class="user__bell"></a>
-					<div href="#" class="user__menu">
-						<span>2</span>
-						<div class="user__img">
-							<img src="img/user.jpg" alt="Иллюстрация">
-						</div>
-						<ul class="user__list">
-							<li><a href="#">текст 1</a></li>
-							<li><a href="#">текст 2</a></li>
-							<li><a href="#">текст 3</a></li>
-							<li><a href="#">текст 4</a></li>
-							<li><a href="#">текст 5</a></li>
-							<li><a href="#">текст 6</a></li>
-						</ul>
-					</div>
-					<button class="icon-menu"></button>
+					<button class="btn__enter">Вход</button>
+					<button class="btn__registr">Регистрация</button>
+					<button class="icon-menu show-980"></button>
 				</div>
 				<a href="#" class="col-x-12">
 				</a>
@@ -65,6 +51,14 @@
 				<button class="burger__cloce">
 					<i class="icon-close-640"></i>
 				</button>
+				<div class="burger__registration">
+					<div class="burger__registration_wrap">
+						<button class="btn__enter">Вход</button>
+					</div>
+					<div class="burger__registration_wrap">
+						<button class="btn__registr">Регистрация</button>
+					</div>
+				</div>
 				<ul class="burger__top_menu">
 					<li>
 						<a href="#">
@@ -125,20 +119,22 @@
 		</div>
 	</header>
 	<section class="breadcrumbs center">
-		<a href="#">Главная
-			<i class="icon-right"></i>
-		</a>
-		<a href="#">Группы
-			<i class="icon-right"></i>
-		</a>
-		<a href="#">Семья
-			<i class="icon-right"></i>
-		</a>
-		<a href="#" class="is_active">Семейное здоровье</a>
+		<div class="breadcrumbs__wrap">
+			<a href="#">Главная
+				<i class="icon-right"></i>
+			</a>
+			<a href="#">Группы
+				<i class="icon-right"></i>
+			</a>
+			<a href="#">Семья
+				<i class="icon-right"></i>
+			</a>
+			<a href="#" class="is_active">Семейное здоровье</a>
+		</div>
 	</section>
 	<div class="container" style="margin-bottom: 140px;">
 		<aside class='hide1180'>
-			<div class="sideclear">
+			<div class="sideclear js-getPut">
 				<h3 class="title__side">Мир леди</h3>
 				<a href="#" class="side__link">Фотоальбомы</a>
 				<a href="#" class="side__link">Все о загаре</a>
@@ -147,11 +143,17 @@
 				<a href="#" class="side__link">Консультации пластического хирурга</a>
 				<a href="#" class="side__link">Личные вопросы</a>
 				<a href="#" class="side__link">Макияж</a>
-				<a href="#" class="side__link">    Мастер-класс</a>
+				<a href="#" class="side__link">Мастер-класс</a>
 			</div>
 		</aside>
 		<!-- START main -->
 		<div class="main rock1180">
+			<!-- begin js-put-here  -->
+			<div class="js-setPut">
+				<a href="#" class="is_active">Здоровье мамы<i class="icon-bread-750"></i></a>
+
+			</div>
+			<!-- end js-put-here -->
 			<div class="group__footer hide880" style="border-top: 0; border-bottom: 1px solid #ecf0f4;">
 				<div class="say first__item">
 					<div class="article__centering">
@@ -182,6 +184,10 @@
 						</div>
 				</div>
 			</div>
+
+
+
+
 			<article class="article">
 				<div class="article__container">
 					<h3 class="title__main"><a href="#">О пользе козьего молока в детском питании </a></h3>
