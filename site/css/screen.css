@@ -1909,6 +1909,27 @@ a {
   font-weight: 300;
 }
 
+@media only screen and (max-width: 880px) {
+  .articles {
+    width: 100%;
+    border-bottom: 1px solid #F3F5F7;
+    border-top: 1px solid #F3F5F7;
+    *zoom: 1;
+  }
+  .articles:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  .articles a {
+    width: 33.3%;
+    float: left;
+  }
+  .articles a:last-child {
+    border-right: none;
+  }
+}
+
 .article__rating {
   float: left;
   width: 11%;

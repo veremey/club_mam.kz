@@ -12,6 +12,12 @@ $(document).ready(function() {
 		});
 	}
 
+	// articles
+	if(width < 980){
+		var articles = $('.articles').clone();
+		$('.js-setArticles').before(articles);
+	}
+
 
 	// accordeon
 	$('.js-accordeon-link').on('click', function() {
